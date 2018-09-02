@@ -174,8 +174,6 @@ Dies ist sehr nützlich für der Farbe zu widerherstellen nach jeder Aktualisier
             </tbody>
         </table>
 
-**NOTE:** This project doesn't provide any folder icons. If you want to request a new folder icon or a new color of folder, please open an issue and make a request [here](https://github.com/suru-plus/suru-plus/issues/new).
-
 **VORSCHLAG:** Dieses Projekt bietet keine Ordnersiconen. Wenn Sie ein neues Ordnersicon oder eine neue Ordnerfarbe anfordern möchten, öffnen Sie ein *issue* und stellen Sie eine Anforderung [hier](https://github.com/suru-plus/suru-plus/issues/new).
 
 # Lizenz
