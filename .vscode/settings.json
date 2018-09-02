@@ -1,0 +1,11 @@
+{
+  "spellright.language": "",
+  "spellright.documentTypes": [
+    "css",
+    "html",
+    "latex",
+    "plaintext",
+    "php",
+    "python"
+  ]
+}

@@ -1,9 +1,17 @@
 #!/usr/bin/env bash
+
+# Suru++ Folders
 # This script allows changing the color of folders in Papirus icon theme
+
+# CREDIT AND LICENCE
 #
 # @author: Sergei Eremenko (https://github.com/SmartFinn)
 # @license: MIT license (MIT)
 # @link: https://github.com/PapirusDevelopmentTeam/papirus-folders
+
+# CORE MODIFICATIONS
+# @modifier: Suru++ Project (https://github.com/suru-plus)
+# @link: https://github.com/suru-plus/suru-plus-folders
 
 if test -z "$BASH_VERSION"; then
 	printf "Error: this script only works in bash.\n" >&2
@@ -432,6 +440,8 @@ main() {
 	declare -i VERBOSE="${VERBOSE:-0}"
 	declare -A DEFAULT_COLORS=(
 		['Suru++']='blue'
+		['suru-plus']='blue'
+		['suru-plus-master']='blue'
 	)
 
 	declare OPERATION=''

@@ -1,87 +1,22 @@
-# Papirus Folders
+<h1>Suru++ Folders</h1>
 
-papirus-folders is a bash script that allows changing the color of folders in [Papirus icon theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) and Papirus' forks (which based on version 20171007 and newer).
+Choose your language to read the documentation and tutorial:
 
-At the moment papirus-folders doesn't have a GUI, but it is a fully functional command-line application.
+<img src="flags/de_DE.svg" alt="Deutsch"                height="16px" /> [Deutsch](languages/de.md) <br/>
+<img src="flags/en_GB.svg" alt="English"                height="16px" /> [English](languages/english.md) <br/>
+<img src="flags/es_ES.svg" alt="Español"                height="16px" /> [Español](languages/es.md) <br/>
+<img src="flags/fr_FR.svg" alt="Français"               height="16px" /> [Français](languages/fr.md) <br/>
+<img src="flags/it.svg"    alt="Italiano"               height="16px" /> [Italiano](languages/it.md) <br/>
+<img src="flags/nl_NL.svg" alt="Nederlands"             height="16px" /> [Nederlands](languages/nl.md) <br/>
+<img src="flags/pt_BR.svg" alt="Português brasileiro"   height="16px" /> [Português brasileiro](languages/pt_br.md) <br/>
+<img src="flags/pt_PT.svg" alt="Português europeu"      height="16px" /> [Português europeu](languages/pt_pt.md) <br/>
 
-Some examples of use:
+Soon:
 
-- Show the current color and available colors for Papirus-Adapta:
-    ```
-    papirus-folders -l --theme Papirus-Adapta
-    ```
-- Change color of folders to brown for Papirus-Adapta:
-    ```
-    papirus-folders -C brown --theme Papirus-Adapta
-    ```
-- Revert to default color of folders for Papirus-Adapta:
-    ```
-    papirus-folders -D --theme Papirus-Adapta
-    ```
-- Restore the last used color from a config file:
-    ```
-    papirus-folders -R
-    ```
-    This is extremely useful for restoring color after icon theme upgrade (official installers of [papirus-icon-theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) and some third-party packages do this automatically).
-
-**NOTE:** To change the color of an individual folder you can use [Folder Color](http://foldercolor.tuxfamily.org) or [Dolphin Folder Color](https://github.com/audoban/dolphin-folder-color).
-
-## Preview
-
-| Name | Preview | Name | Preview |
-|:-----|:-------:|:-----|:-------:|
-| **black** | ![folder-black](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/folder-black.svg) ![user-black-home](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/user-black-home.svg) ![folder-black-download](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/folder-black-download.svg) | **blue** | ![folder-blue](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/folder-blue.svg) ![user-blue-home](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/user-blue-home.svg) ![folder-blue-download](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/folder-blue-download.svg) |
-| **bluegrey** | ![folder-bluegrey](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/folder-bluegrey.svg) ![user-bluegrey-home](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/user-bluegrey-home.svg) ![folder-bluegrey-download](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/folder-bluegrey-download.svg) | **brown** | ![folder-brown](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/folder-brown.svg) ![user-brown-home](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/user-brown-home.svg) ![folder-brown-download](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/folder-brown-download.svg) |
-| **cyan** | ![folder-cyan](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/folder-cyan.svg) ![user-cyan-home](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/user-cyan-home.svg) ![folder-cyan-download](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/folder-cyan-download.svg) | **green** | ![folder-green](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/folder-green.svg) ![user-green-home](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/user-green-home.svg) ![folder-green-download](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/folder-green-download.svg) |
-| **grey** | ![folder-grey](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/folder-grey.svg) ![user-grey-home](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/user-grey-home.svg) ![folder-grey-download](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/folder-grey-download.svg) | **magenta** | ![folder-magenta](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/folder-magenta.svg) ![user-magenta-home](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/user-magenta-home.svg) ![folder-magenta-download](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/folder-magenta-download.svg) |
-| **orange** | ![folder-orange](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/folder-orange.svg) ![user-orange-home](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/user-orange-home.svg) ![folder-orange-download](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/folder-orange-download.svg) | **red** | ![folder-red](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/folder-red.svg) ![user-red-home](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/user-red-home.svg) ![folder-red-download](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/folder-red-download.svg) |
-| **teal** | ![folder-teal](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/folder-teal.svg) ![user-teal-home](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/user-teal-home.svg) ![folder-teal-download](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/folder-teal-download.svg) | **violet** | ![folder-violet](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/folder-violet.svg) ![user-violet-home](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/user-violet-home.svg) ![folder-violet-download](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/folder-violet-download.svg) |
-| **yellow** | ![folder-yellow](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/folder-yellow.svg) ![user-yellow-home](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/user-yellow-home.svg) ![folder-yellow-download](https://cdn.rawgit.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/folder-yellow-download.svg)
-
-**NOTE:** This project doesn't provide any folder icons. If you want to request a new folder icon or a new color of folder please open an issue [here](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/new).
-
-## Installation
-
-### Ubuntu and derivatives
-
-You can install papirus-folders from our official [PPA](https://launchpad.net/~papirus/+archive/ubuntu/papirus):
-
-```
-sudo add-apt-repository ppa:papirus/papirus
-sudo apt-get update
-sudo apt-get install papirus-folders
-```
-
-or download .deb packages from [here](https://launchpad.net/~papirus/+archive/ubuntu/papirus/+packages?field.name_filter=papirus-folders).
-
-### Papirus Installer
-
-Use the script to install the latest version directly from this repo (independently on your distro):
-
-#### Install
-
-```
-wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-folders/master/install.sh | sh
-```
-
-To install papirus-folders on **BSD systems** using the following command:
-
-```
-wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-folders/master/install.sh | TAG=xBSD PREFIX=/usr/local sh
-```
-
-#### Uninstall
-
-```
-wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-folders/master/install.sh | uninstall=true sh
-```
-
-### Third-party packages
-
-Packages in this section are not part of the official repositories. If you have a problem or a question, please contact the package maintainer.
-
-| **Distro** | **Maintainer**  | **Package**                              |
-| :--------- | :-------------- | :--------------------------------------- |
-| Arch Linux | Piotr Górski    | [papirus-folders-git](https://aur.archlinux.org/packages/papirus-folders-git) <sup>AUR</sup> |
-
-**NOTE:** If you are a maintainer and want to be in the list, please create an issue or make a pull request.
+<img src="flags/es_ES.svg" alt="Català"                 height="16px" /> [Català](languages/ca.md) <br/>
+<img src="flags/ro_RO.svg" alt="Română"                 height="16px" /> [Română](languages/ro.md) <br/>
+<img src="flags/el_GR.svg" alt="Ελληνικάς"              height="16px" /> [Ελληνικάς](languages/el.md) <br/>
+<img src="flags/ka.svg"    alt="ქართული"               height="16px" /> [ქართული](languages/ka.md) <br/>
+<img src="flags/ru_RU.svg" alt="Русский"                height="16px" /> [Русский](languages/ru.md) <br/>
+<img src="flags/uk_UA.svg" alt="Українська"             height="16px" /> [Українська](languages/ru.md) <br/>
+<img src="flags/ja.svg"    alt="日本語"                  height="16px" /> [日本語](languages/ja.md) <br/>
