@@ -15,7 +15,7 @@ then
     msg4="Installing ..."
     msg5="Clearing cache ..."
     msg6="Done! 1"
-elif [ "$lang" = "de" ]
+elif [ "$lang" = "de" ];
 then
     msg1="Die neueste Version von GitHub erreichen ..."
     msg2="Archiv wird entpackt ..."
@@ -23,7 +23,7 @@ then
     msg4="Installieren ..."
     msg5="Cache wird gelöscht ..."
     msg6="Fertig!"
-elif [ "$lang" = "es" ]
+elif [ "$lang" = "es" ];
 then
     msg1="Obteniendo la última versión de GitHub ..."
     msg2="Descomprimiendo el archivo ..."
@@ -31,7 +31,7 @@ then
     msg4="Instalando ..."
     msg5="Borrando caché ..."
     msg6="¡Hecho!"
-elif [ "$lang" = "fr" ]
+elif [ "$lang" = "fr" ];
 then
     msg1="Trouver la dernière version de GitHub ..."
     msg2="Décompresser le fichier ..."
@@ -39,7 +39,7 @@ then
     msg4="Installer ..."
     msg5="Effacer le cache ..."
     msg6="Fait!"
-elif [ "$lang" = "it" ]
+elif [ "$lang" = "it" ];
 then
     msg1="Ottenendo l'ultima versione da GitHub ..."
     msg2="Decomprimendo l'archivio ..."
@@ -47,7 +47,7 @@ then
     msg4="Installando ..."
     msg5="Pulendo la cache ..."
     msg6="Fatto!"
-elif [ "$lang" = "nl" ]
+elif [ "$lang" = "nl" ];
 then
     msg1="De nieuwste versie van GitHub vinden..."
     msg2="Archief uitpakken ..."
@@ -55,7 +55,7 @@ then
     msg4="Installeren ..."
     msg5="Cache wissen ..."
     msg6="Klaar!"
-elif [ "$lang" = "pt" ]
+elif [ "$lang" = "pt" ];
 then
     msg1="Obtendo a última versão do GitHub ..."
     msg2="Extraindo o arquivo ..."
@@ -70,7 +70,7 @@ else
     msg4="Installing ..."
     msg5="Clearing cache ..."
     msg6="Done! 2"
-fi
+fi;
 
 # these variables can be overwritten
 PREFIX="${PREFIX:-/usr}"
