@@ -8,8 +8,8 @@ Choose your language to read the documentation and tutorial:
 <img src="flags/fr_FR.svg" alt="Français"               height="16px" /> [Français](languages/fr.md) <br/>
 <img src="flags/it.svg"    alt="Italiano"               height="16px" /> [Italiano](languages/it.md) <br/>
 <img src="flags/nl_NL.svg" alt="Nederlands"             height="16px" /> [Nederlands](languages/nl.md) <br/>
-<img src="flags/pt_BR.svg" alt="Português brasileiro"   height="16px" /> [Português brasileiro](languages/pt_br.md) <br/>
-<img src="flags/pt_PT.svg" alt="Português europeu"      height="16px" /> [Português europeu](languages/pt_pt.md) <br/>
+<img src="flags/pt_BR.svg" alt="Português brasileiro"   height="16px" /> [Português brasileiro](languages/pt_BR.md) <br/>
+<img src="flags/pt_PT.svg" alt="Português europeu"      height="16px" /> [Português europeu](languages/pt_PT.md) <br/>
 
 Soon:
 
