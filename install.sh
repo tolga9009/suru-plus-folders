@@ -2,10 +2,7 @@
 
 set -e
 
-# lang=$(locale | grep LANG | cut -d= -f2 | cut -d_ -f1)
-
-echo "Write your native language"
-read lang
+lang=$(locale | grep LANG | cut -d= -f2 | cut -d_ -f1)
 
 if [ $lang = "en" ];
 then
