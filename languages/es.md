@@ -52,7 +52,7 @@ Lo más pronto posible
 
 # Cambiando el color de las carpetas
 
-ALunos ejemplos de utilización:
+Algunos ejemplos de utilización:
 
 - Mostrando el color actual y colores disponibles para Suru++:
     ```
