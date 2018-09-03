@@ -40,6 +40,14 @@ XX              XX   X       XX   X           X       XX       |--|          |--
 EOF
 
 case "$LANG" in
+    be_*)
+        msg_download="Загрузка апошняй версіі з GitHub ..."
+        msg_extract="Распакаванне архіва ..."
+        msg_uninstall="Выдалення"
+        msg_install="Ўстаноўка ..."
+        msg_cleanup="Ачыстка кэша ..."
+        msg_done="Гатова!"
+        ;;
     de_*)
         msg_download="Die neueste Version von GitHub erreichen ..."
         msg_extract="Archiv wird entpackt ..."
@@ -87,6 +95,22 @@ case "$LANG" in
         msg_install="Instalando ..."
         msg_cleanup="Limpando o cache ..."
         msg_done="Pronto!"
+        ;;
+    ru_*)
+        msg_download="Загрузка последней версии с GitHub ..."
+        msg_extract="Распаковка архива ..."
+        msg_uninstall="Удаление"
+        msg_install="Установка ..."
+        msg_cleanup="Очистка кеша ..."
+        msg_done="Завершено!"
+        ;;
+    uk_*)
+        msg_download="Завантаження останньої версії з GitHub ..."
+        msg_extract="Розпакування архіву ..."
+        msg_uninstall="Видалення"
+        msg_install="Інсталяція ..."
+        msg_cleanup="Очищення кешу ..."
+        msg_done="Завершенно!"
         ;;
     *)
         # English as default
