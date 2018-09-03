@@ -2,73 +2,6 @@
 
 set -e
 
-lang=$(locale | grep LANG | cut -d= -f2 | cut -d_ -f1)
-
-if [ $lang = "en" ];
-then
-    msg1="Getting the latest version from GitHub ..."
-    msg2="Unpacking archive ..."
-    msg3="Deleting"
-    msg4="Installing ..."
-    msg5="Clearing cache ..."
-    msg6="Done! 1"
-elif [ $lang = "de" ];
-then
-    msg1="Die neueste Version von GitHub erreichen ..."
-    msg2="Archiv wird entpackt ..."
-    msg3="Löschen"
-    msg4="Installieren ..."
-    msg5="Cache wird gelöscht ..."
-    msg6="Fertig!"
-elif [ $lang = "es" ];
-then
-    msg1="Obteniendo la última versión de GitHub ..."
-    msg2="Descomprimiendo el archivo ..."
-    msg3="Eliminando"
-    msg4="Instalando ..."
-    msg5="Borrando caché ..."
-    msg6="¡Hecho!"
-elif [ $lang = "fr" ];
-then
-    msg1="Trouver la dernière version de GitHub ..."
-    msg2="Décompresser le fichier ..."
-    msg3="Supprimer"
-    msg4="Installer ..."
-    msg5="Effacer le cache ..."
-    msg6="Fait!"
-elif [ $lang = "it" ];
-then
-    msg1="Ottenendo l'ultima versione da GitHub ..."
-    msg2="Decomprimendo l'archivio ..."
-    msg3="Eliminare"
-    msg4="Installando ..."
-    msg5="Pulendo la cache ..."
-    msg6="Fatto!"
-elif [ $lang = "nl" ];
-then
-    msg1="De nieuwste versie van GitHub vinden..."
-    msg2="Archief uitpakken ..."
-    msg3="Verwijderen"
-    msg4="Installeren ..."
-    msg5="Cache wissen ..."
-    msg6="Klaar!"
-elif [ $lang = "pt" ];
-then
-    msg1="Obtendo a última versão do GitHub ..."
-    msg2="Extraindo o arquivo ..."
-    msg3="Excluindo"
-    msg4="Instalando ..."
-    msg5="Limpando o cache ..."
-    msg6="Pronto!"
-else
-    msg1="Getting the latest version from GitHub ..."
-    msg2="Unpacking archive ..."
-    msg3="Deleting"
-    msg4="Installing ..."
-    msg5="Clearing cache ..."
-    msg6="Done! 2"
-fi;
-
 # these variables can be overwritten
 PREFIX="${PREFIX:-/usr}"
 TAG="${TAG:-master}"
@@ -106,6 +39,66 @@ XX              XX   X       XX   X           X       XX       |--|          |--
 
 EOF
 
+case "$LANG" in
+    de_*)
+        msg_download="Die neueste Version von GitHub erreichen ..."
+        msg_extract="Archiv wird entpackt ..."
+        msg_uninstall="Löschen"
+        msg_install="Installieren ..."
+        msg_cleanup="Cache wird gelöscht ..."
+        msg_done="Fertig!"
+        ;;
+    es_*)
+        msg_download="Obteniendo la última versión de GitHub ..."
+        msg_extract="Descomprimiendo el archivo ..."
+        msg_uninstall="Eliminando"
+        msg_install="Instalando ..."
+        msg_cleanup="Borrando caché ..."
+        msg_done="¡Hecho!"
+        ;;
+    fr_*)
+        msg_download="Trouver la dernière version de GitHub ..."
+        msg_extract="Décompresser le fichier ..."
+        msg_uninstall="Supprimer"
+        msg_install="Installer ..."
+        msg_cleanup="Effacer le cache ..."
+        msg_done="Fait!"
+        ;;
+    it_*)
+        msg_download="Ottenendo l'ultima versione da GitHub ..."
+        msg_extract="Decomprimendo l'archivio ..."
+        msg_uninstall="Eliminare"
+        msg_install="Installando ..."
+        msg_cleanup="Pulendo la cache ..."
+        msg_done="Fatto!"
+        ;;
+    nl_*)
+        msg_download="De nieuwste versie van GitHub vinden..."
+        msg_extract="Archief uitpakken ..."
+        msg_uninstall="Verwijderen"
+        msg_install="Installeren ..."
+        msg_cleanup="Cache wissen ..."
+        msg_done="Klaar!"
+        ;;
+    pt_*)
+        msg_download="Obtendo a última versão do GitHub ..."
+        msg_extract="Extraindo o arquivo ..."
+        msg_uninstall="Excluindo"
+        msg_install="Instalando ..."
+        msg_cleanup="Limpando o cache ..."
+        msg_done="Pronto!"
+        ;;
+    *)
+        # English as default
+        msg_download="Getting the latest version from GitHub ..."
+        msg_extract="Unpacking archive ..."
+        msg_uninstall="Deleting"
+        msg_install="Installing ..."
+        msg_cleanup="Clearing cache ..."
+        msg_done="Done!"
+        ;;
+esac
+
 _msg() {
     echo "=>" "$@" >&2
 }
@@ -117,29 +110,29 @@ _rm() {
 }
 
 _download() {
-    _msg "$msg1"
+    _msg "$msg_download"
     wget -O "$temp_file" \
         "$gh_url/$gh_repo/archive/$TAG.tar.gz"
-    _msg "$msg2"
+    _msg "$msg_extract"
     tar -xzf "$temp_file" -C "$temp_dir"
 }
 
 _uninstall() {
-    _msg "$msg3 $gh_desc ..."
+    _msg "$msg_uninstall $gh_desc ..."
     _rm "$PREFIX/bin/$bin_name"
 }
 
 _install() {
-    _msg "$msg4"
+    _msg "$msg_install"
     sudo mkdir -p "$PREFIX/bin"
     sudo install -m 755 "$temp_dir/$gh_repo-$TAG/$bin_name" \
         "$PREFIX/bin/$bin_name"
 }
 
 _cleanup() {
-    _msg "$msg5"
+    _msg "$msg_cleanup"
     rm -rf "$temp_file" "$temp_dir"
-    _msg "$msg6"
+    _msg "$msg_done"
 }
 
 trap _cleanup EXIT HUP INT TERM
