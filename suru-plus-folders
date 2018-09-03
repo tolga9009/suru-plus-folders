@@ -28,8 +28,8 @@ set -o errexit \
 	-o noclobber \
 	-o pipefail
 
-readonly THIS_SCRIPT="$(readlink -f "$0")"
-readonly PROGNAME="$(basename "$0")"
+readonly THIS_SCRIPT="$(readlink -f "${BASH_SOURCE[0]}")"
+readonly PROGNAME="$(basename "${BASH_SOURCE[0]}")"
 readonly VERSION="0.0.6"
 readonly -a ARGS=("$@")
 
@@ -238,7 +238,7 @@ change_color() {
 	[ -n "$1" ] || return 1
 
 	local color="$1"
-	local sizes_regex="(32|48|scalable)"
+	local sizes_regex="(scalable)"
 	local icons_regex="(folder|user)-$color"
 	local file target symlink
 
@@ -436,7 +436,7 @@ parse_args() {
 
 main() {
 	# default values of options
-	declare THEME_NAME="${THEME_NAME:-Papirus}"
+	declare THEME_NAME="${THEME_NAME:-Suru++}"
 	declare -i VERBOSE="${VERBOSE:-0}"
 	declare -A DEFAULT_COLORS=(
 		['Suru++']='blue'
