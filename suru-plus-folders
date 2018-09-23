@@ -75,8 +75,8 @@ usage() {
 
 	OPTIONS:
 	 -l --list           show available colors
-	 -t --theme <theme>  make changes to the specified theme instead of Papirus
-	 -u --update-caches  update icon caches for Papirus and siblings
+	 -t --theme <theme>  make changes to the specified theme instead of Suru++
+	 -u --update-cache   update icon cache for the icon theme
 	 -V --version        print $PROGNAME version and exit
 	 -v --verbose        be verbose
 	 -h --help           show this help
@@ -356,18 +356,6 @@ update_icon_cache() {
 	gtk-update-icon-cache -qf "$THEME_DIR" || true
 }
 
-update_icon_caches() {
-	local theme=''
-
-	delete_icon_caches
-
-	for theme in "${!DEFAULT_COLORS[@]}"; do
-		[ -f "$THEME_DIR/../$theme/index.theme" ] || continue
-		verbose "Rebuilding icon cache for '$theme' ..."
-		gtk-update-icon-cache -qf "$THEME_DIR/../$theme" || true
-	done
-}
-
 verify_privileges() {
 	_is_root_user  && return 0
 	_is_system_dir || return 0
@@ -391,7 +379,7 @@ parse_args() {
 			--help)          args+=( -h ) ;;
 			--list)          args+=( -l ) ;;
 			--theme)         args+=( -t ) ;;
-			--update-caches) args+=( -u ) ;;
+			--update-cache)  args+=( -u ) ;;
 			--verbose)       args+=( -v ) ;;
 			--color)         args+=( -C ) ;;
 			--default)       args+=( -D ) ;;
@@ -422,7 +410,7 @@ parse_args() {
 				;;
 			l ) OPTIONS+=("list-colors") ;;
 			t ) THEME_NAME="$OPTARG" ;;
-			u ) OPTIONS+=("update-icon-caches") ;;
+			u ) OPTIONS+=("update-icon-cache") ;;
 			v ) VERBOSE=1 ;;
 			V ) printf "%s %s\n" "$PROGNAME" "$VERSION"
 				exit 0
@@ -481,9 +469,9 @@ main() {
 
 				EOF
 				;;
-			update-icon-caches)
+			update-icon-cache)
 				verify_privileges
-				update_icon_caches
+				update_icon_cache
 				;;
 		esac
 	done
