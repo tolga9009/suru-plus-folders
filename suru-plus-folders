@@ -30,7 +30,7 @@ set -o errexit \
 
 readonly THIS_SCRIPT="$(readlink -f "${BASH_SOURCE[0]}")"
 readonly PROGNAME="$(basename "${BASH_SOURCE[0]}")"
-readonly VERSION="0.0.6"
+readonly VERSION="0.0.7"
 readonly -a ARGS=("$@")
 
 msg() {
@@ -57,7 +57,9 @@ fatal() {
 	exit 1
 }
 
-opt_err() { fatal "only one operation may be used at a time."; }
+opt_err() {
+	fatal "only one operation may be used at a time."
+}
 
 usage() {
 	cat >&2 <<- EOF
@@ -73,8 +75,8 @@ usage() {
 
 	OPTIONS:
 	 -l --list           show available colors
-	 -t --theme <theme>  make changes to the specified theme instead of Papirus
-	 -u --update-caches  update icon caches for Papirus and siblings
+	 -t --theme <theme>  make changes to the specified theme instead of Suru++
+	 -u --update-cache   update icon cache for the icon theme
 	 -V --version        print $PROGNAME version and exit
 	 -v --verbose        be verbose
 	 -h --help           show this help
@@ -92,11 +94,12 @@ _is_root_user() {
 }
 
 _is_system_dir() {
-	if [ "${THEME_DIR:0:4}" == "/usr" ]; then
-		return 0
+	# if $THEME_DIR begins with $HOME
+	if [ -z "${THEME_DIR##"$HOME"/*}" ]; then
+		return 1
 	fi
 
-	return 1
+	return 0
 }
 
 _is_valid_color() {
@@ -140,17 +143,26 @@ get_current_color() {
 }
 
 get_theme_dir() {
-	local icons_dir
+	local data_dir icons_dir
+	local -a data_dirs=()
 	local -a icons_dirs=(
-		"/usr/local/share/icons/$THEME_NAME"
-		"/usr/share/icons/$THEME_NAME"
-		"$HOME/.local/share/icons/$THEME_NAME"
-		"$HOME/.icons/$THEME_NAME"
+		"$HOME/.icons"
+		"${XDG_DATA_HOME:-$HOME/.local/share}/icons"
 	)
 
+	# Get data directories from XDG_DATA_DIRS variable and
+	# convert colon-separated list into bash array
+	IFS=: read -ra data_dirs <<< "${XDG_DATA_DIRS:-/usr/local/share:/usr/share}"
+
+	for data_dir in "${data_dirs[@]}"; do
+		[ -d "$data_dir/icons" ] || continue
+		icons_dirs=( "${icons_dirs[@]}" "${data_dir%/}/icons" )
+	done
+
 	for icons_dir in "${icons_dirs[@]}"; do
-		[ -f "$icons_dir/index.theme" ] || continue
-		printf '%s' "$icons_dir"
+		[ -f "$icons_dir/$THEME_NAME/index.theme" ] || continue
+		printf '%s' "$icons_dir/$THEME_NAME"
+		verbose "'$THEME_NAME' is found in '$icons_dir'."
 		return 0
 	done
 
@@ -261,7 +273,7 @@ list_colors() {
 	eval "$(get_current_color)"
 
 	for color in "${colors[@]}"; do
-		if [ "$current_color" = "$color" ]; then
+		if [ "$current_color" == "$color" ]; then
 			prefix='>'
 		else
 			prefix=''
@@ -344,18 +356,6 @@ update_icon_cache() {
 	gtk-update-icon-cache -qf "$THEME_DIR" || true
 }
 
-update_icon_caches() {
-	local theme=''
-
-	delete_icon_caches
-
-	for theme in "${!DEFAULT_COLORS[@]}"; do
-		[ -f "$THEME_DIR/../$theme/index.theme" ] || continue
-		verbose "Rebuilding icon cache for '$theme' ..."
-		gtk-update-icon-cache -qf "$THEME_DIR/../$theme" || true
-	done
-}
-
 verify_privileges() {
 	_is_root_user  && return 0
 	_is_system_dir || return 0
@@ -363,7 +363,7 @@ verify_privileges() {
 	verbose "This operation requires root privileges."
 
 	if command -v sudo > /dev/null; then
-		exec sudo "$THIS_SCRIPT" "${ARGS[@]}"
+		exec sudo XDG_DATA_DIRS="$XDG_DATA_DIRS" "$THIS_SCRIPT" "${ARGS[@]}"
 	else
 		fatal "You need to be root to run this command."
 	fi
@@ -379,7 +379,7 @@ parse_args() {
 			--help)          args+=( -h ) ;;
 			--list)          args+=( -l ) ;;
 			--theme)         args+=( -t ) ;;
-			--update-caches) args+=( -u ) ;;
+			--update-cache)  args+=( -u ) ;;
 			--verbose)       args+=( -v ) ;;
 			--color)         args+=( -C ) ;;
 			--default)       args+=( -D ) ;;
@@ -394,7 +394,7 @@ parse_args() {
 	done
 
 	# Reset the positional parameters to the short options
-	eval set -- "${args[@]}"
+	set -- "${args[@]}"
 
 	while getopts ":C:DRlt:uvVh" opt; do
 		case "$opt" in
@@ -410,7 +410,7 @@ parse_args() {
 				;;
 			l ) OPTIONS+=("list-colors") ;;
 			t ) THEME_NAME="$OPTARG" ;;
-			u ) OPTIONS+=("update-icon-caches") ;;
+			u ) OPTIONS+=("update-icon-cache") ;;
 			v ) VERBOSE=1 ;;
 			V ) printf "%s %s\n" "$PROGNAME" "$VERSION"
 				exit 0
@@ -469,9 +469,9 @@ main() {
 
 				EOF
 				;;
-			update-icon-caches)
+			update-icon-cache)
 				verify_privileges
-				update_icon_caches
+				update_icon_cache
 				;;
 		esac
 	done
