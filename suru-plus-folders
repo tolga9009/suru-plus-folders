@@ -135,7 +135,7 @@ get_colors() {
 get_current_color() {
 	local icon_file icon_name current_color=''
 
-	icon_file=$(readlink -f "$THEME_DIR/places/scalable/folder.svg")
+	icon_file=$(readlink -f "$THEME_DIR/places/64/folder.svg")
 	icon_name=$(basename -s .svg "$icon_file")
 	current_color="${icon_name##*-}"
 
