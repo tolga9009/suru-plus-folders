@@ -2,13 +2,13 @@
 
 - [Description](#description)
 - [Installation](#installation)
-    - [Distribution indépendante](#distribution-ind%C3%A9pendante)
+    - [Distribution indépendante](#distribution-indépendante)
         - [Installer](#installer)
-        - [Désintaller](#d%C3%A9sintaller)
-    - [Distributions basées sur Arch Linux](#distributions-bas%C3%A9es-sur-arch-linux)
-    - [Distributions basées sur Debian](#distributions-bas%C3%A9es-sur-debian)
+        - [Désintaller](#désintaller)
+    - [Distributions basées sur Arch Linux](#distributions-basées-sur-arch-linux)
+    - [Distributions basées sur Debian](#distributions-basées-sur-debian)
 - [Changer la couleur des dossiers](#changer-la-couleur-des-dossiers)
-    - [Avis important !](#avis-important)
+    - [Avis important !](#avis-important-)
     - [Couleurs disponibles](#couleurs-disponibles)
 - [Licence](#licence)
 

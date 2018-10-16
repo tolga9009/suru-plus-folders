@@ -1,16 +1,16 @@
 <h1>Suru++ Folders</h1>
 
-- [Descrição](#descri%C3%A7%C3%A3o)
-- [Instalação](#instala%C3%A7%C3%A3o)
-    - [Distribuição agnóstica](#distribui%C3%A7%C3%A3o-agn%C3%B3stica)
+- [Descrição](#descrição)
+- [Instalação](#instalação)
+    - [Distribuição agnóstica](#distribuição-agnóstica)
         - [Instalando](#instalando)
         - [Desinstalando](#desinstalando)
-    - [Distribuições baseadas em Arch](#distribui%C3%A7%C3%B5es-baseadas-em-arch)
-    - [Distribuições baseadas em Debian](#distribui%C3%A7%C3%B5es-baseadas-em-debian)
-- [Mudando a cor de directórios](#mudando-a-cor-de-direct%C3%B3rios)
+    - [Distribuições baseadas em Arch](#distribuições-baseadas-em-arch)
+    - [Distribuições baseadas em Debian](#distribuições-baseadas-em-debian)
+- [Mudando a cor de pastas](#mudando-a-cor-de-pastas)
     - [Aviso importante!](#aviso-importante)
-    - [Cores disponíveis](#cores-dispon%C3%ADveis)
-- [Licença](#licen%C3%A7a)
+    - [Cores disponíveis](#cores-disponíveis)
+- [Licença](#licença)
 
 # Descrição
 

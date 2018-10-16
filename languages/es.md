@@ -1,14 +1,14 @@
 <h1>Suru++ Folders</h1>
 
-- [Descripción](#descripci%C3%B3n)
-- [Instalación](#instalaci%C3%B3n)
-    - [Distribuición independiente](#distribuici%C3%B3n-independiente)
+- [Descripción](#descripción)
+- [Instalación](#instalación)
+    - [Distribuición independiente](#distribuición-independiente)
         - [Instalando](#instalando)
         - [Desinstalando](#desinstalando)
     - [Distribuciones basadas en Arch](#distribuciones-basadas-en-arch)
     - [Distribuciones basadas en Debian](#distribuciones-basadas-en-debian)
 - [Cambiando el color de las carpetas](#cambiando-el-color-de-las-carpetas)
-    - [¡Consejo importante!](#%C2%A1consejo-importante)
+    - [¡Consejo importante!](#consejo-importante)
     - [Colores disponibles](#colores-disponibles)
 - [Licencia](#licencia)
 

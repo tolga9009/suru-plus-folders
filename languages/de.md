@@ -2,14 +2,14 @@
 
 - [Beschreibung](#beschreibung)
 - [Installation](#installation)
-    - [Selbsttätige Distribution](#selbstt%C3%A4tige-distribution)
+    - [Selbsttätige Distribution](#selbsttätige-distribution)
         - [Zum Installieren](#zum-installieren)
         - [Zum Deinstallieren](#zum-deinstallieren)
     - [Arch Linux-basierte Distributionen](#arch-linux-basierte-distributionen)
     - [Debian-basierte Distributionen](#debian-basierte-distributionen)
-- [Der Farbe von Ordnern ändern](#der-farbe-von-ordnern-%C3%A4ndern)
+- [Der Farbe von Ordnern ändern](#der-farbe-von-ordnern-ändern)
     - [Wichtiger Vorschlag!](#wichtiger-vorschlag)
-    - [Verfügbaren Farben](#verf%C3%BCgbaren-farben)
+    - [Verfügbaren Farben](#verfügbaren-farben)
 - [Lizenz](#lizenz)
 
 # Beschreibung
