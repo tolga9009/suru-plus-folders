@@ -13,26 +13,16 @@ gh_repo="$bin_name"
 gh_desc="Suru++ Folders"
 
 cat <<- EOF
-
-       XXXXXX
-   XXXX     XXXX
-  XX           X X
- XX
- X
- XX
-  XX
-   XXX
-      XXX
-         XXXX
-             XXX     X        X   X  XXXXXX   X        X       +--+          +--+
-               XX    X        X   XXXX    XX  X        X       |--|          |--|
-                X    X        X   XX       X  X        X       |--|          |--|
-                XX   X        X   X           X        X   +---------+   +---------+
-X                X   X        X   X           X        X   +---------+   +---------+
-XX              XX   X       XX   X           X       XX       |--|          |--|
- XX           XXX    XX     XXX   X           XX     XXX       |--|          |--|
-  XXXXXXXXXXXX        XXXXXX  X   X            XXXXXX  X       +--+          +--+
-
+                                                                                                                                                                                                  
+     _____                                     ___    ___  
+    / ____|                       _      _    |__ \  / _ \ 
+   | (___   _   _  _ __  _   _  _| |_  _| |_     ) || | | |
+    \___ \ | | | || '__|| | | ||_   _||_   _|   / / | | | |
+    ____) || |_| || |   | |_| |  |_|    |_|    / /_ | |_| |
+   |_____/  \__,_||_|    \__,_|               |____| \___/ 
+                                                           
+                                                                 
+                                                                                                                                                                                                                                                                                                          
   $gh_desc
   $gh_url/$gh_repo
 

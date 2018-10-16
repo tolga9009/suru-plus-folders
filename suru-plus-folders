@@ -123,7 +123,7 @@ get_colors() {
 		"teal" "violet" "yellow")
 
 	for color in "${valid_colors[@]}"; do
-		if [ -e "$THEME_DIR/places/scalable/folder-$color.svg" ]; then
+		if [ -e "$THEME_DIR/places/64/folder-$color.svg" ]; then
 			colors=( "${colors[@]}" "$color" )
 		fi
 	done
@@ -135,7 +135,7 @@ get_colors() {
 get_current_color() {
 	local icon_file icon_name current_color=''
 
-	icon_file=$(readlink -f "$THEME_DIR/places/scalable/folder.svg")
+	icon_file=$(readlink -f "$THEME_DIR/places/64/folder.svg")
 	icon_name=$(basename -s .svg "$icon_file")
 	current_color="${icon_name##*-}"
 
@@ -250,7 +250,7 @@ change_color() {
 	[ -n "$1" ] || return 1
 
 	local color="$1"
-	local sizes_regex="(scalable)"
+	local sizes_regex="(64)"
 	local icons_regex="(folder|user)-$color"
 	local file target symlink
 
@@ -439,6 +439,7 @@ main() {
 	declare THEME_NAME="${THEME_NAME:-Suru++}"
 	declare -i VERBOSE="${VERBOSE:-0}"
 	declare -A DEFAULT_COLORS=(
+	        ['Suru++ 20']='blue'
 		['Suru++']='blue'
 		['suru-plus']='blue'
 		['suru-plus-master']='blue'
