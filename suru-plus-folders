@@ -439,6 +439,7 @@ main() {
 	declare THEME_NAME="${THEME_NAME:-Suru++}"
 	declare -i VERBOSE="${VERBOSE:-0}"
 	declare -A DEFAULT_COLORS=(
+	        ['Suru++ 20']='blue'
 		['Suru++']='blue'
 		['suru-plus']='blue'
 		['suru-plus-master']='blue'
