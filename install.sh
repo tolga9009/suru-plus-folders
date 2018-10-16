@@ -4,7 +4,7 @@ set -e
 
 # these variables can be overwritten
 PREFIX="${PREFIX:-/usr}"
-TAG="${TAG:-beta}"
+TAG="${TAG:-master}"
 uninstall="${uninstall:-false}"
 
 bin_name="suru-plus-folders"
@@ -13,9 +13,16 @@ gh_repo="$bin_name"
 gh_desc="Suru++ Folders"
 
 cat <<- EOF
-
-       SURU++ 20
-
+                                                                                                                                                                                                  
+        ./ossso+`                                                        `-:///-`    `-://-`        
+       -NMdyyyyh`                                                        /mmdmNMd-  /dMNdmMm/       
+       oMM/`      +ys.  syo` +ys/ss.+ys.  +yo`    /o/        /o/          `   /MMo .MMh. `yMN:      
+       .hNMNdy+.  yMm.  mMh` yMMdho`yMm.  yMh`    yMy        yMy             .hMm- /MM/   /MMo      
+         `:+ymMN: yMm.  mMh` yMm    yMm.  yMh`.hddNMNddd  dddNMNddh.       `oNNy.  /MM/   /MMo      
+        ``  `/MM+ oMm- `mMh` yMm    oMm- `hMh``://dMd///  ///dMd//:`     `+mNy:``` .MMh. `yMN:      
+       :mmdddNNy` -mMmddMMh` yMm    -dMmddNMh`    yNy        yNy         +MMMmmmmh  /dMmdmMm+       
+       `-:/+/:.    `://----  .--     `://----     `.`        `.`         .--------   `-:/:-`        
+                                                                                                                                                                                                                                                                                                          
   $gh_desc
   $gh_url/$gh_repo
 
