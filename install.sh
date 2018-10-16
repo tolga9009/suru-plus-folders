@@ -14,24 +14,7 @@ gh_desc="Suru++ Folders"
 
 cat <<- EOF
 
-       XXXXXX
-   XXXX     XXXX
-  XX           X X
- XX
- X
- XX
-  XX
-   XXX
-      XXX
-         XXXX
-             XXX     X        X   X  XXXXXX   X        X       +--+          +--+
-               XX    X        X   XXXX    XX  X        X       |--|          |--|
-                X    X        X   XX       X  X        X       |--|          |--|
-                XX   X        X   X           X        X   +---------+   +---------+
-X                X   X        X   X           X        X   +---------+   +---------+
-XX              XX   X       XX   X           X       XX       |--|          |--|
- XX           XXX    XX     XXX   X           XX     XXX       |--|          |--|
-  XXXXXXXXXXXX        XXXXXX  X   X            XXXXXX  X       +--+          +--+
+       SURU++ 20
 
   $gh_desc
   $gh_url/$gh_repo
