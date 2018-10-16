@@ -14,14 +14,14 @@ gh_desc="Suru++ Folders"
 
 cat <<- EOF
                                                                                                                                                                                                   
-        ./ossso+`                                                        `-:///-`    `-://-`        
-       -NMdyyyyh`                                                        /mmdmNMd-  /dMNdmMm/       
-       oMM/`      +ys.  syo` +ys/ss.+ys.  +yo`    /o/        /o/          `   /MMo .MMh. `yMN:      
-       .hNMNdy+.  yMm.  mMh` yMMdho`yMm.  yMh`    yMy        yMy             .hMm- /MM/   /MMo      
-         `:+ymMN: yMm.  mMh` yMm    yMm.  yMh`.hddNMNddd  dddNMNddh.       `oNNy.  /MM/   /MMo      
-        ``  `/MM+ oMm- `mMh` yMm    oMm- `hMh``://dMd///  ///dMd//:`     `+mNy:``` .MMh. `yMN:      
-       :mmdddNNy` -mMmddMMh` yMm    -dMmddNMh`    yNy        yNy         +MMMmmmmh  /dMmdmMm+       
-       `-:/+/:.    `://----  .--     `://----     `.`        `.`         .--------   `-:/:-`        
+     _____                                     ___    ___  
+    / ____|                       _      _    |__ \  / _ \ 
+   | (___   _   _  _ __  _   _  _| |_  _| |_     ) || | | |
+    \___ \ | | | || '__|| | | ||_   _||_   _|   / / | | | |
+    ____) || |_| || |   | |_| |  |_|    |_|    / /_ | |_| |
+   |_____/  \__,_||_|    \__,_|               |____| \___/ 
+                                                           
+                                                                 
                                                                                                                                                                                                                                                                                                           
   $gh_desc
   $gh_url/$gh_repo
