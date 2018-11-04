@@ -23,7 +23,7 @@ __get_themes() {
 
 	for icons_dir in "${icons_dirs[@]}"; do
 		for icon_theme in "$icons_dir"/*; do
-			[ -f "$icon_theme/places/scalable/folder-blue.svg" ] || continue
+			[ -f "$icon_theme/places/64/folder-blue.svg" ] || continue
 			printf '%s\n' "${icon_theme##*/}"
 		done
 	done
@@ -43,7 +43,7 @@ _suru_plus_folders() {
 		-R --restore
 		-l --list
 		-t --theme
-		-u --update-caches
+		-u --update-cache
 	)
 
 	_get_comp_words_by_ref cur prev

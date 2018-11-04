@@ -33,13 +33,13 @@ wget -qO- https://bit.do/suru-plus-folders | sh
 To install `suru-plus-folders` on **BSD systems** using the following command:
 
 ```
-wget -qO- https://bit.do/suru-plus-folders | TAG=xBSD PREFIX=/usr/local sh
+wget -qO- https://bit.do/suru-plus-folders | env PREFIX=/usr/local sh
 ```
 
 ### Uninstalling
 
 ```
-wget -qO- https://bit.do/suru-plus-folders | uninstall=true sh
+wget -qO- https://bit.do/suru-plus-folders | env uninstall=true sh
 ```
 
 ## Arch-based distributions
@@ -68,7 +68,7 @@ Some examples of use:
     ```
 - Restore the last used color from a config file:
     ```
-    suru-plus-folders -R
+    suru-plus-folders -Ru
     ```
 
 ## Important advice!

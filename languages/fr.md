@@ -33,13 +33,13 @@ wget -qO- https://bit.do/suru-plus-folders | sh
 Pour installer `suru-plus-folders` sur **les systèmes de BSD**, en utilisant la commande suivante :
 
 ```
-wget -qO- https://bit.do/suru-plus-folders | TAG=xBSD PREFIX=/usr/local sh
+wget -qO- https://bit.do/suru-plus-folders | env PREFIX=/usr/local sh
 ```
 
 ### Désintaller
 
 ```
-wget -qO- https://bit.do/suru-plus-folders | uninstall=true sh
+wget -qO- https://bit.do/suru-plus-folders | env uninstall=true sh
 ```
 
 ## Distributions basées sur Arch Linux
@@ -68,7 +68,7 @@ Quelques exemples d'utilisation :
     ```
 - Restaurer la dernière couleur utilisée à partir d'un fichier de configuration:
     ```
-    suru-plus-folders -R
+    suru-plus-folders -Ru
     ```
 
 ## Avis important !
