@@ -3,9 +3,9 @@
 set -e
 
 # these variables can be overwritten
-PREFIX="${PREFIX:-/usr}"
-TAG="${TAG:-master}"
-uninstall="${uninstall:-false}"
+: "${PREFIX:=/usr}"
+: "${TAG:=master}"
+: "${uninstall:=false}"
 
 bin_name="suru-plus-folders"
 gh_url="https://github.com/suru-plus"
@@ -13,16 +13,16 @@ gh_repo="$bin_name"
 gh_desc="Suru++ Folders"
 
 cat <<- EOF
-                                                                                                                                                                                                  
-     _____                                     ___    ___  
-    / ____|                       _      _    |__ \  / _ \ 
+
+     _____                                     ___    ___
+    / ____|                       _      _    |__ \  / _ \
    | (___   _   _  _ __  _   _  _| |_  _| |_     ) || | | |
     \___ \ | | | || '__|| | | ||_   _||_   _|   / / | | | |
     ____) || |_| || |   | |_| |  |_|    |_|    / /_ | |_| |
-   |_____/  \__,_||_|    \__,_|               |____| \___/ 
-                                                           
-                                                                 
-                                                                                                                                                                                                                                                                                                          
+   |_____/  \__,_||_|    \__,_|               |____| \___/
+
+
+
   $gh_desc
   $gh_url/$gh_repo
 
@@ -139,15 +139,18 @@ _uninstall() {
 }
 
 _install() {
+    # strip leading `v` symbol
+    tag="${TAG#v}"
+
     _msg "$msg_install"
     sudo mkdir -p "$PREFIX/bin"
-    sudo install -m 755 "$temp_dir/$gh_repo-$TAG/$bin_name" \
+    sudo install -m 755 "$temp_dir/$gh_repo-$tag/$bin_name" \
         "$PREFIX/bin/$bin_name"
     sudo mkdir -p "$PREFIX/share/bash-completion/completions"
-    sudo install -m 644 "$temp_dir/$gh_repo-$TAG/completion/$bin_name" \
+    sudo install -m 644 "$temp_dir/$gh_repo-$tag/completion/$bin_name" \
         "$PREFIX/share/bash-completion/completions"
     sudo mkdir -p "$PREFIX/share/zsh/vendor-completions"
-    sudo install -m 644 "$temp_dir/$gh_repo-$TAG/completion/_$bin_name" \
+    sudo install -m 644 "$temp_dir/$gh_repo-$tag/completion/_$bin_name" \
         "$PREFIX/share/zsh/vendor-completions"
 }
 

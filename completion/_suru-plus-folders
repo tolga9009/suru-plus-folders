@@ -30,7 +30,7 @@ _get_themes() {
 
 	for icons_dir in "${icons_dirs[@]}"; do
 		for icon_theme in "$icons_dir"/*; do
-			[ -f "$icon_theme/places/scalable/folder-blue.svg" ] || continue
+			[ -f "$icon_theme/places/64/folder-blue.svg" ] || continue
 			_wanted icon_theme expl 'icon-theme' compadd -- "${icon_theme:t}"
 		done
 	done
@@ -46,6 +46,6 @@ _arguments -C \
 	'(-R --restore)'{-R,--restore}'[restore the last used color from the config file]' \
 	'(-l --list)'{-l,--list}'[show available colors]' \
 	'(-t --theme)'{-t,--theme}'[make changes to the specified theme]:icon-theme:_get_themes' \
-	'(-u --update-caches)'{-u,--update-caches}'[update icon caches]'
+	'(-u --update-cache)'{-u,--update-cache}'[update icon cache]'
 
 # vim: ft=zsh sw=4 ts=4

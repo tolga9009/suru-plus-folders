@@ -1,3 +1,6 @@
+# GNU make is required to run this file. To install on *BSD, run:
+#   gmake PREFIX=/usr/local install
+
 PREFIX ?= /usr
 PROGNAME := suru-plus-folders
 
@@ -18,19 +21,9 @@ uninstall:
 	rm -f $(DESTDIR)$(PREFIX)/share/bash-completion/completions/$(PROGNAME)
 	rm -f $(DESTDIR)$(PREFIX)/share/zsh/vendor-completions/_$(PROGNAME)
 
-_get_version:
-ifndef TAG
-	$(error TAG is not defined. Pass via "make release TAG=v0.1.2")
-endif
+.PHONY: all install uninstall
 
-release: _get_version
-	git tag -f $(TAG)
-	git push origin
-	git push origin --tags
-
-undo_release: _get_version
-	-git tag -d $(TAG)
-	-git push --delete origin $(TAG)
-
-
-.PHONY: all install uninstall _get_version release undo_release
+# .BEGIN is ignored by GNU make so we can use it as a guard
+.BEGIN:
+	@head -3 Makefile
+	@false
