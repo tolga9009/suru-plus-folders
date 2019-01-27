@@ -118,7 +118,7 @@ This is extremely useful for restoring colour after each icons theme upgrade (of
               <img src="/images/folder-brown.svg" height="48px" width="48px" alt="folder-brown"> 
               <img src="/images/folder-brown-pictures.svg" height="48px" width="48px" alt="folder-brown-pictures"> 
               <img src="/images/folder-brown-download.svg" height="48px" width="48px" alt="folder-brown-download">
-              <img src="/images/user-bluegrey-desktop.svg" height="48px" width="48px" alt="user-brown-desktop">
+              <img src="/images/user-brown-desktop.svg" height="48px" width="48px" alt="user-brown-desktop">
             </td>
         </tr>
         <tr>
