@@ -152,6 +152,8 @@ This is extremely useful for restoring colour after each icons theme upgrade (of
               <img src="/images/folder-magenta-download.svg" height="48px" width="48px" alt="folder-magenta-download">
               <img src="/images/user-magenta-desktop.svg" height="48px" width="48px" alt="user-magenta-desktop">
             </td>
+        </tr>
+        <tr>
             <td style="text-align:left"><strong>mint</strong></td>
             <td style="text-align:center">
               <img src="/images/folder-mint.svg" height="48px" width="48px" alt="folder-mint"> 
@@ -159,8 +161,6 @@ This is extremely useful for restoring colour after each icons theme upgrade (of
               <img src="/images/folder-mint-download.svg" height="48px" width="48px" alt="folder-mint-download">
               <img src="/images/user-mint-desktop.svg" height="48px" width="48px" alt="user-mint-desktop">
             </td>
-        </tr>
-        <tr>
             <td style="text-align:left"><strong>orange</strong></td>
             <td style="text-align:center">
               <img src="/images/folder-orange.svg" height="48px" width="48px" alt="folder-orange"> 
@@ -168,6 +168,8 @@ This is extremely useful for restoring colour after each icons theme upgrade (of
               <img src="/images/folder-orange-download.svg" height="48px" width="48px" alt="folder-orange-download">
               <img src="/images/user-orange-desktop.svg" height="48px" width="48px" alt="user-orange-desktop">
             </td>
+        </tr>
+        <tr>
             <td style="text-align:left"><strong>red</strong></td>
             <td style="text-align:center">
             <img src="/images/folder-red.svg" height="48px" width="48px" alt="folder-red"> 
@@ -175,8 +177,6 @@ This is extremely useful for restoring colour after each icons theme upgrade (of
               <img src="/images/folder-red-download.svg" height="48px" width="48px" alt="folder-red-download">
               <img src="/images/user-red-desktop.svg" height="48px" width="48px" alt="user-red-desktop">
             </td>
-        </tr>
-        <tr>
             <td style="text-align:left"><strong>teal</strong></td>
             <td style="text-align:center">
               <img src="/images/folder-teal.svg" height="48px" width="48px" alt="folder-teal"> 
@@ -184,6 +184,8 @@ This is extremely useful for restoring colour after each icons theme upgrade (of
               <img src="/images/folder-teal-download.svg" height="48px" width="48px" alt="folder-teal-download">
               <img src="/images/user-teal-desktop.svg" height="48px" width="48px" alt="user-teal-desktop">
             </td>
+        </tr>
+        <tr>
             <td style="text-align:left"><strong>violet</strong></td>
             <td style="text-align:center">
               <img src="/images/folder-violet.svg" height="48px" width="48px" alt="folder-violet"> 
@@ -191,8 +193,6 @@ This is extremely useful for restoring colour after each icons theme upgrade (of
               <img src="/images/folder-violet-download.svg" height="48px" width="48px" alt="folder-violet-download">
               <img src="/images/user-violet-desktop.svg" height="48px" width="48px" alt="user-violet-desktop">
             </td>
-        </tr>
-        <tr>
             <td style="text-align:left"><strong>yellow</strong></td>
             <td style="text-align:center">
               <img src="/images/folder-yellow.svg" height="48px" width="48px" alt="folder-yellow"> 
