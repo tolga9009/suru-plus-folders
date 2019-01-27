@@ -143,7 +143,7 @@ This is extremely useful for restoring colour after each icons theme upgrade (of
               <img src="/images/folder-grey.svg" height="48px" width="48px" alt="folder-grey"> 
               <img src="/images/folder-grey-pictures.svg" height="48px" width="48px" alt="folder-grey-pictures"> 
               <img src="/images/folder-grey-download.svg" height="48px" width="48px" alt="folder-grey-download">
-              <img src="/images/user-bluegreygrey-desktop.svg" height="48px" width="48px" alt="user-grey-desktop">
+              <img src="/images/user-grey-desktop.svg" height="48px" width="48px" alt="user-grey-desktop">
             </td>
             <td style="text-align:left"><strong>magenta</strong></td>
             <td style="text-align:center">
