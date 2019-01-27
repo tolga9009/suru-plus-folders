@@ -152,6 +152,13 @@ This is extremely useful for restoring colour after each icons theme upgrade (of
               <img src="/images/folder-magenta-download.svg" height="48px" width="48px" alt="folder-magenta-download">
               <img src="/images/user-magenta-desktop.svg" height="48px" width="48px" alt="user-magenta-desktop">
             </td>
+            <td style="text-align:left"><strong>mint</strong></td>
+            <td style="text-align:center">
+              <img src="/images/folder-mint.svg" height="48px" width="48px" alt="folder-mint"> 
+              <img src="/images/folder-mint-pictures.svg" height="48px" width="48px" alt="folder-mint-pictures"> 
+              <img src="/images/folder-mint-download.svg" height="48px" width="48px" alt="folder-mint-download">
+              <img src="/images/user-mint-desktop.svg" height="48px" width="48px" alt="user-mint-desktop">
+            </td>
         </tr>
         <tr>
             <td style="text-align:left"><strong>orange</strong></td>
