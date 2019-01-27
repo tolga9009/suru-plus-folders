@@ -200,8 +200,6 @@ This is extremely useful for restoring colour after each icons theme upgrade (of
               <img src="/images/folder-yellow-download.svg" height="48px" width="48px" alt="folder-yellow-download">
               <img src="/images/user-yellow-desktop.svg" height="48px" width="48px" alt="user-yellow-desktop">
             </td>
-            <td style="text-align:left"></td>
-            <td style="text-align:center"></td>
         </tr>
     </tbody>
 </table>
