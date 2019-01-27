@@ -3,7 +3,7 @@
 Choose your language to read the documentation and tutorial:
 
 <img src="flags/de_DE.svg" alt="Deutsch"                height="16px" /> [Deutsch](languages/de.md) <br/>
-<img src="flags/en_GB.svg" alt="English"                height="16px" /> [English](languages/english.md) <br/>
+<img src="flags/en_GB.svg" alt="English"                height="16px" /> [English](languages/en.md) <br/>
 <img src="flags/es_ES.svg" alt="Español"                height="16px" /> [Español](languages/es.md) <br/>
 <img src="flags/fr_FR.svg" alt="Français"               height="16px" /> [Français](languages/fr.md) <br/>
 <img src="flags/it.svg"    alt="Italiano"               height="16px" /> [Italiano](languages/it.md) <br/>
