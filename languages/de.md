@@ -28,19 +28,19 @@ Verwenden Sie das Skript, um die neueste Version direkt aus diesem Repository zu
 ### Zum Installieren
 
 ```
-wget -qO- https://bit.do/suru-plus-folders | sh
+wget -qO- https://git.io/fhQdI | sh
 ```
 
 Um `suru-plus-folders` auf den **BSD-Systemen** mit dem folgenden Befehl zu installieren:
 
 ```
-wget -qO- https://bit.do/suru-plus-folders | env PREFIX=/usr/local sh
+wget -qO- https://git.io/fhQdI | env PREFIX=/usr/local sh
 ```
 
 ### Zum Deinstallieren
 
 ```
-wget -qO- https://bit.do/suru-plus-folders | env uninstall=true sh
+wget -qO- https://git.io/fhQdI | env uninstall=true sh
 ```
 
 ## Arch Linux-basierte Distributionen

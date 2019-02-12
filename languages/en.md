@@ -27,19 +27,19 @@ Use the script to install the latest version directly from this repository (inde
 ### Installing
 
 ```
-wget -qO- https://bit.do/suru-plus-folders | sh
+wget -qO- https://git.io/fhQdI | sh
 ```
 
 To install `suru-plus-folders` on **BSD systems** using the following command:
 
 ```
-wget -qO- https://bit.do/suru-plus-folders | env PREFIX=/usr/local sh
+wget -qO- https://git.io/fhQdI | env PREFIX=/usr/local sh
 ```
 
 ### Uninstalling
 
 ```
-wget -qO- https://bit.do/suru-plus-folders | env uninstall=true sh
+wget -qO- https://git.io/fhQdI | env uninstall=true sh
 ```
 
 ## Arch-based distributions

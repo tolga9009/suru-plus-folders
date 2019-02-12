@@ -27,19 +27,19 @@ Use o `script` para instalar a versão mais recente diretamente do repósitorio 
 ### Instalando
 
 ```
-wget -qO- https://bit.do/suru-plus-folders | sh
+wget -qO- https://git.io/fhQdI | sh
 ```
 
 Para instalar `suru-plus-folders` nos **sistemas BSD**, usando o comando seguinte:
 
 ```
-wget -qO- https://bit.do/suru-plus-folders | env PREFIX=/usr/local sh
+wget -qO- https://git.io/fhQdI | env PREFIX=/usr/local sh
 ```
 
 ### Desinstalando
 
 ```
-wget -qO- https://bit.do/suru-plus-folders | env uninstall=true sh
+wget -qO- https://git.io/fhQdI | env uninstall=true sh
 ```
 
 ## Distribuições baseadas em Arch
