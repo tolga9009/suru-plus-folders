@@ -14,9 +14,11 @@ Choose your language to read the documentation and tutorial:
 Soon:
 
 <img src="flags/es_ES.svg" alt="Català"                 height="16px" /> [Català](languages/ca.md) <br/>
+<img src="flags/eu.svg"    alt="Eusaka"                 height="16px" /> [Eusaka](languages/eu.md) <br/>
 <img src="flags/ro_RO.svg" alt="Română"                 height="16px" /> [Română](languages/ro.md) <br/>
 <img src="flags/el_GR.svg" alt="Ελληνικάς"              height="16px" /> [Ελληνικάς](languages/el.md) <br/>
-<img src="flags/ka.svg"    alt="ქართული"               height="16px" /> [ქართული](languages/ka.md) <br/>
+<img src="flags/he_IL.svg" alt="עברית"                   height="16px" /> [עברית](languages/he.md) <br/>
+<img src="flags/ka.svg"    alt="ქართული"                height="16px" /> [ქართული](languages/ka.md) <br/>
 <img src="flags/ru_RU.svg" alt="Русский"                height="16px" /> [Русский](languages/ru.md) <br/>
 <img src="flags/uk_UA.svg" alt="Українська"             height="16px" /> [Українська](languages/ru.md) <br/>
 <img src="flags/ja.svg"    alt="日本語"                  height="16px" /> [日本語](languages/ja.md) <br/>
