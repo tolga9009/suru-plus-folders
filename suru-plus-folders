@@ -117,7 +117,7 @@ declare_colors() {
 	local -a colors=()
 	local -a valid_colors=("black" "blue" "bluegrey" "brown" "cyan"
 		"green" "grey" "magenta" "mint" "orange" "pink" "purple" "red"
-		"teal" "violet" "yellow")
+		"teal" "violet" "white" "yellow")
 
 	for color in "${valid_colors[@]}"; do
 		if [ -e "$THEME_DIR/places/64/folder-$color.svg" ]; then
@@ -440,10 +440,15 @@ main() {
 	declare THEME_NAME="${THEME_NAME:-Suru++}"
 	declare -i VERBOSE="${VERBOSE:-0}"
 	declare -A DEFAULT_COLORS=(
-		['Suru++ 20']='blue'
+		['Suru++ 25']='blue'
+		['Suru++ 25 Dark']='white'
 		['Suru++']='blue'
+		['Suru++ Dark']='white'
+		['Suru++-Dark']='white'
 		['suru-plus']='blue'
+		['suru-plus-dark']='white'
 		['suru-plus-master']='blue'
+		['suru-plus-dark-master']='white'
 	)
 
 	declare SELECTED_COLOR=''
