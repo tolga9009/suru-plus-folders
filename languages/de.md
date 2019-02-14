@@ -14,7 +14,7 @@
 
 # Beschreibung
 
-Die Datei `suru-plus-folders` ist ein Bash-Skript, das es erlaubt, die Farbe von Ordnern zu ändern, im Icon-Thema [Suru++ 20](https://github.com/suru-plus/suru-plus), basierend auf den Klonen von Icons von Ordnern von Papirus.
+Die Datei `suru-plus-folders` ist ein Bash-Skript, das es erlaubt, die Farbe von Ordnern zu ändern, im Icon-Thema [Suru++ 25](https://github.com/suru-plus/suru-plus), basierend auf den Klonen von Icons von Ordnern von Papirus.
 
 Im Moment hat `suru-plus-folders` keine GUI, aber es ist eine voll funktionsfähige Befehlszeile-App. Bevor Sie die 	
 Verwendungsbeispiele sehen, installieren Sie bitte zuerst:

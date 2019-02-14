@@ -14,7 +14,7 @@
 
 # Descrição
 
-O ficheiro `suru-plus-folders`  é um executável bash que permite que você modifique a cor dos directórios no tema de ícone [Suru++ 20](https://github.com/suru-plus/suru-plus), baseado no clone de ícones de directórios do tema de ícones Papirus.
+O ficheiro `suru-plus-folders`  é um executável bash que permite que você modifique a cor dos directórios no tema de ícone [Suru++ 25](https://github.com/suru-plus/suru-plus), baseado no clone de ícones de directórios do tema de ícones Papirus.
 
 Neste momento, `suru-plus-folders` não possui uma interface gráfica do utilizador, mas é uma aplicação de linha de comando totalmente funcional. Antes de visualizar os exemplos de utilização, por favor, instale primeiramente:
 

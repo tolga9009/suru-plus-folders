@@ -14,7 +14,7 @@
 
 # Beschrijving
 
-Het bestand `suru-plus-folders` is een bash-script waarmee de kleur van mappen kan worden gewijzigd in het iconenthema [Suru++ 20](https://github.com/suru-plus/suru-plus), gebaseerd op de konen van iconen van mappen van Papirus.
+Het bestand `suru-plus-folders` is een bash-script waarmee de kleur van mappen kan worden gewijzigd in het iconenthema [Suru++ 25](https://github.com/suru-plus/suru-plus), gebaseerd op de konen van iconen van mappen van Papirus.
 
 Op dit moment heeft `suru-plus-folders` geen GUI, maar het is een volledig functionele opdrachtregel-app. Voordat u de voorbeelden van gebruik ziet, installeert u eerst:
 
@@ -77,7 +77,7 @@ Dit is uiterst nuttig voor de standaardkleur te herstellen na elke upgrade van h
 
 **AANDACHT:** Als u de kleur van een individuele map wilt wijzigen, kunt u [Folder Color](http://foldercolor.tuxfamily.org) of [Dolphin Folder Color](https://github.com/audoban/dolphin-folder-color) gebruiken.
 
-## Available colours
+## Beschikbare kleuren
 
 <table style="margin-left: auto; margin-right: auto;">
   <thead>

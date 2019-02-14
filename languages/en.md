@@ -14,7 +14,7 @@
 
 # Description
 
-The file `suru-plus-folders` is a bash script that allows changing the color of folders in [Suru++ 20 icons theme](https://github.com/suru-plus/suru-plus), based on the forks of icons of folders of Papirus.
+The file `suru-plus-folders` is a bash script that allows changing the color of folders in [Suru++ 25 icons theme](https://github.com/suru-plus/suru-plus), based on the forks of icons of folders of Papirus.
 
 At the moment `suru-plus-folders` doesn't have a GUI, but it is a fully functional command-line application. Before seeing the examples of use, please install firstly:
 

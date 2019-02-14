@@ -14,7 +14,7 @@
 
 # Descrição
 
-O arquivo `suru-plus-folders`  é um executável bash que permite que você mude a cor dos pastas no tema de ícone [Suru++ 20](https://github.com/suru-plus/suru-plus), baseado no `fork` de ícones de pastas do tema de ícones Papirus.
+O arquivo `suru-plus-folders`  é um executável bash que permite que você mude a cor dos pastas no tema de ícone [Suru++ 25](https://github.com/suru-plus/suru-plus), baseado no `fork` de ícones de pastas do tema de ícones Papirus.
 
 Neste momento, `suru-plus-folders` não tem uma GUI, mas é um aplicativo de linha de comando totalmente funcional. Antes de ver os exemplos de uso, por favor, instale primeiramente:
 
