@@ -207,6 +207,23 @@ Isto é extremamente útil para restaurar a cor após cada actualização de tem
       </td>
     </tr>
     <tr>
+      <th>indigo</th>
+      <td>
+        <img src="/images/folder-indigo-apps.svg" height="48px" width="48px" alt="folder-indigo-apps">
+        <img src="/images/folder-indigo-documents.svg" height="48px" width="48px" alt="folder-indigo-documents">
+        <img src="/images/folder-indigo-download.svg" height="48px" width="48px" alt="folder-indigo-download">
+        <img src="/images/folder-indigo-dropbox.svg" height="48px" width="48px" alt="folder-indigo-dropbox">
+        <img src="/images/folder-indigo-gitlab.svg" height="48px" width="48px" alt="folder-indigo-gitlab">
+        <img src="/images/folder-indigo-icons.svg" height="48px" width="48px" alt="folder-indigo-icons">
+        <img src="/images/folder-indigo-music.svg" height="48px" width="48px" alt="folder-indigo-music">
+        <img src="/images/folder-indigo-open.svg" height="48px" width="48px" alt="folder-indigo-open">
+        <img src="/images/folder-indigo.svg" height="48px" width="48px" alt="folder-indigo">
+        <img src="/images/folder-indigo-pictures.svg" height="48px" width="48px" alt="folder-indigo-pictures"> 
+        <img src="/images/folder-indigo-visiting.svg" height="48px" width="48px" alt="folder-indigo-visiting"> 
+        <img src="/images/user-indigo-desktop.svg" height="48px" width="48px" alt="user-indigo-desktop">
+      </td>
+    </tr>
+    <tr>
       <th>magenta</th>
       <td>
         <img src="/images/folder-magenta-apps.svg" height="48px" width="48px" alt="folder-magenta-apps">
@@ -221,6 +238,23 @@ Isto é extremamente útil para restaurar a cor após cada actualização de tem
         <img src="/images/folder-magenta-pictures.svg" height="48px" width="48px" alt="folder-magenta-pictures"> 
         <img src="/images/folder-magenta-visiting.svg" height="48px" width="48px" alt="folder-magenta-visiting"> 
         <img src="/images/user-magenta-desktop.svg" height="48px" width="48px" alt="user-magenta-desktop">
+      </td>
+    </tr>
+    <tr>
+      <th>manjaro</th>
+      <td>
+        <img src="/images/folder-manjaro-apps.svg" height="48px" width="48px" alt="folder-manjaro-apps">
+        <img src="/images/folder-manjaro-documents.svg" height="48px" width="48px" alt="folder-manjaro-documents">
+        <img src="/images/folder-manjaro-download.svg" height="48px" width="48px" alt="folder-manjaro-download">
+        <img src="/images/folder-manjaro-dropbox.svg" height="48px" width="48px" alt="folder-manjaro-dropbox">
+        <img src="/images/folder-manjaro-gitlab.svg" height="48px" width="48px" alt="folder-manjaro-gitlab">
+        <img src="/images/folder-manjaro-icons.svg" height="48px" width="48px" alt="folder-manjaro-icons">
+        <img src="/images/folder-manjaro-music.svg" height="48px" width="48px" alt="folder-manjaro-music">
+        <img src="/images/folder-manjaro-open.svg" height="48px" width="48px" alt="folder-manjaro-open">
+        <img src="/images/folder-manjaro.svg" height="48px" width="48px" alt="folder-manjaro">
+        <img src="/images/folder-manjaro-pictures.svg" height="48px" width="48px" alt="folder-manjaro-pictures"> 
+        <img src="/images/folder-manjaro-visiting.svg" height="48px" width="48px" alt="folder-manjaro-visiting"> 
+        <img src="/images/user-manjaro-desktop.svg" height="48px" width="48px" alt="user-manjaro-desktop">
       </td>
     </tr>
     <tr>
@@ -255,6 +289,23 @@ Isto é extremamente útil para restaurar a cor após cada actualização de tem
         <img src="/images/folder-orange-pictures.svg" height="48px" width="48px" alt="folder-orange-pictures"> 
         <img src="/images/folder-orange-visiting.svg" height="48px" width="48px" alt="folder-orange-visiting"> 
         <img src="/images/user-orange-desktop.svg" height="48px" width="48px" alt="user-orange-desktop">
+      </td>
+    </tr>
+    <tr>
+      <th>pink</th>
+      <td>
+        <img src="/images/folder-pink-apps.svg" height="48px" width="48px" alt="folder-pink-apps">
+        <img src="/images/folder-pink-documents.svg" height="48px" width="48px" alt="folder-pink-documents">
+        <img src="/images/folder-pink-download.svg" height="48px" width="48px" alt="folder-pink-download">
+        <img src="/images/folder-pink-dropbox.svg" height="48px" width="48px" alt="folder-pink-dropbox">
+        <img src="/images/folder-pink-gitlab.svg" height="48px" width="48px" alt="folder-pink-gitlab">
+        <img src="/images/folder-pink-icons.svg" height="48px" width="48px" alt="folder-pink-icons">
+        <img src="/images/folder-pink-music.svg" height="48px" width="48px" alt="folder-pink-music">
+        <img src="/images/folder-pink-open.svg" height="48px" width="48px" alt="folder-pink-open">
+        <img src="/images/folder-pink.svg" height="48px" width="48px" alt="folder-pink">
+        <img src="/images/folder-pink-pictures.svg" height="48px" width="48px" alt="folder-pink-pictures"> 
+        <img src="/images/folder-pink-visiting.svg" height="48px" width="48px" alt="folder-pink-visiting"> 
+        <img src="/images/user-pink-desktop.svg" height="48px" width="48px" alt="user-pink-desktop">
       </td>
     </tr>
     <tr>
