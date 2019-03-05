@@ -116,7 +116,7 @@ declare_colors() {
 	local color=''
 	local -a colors=()
 	local -a valid_colors=("black" "blue" "bluegrey" "brown" "cyan"
-		"green" "grey" "magenta" "mint" "orange" "pink" "purple" "red"
+		"green" "grey" "indigo" "magenta" "manjaro" "mint" "orange" "pink" "red"
 		"teal" "violet" "white" "yellow")
 
 	for color in "${valid_colors[@]}"; do
