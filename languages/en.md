@@ -55,21 +55,21 @@ Soon
 
 Some examples of use:
 
-- Showing the current color and available colors for Suru++:
+- Showing the current color and available colors for Suru++ 25 or Suru++ Ubuntu:
     ```
     # Suru++ 25
     suru-plus-folders -l --theme Suru++
     # Suru++ Ubuntu
     suru-plus-folders -l --theme Suru++-Ubuntu
     ```
-- Changing colour of folders to brown for Suru++:
+- Changing colour of folders to brown for Suru++ 25 or Suru++ Ubuntu:
     ```
     # Suru++ 25
     suru-plus-folders -C brown --theme Suru++
     # Suru++ Ubuntu
     suru-plus-folders -l --theme Suru++-Ubuntu
     ```
-- Revert to default color of folders for places of Suru++:
+- Revert to default color of folders for places of Suru++ 25 or Suru++ Ubuntu:
     ```
     # Suru++ 25
     suru-plus-folders -D --theme Suru++
