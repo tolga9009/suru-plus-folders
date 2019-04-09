@@ -92,7 +92,7 @@ Isto vale a pena restaurar a cor após cada `upgrade` de tema de ícones (instal
       <td>
         <img src="/images/folder-black-apps.svg" height="48px" width="48px" alt="folder-black-apps">
         <img src="/images/folder-black-documents.svg" height="48px" width="48px" alt="folder-black-documents">
-        <img src="/images/folder-black-download.svg" height="48px" width="48px" alt="folder-black-download">
+        <img src="/images/folder-black-downloads.svg" height="48px" width="48px" alt="folder-black-downloads">
         <img src="/images/folder-black-dropbox.svg" height="48px" width="48px" alt="folder-black-dropbox">
         <img src="/images/folder-black-gitlab.svg" height="48px" width="48px" alt="folder-black-gitlab">
         <img src="/images/folder-black-icons.svg" height="48px" width="48px" alt="folder-black-icons">
@@ -109,7 +109,7 @@ Isto vale a pena restaurar a cor após cada `upgrade` de tema de ícones (instal
       <td>
         <img src="/images/folder-blue-apps.svg" height="48px" width="48px" alt="folder-blue-apps">
         <img src="/images/folder-blue-documents.svg" height="48px" width="48px" alt="folder-blue-documents">
-        <img src="/images/folder-blue-download.svg" height="48px" width="48px" alt="folder-blue-download">
+        <img src="/images/folder-blue-downloads.svg" height="48px" width="48px" alt="folder-blue-downloads">
         <img src="/images/folder-blue-dropbox.svg" height="48px" width="48px" alt="folder-blue-dropbox">
         <img src="/images/folder-blue-gitlab.svg" height="48px" width="48px" alt="folder-blue-gitlab">
         <img src="/images/folder-blue-icons.svg" height="48px" width="48px" alt="folder-blue-icons">
@@ -126,7 +126,7 @@ Isto vale a pena restaurar a cor após cada `upgrade` de tema de ícones (instal
       <td>
         <img src="/images/folder-bluegrey-apps.svg" height="48px" width="48px" alt="folder-bluegrey-apps">
         <img src="/images/folder-bluegrey-documents.svg" height="48px" width="48px" alt="folder-bluegrey-documents">
-        <img src="/images/folder-bluegrey-download.svg" height="48px" width="48px" alt="folder-bluegrey-download">
+        <img src="/images/folder-bluegrey-downloads.svg" height="48px" width="48px" alt="folder-bluegrey-downloads">
         <img src="/images/folder-bluegrey-dropbox.svg" height="48px" width="48px" alt="folder-bluegrey-dropbox">
         <img src="/images/folder-bluegrey-gitlab.svg" height="48px" width="48px" alt="folder-bluegrey-gitlab">
         <img src="/images/folder-bluegrey-icons.svg" height="48px" width="48px" alt="folder-bluegrey-icons">
@@ -143,7 +143,7 @@ Isto vale a pena restaurar a cor após cada `upgrade` de tema de ícones (instal
       <td>
         <img src="/images/folder-brown-apps.svg" height="48px" width="48px" alt="folder-brown-apps">
         <img src="/images/folder-brown-documents.svg" height="48px" width="48px" alt="folder-brown-documents">
-        <img src="/images/folder-brown-download.svg" height="48px" width="48px" alt="folder-brown-download">
+        <img src="/images/folder-brown-downloads.svg" height="48px" width="48px" alt="folder-brown-downloads">
         <img src="/images/folder-brown-dropbox.svg" height="48px" width="48px" alt="folder-brown-dropbox">
         <img src="/images/folder-brown-gitlab.svg" height="48px" width="48px" alt="folder-brown-gitlab">
         <img src="/images/folder-brown-icons.svg" height="48px" width="48px" alt="folder-brown-icons">
@@ -160,7 +160,7 @@ Isto vale a pena restaurar a cor após cada `upgrade` de tema de ícones (instal
       <td>
         <img src="/images/folder-cyan-apps.svg" height="48px" width="48px" alt="folder-cyan-apps">
         <img src="/images/folder-cyan-documents.svg" height="48px" width="48px" alt="folder-cyan-documents">
-        <img src="/images/folder-cyan-download.svg" height="48px" width="48px" alt="folder-cyan-download">
+        <img src="/images/folder-cyan-downloads.svg" height="48px" width="48px" alt="folder-cyan-downloads">
         <img src="/images/folder-cyan-dropbox.svg" height="48px" width="48px" alt="folder-cyan-dropbox">
         <img src="/images/folder-cyan-gitlab.svg" height="48px" width="48px" alt="folder-cyan-gitlab">
         <img src="/images/folder-cyan-icons.svg" height="48px" width="48px" alt="folder-cyan-icons">
@@ -177,7 +177,7 @@ Isto vale a pena restaurar a cor após cada `upgrade` de tema de ícones (instal
       <td>
         <img src="/images/folder-green-apps.svg" height="48px" width="48px" alt="folder-green-apps">
         <img src="/images/folder-green-documents.svg" height="48px" width="48px" alt="folder-green-documents">
-        <img src="/images/folder-green-download.svg" height="48px" width="48px" alt="folder-green-download">
+        <img src="/images/folder-green-downloads.svg" height="48px" width="48px" alt="folder-green-downloads">
         <img src="/images/folder-green-dropbox.svg" height="48px" width="48px" alt="folder-green-dropbox">
         <img src="/images/folder-green-gitlab.svg" height="48px" width="48px" alt="folder-green-gitlab">
         <img src="/images/folder-green-icons.svg" height="48px" width="48px" alt="folder-green-icons">
@@ -194,7 +194,7 @@ Isto vale a pena restaurar a cor após cada `upgrade` de tema de ícones (instal
       <td>
         <img src="/images/folder-grey-apps.svg" height="48px" width="48px" alt="folder-grey-apps">
         <img src="/images/folder-grey-documents.svg" height="48px" width="48px" alt="folder-grey-documents">
-        <img src="/images/folder-grey-download.svg" height="48px" width="48px" alt="folder-grey-download">
+        <img src="/images/folder-grey-downloads.svg" height="48px" width="48px" alt="folder-grey-downloads">
         <img src="/images/folder-grey-dropbox.svg" height="48px" width="48px" alt="folder-grey-dropbox">
         <img src="/images/folder-grey-gitlab.svg" height="48px" width="48px" alt="folder-grey-gitlab">
         <img src="/images/folder-grey-icons.svg" height="48px" width="48px" alt="folder-grey-icons">
@@ -211,7 +211,7 @@ Isto vale a pena restaurar a cor após cada `upgrade` de tema de ícones (instal
       <td>
         <img src="/images/folder-indigo-apps.svg" height="48px" width="48px" alt="folder-indigo-apps">
         <img src="/images/folder-indigo-documents.svg" height="48px" width="48px" alt="folder-indigo-documents">
-        <img src="/images/folder-indigo-download.svg" height="48px" width="48px" alt="folder-indigo-download">
+        <img src="/images/folder-indigo-downloads.svg" height="48px" width="48px" alt="folder-indigo-downloads">
         <img src="/images/folder-indigo-dropbox.svg" height="48px" width="48px" alt="folder-indigo-dropbox">
         <img src="/images/folder-indigo-gitlab.svg" height="48px" width="48px" alt="folder-indigo-gitlab">
         <img src="/images/folder-indigo-icons.svg" height="48px" width="48px" alt="folder-indigo-icons">
@@ -228,7 +228,7 @@ Isto vale a pena restaurar a cor após cada `upgrade` de tema de ícones (instal
       <td>
         <img src="/images/folder-magenta-apps.svg" height="48px" width="48px" alt="folder-magenta-apps">
         <img src="/images/folder-magenta-documents.svg" height="48px" width="48px" alt="folder-magenta-documents">
-        <img src="/images/folder-magenta-download.svg" height="48px" width="48px" alt="folder-magenta-download">
+        <img src="/images/folder-magenta-downloads.svg" height="48px" width="48px" alt="folder-magenta-downloads">
         <img src="/images/folder-magenta-dropbox.svg" height="48px" width="48px" alt="folder-magenta-dropbox">
         <img src="/images/folder-magenta-gitlab.svg" height="48px" width="48px" alt="folder-magenta-gitlab">
         <img src="/images/folder-magenta-icons.svg" height="48px" width="48px" alt="folder-magenta-icons">
@@ -245,7 +245,7 @@ Isto vale a pena restaurar a cor após cada `upgrade` de tema de ícones (instal
       <td>
         <img src="/images/folder-manjaro-apps.svg" height="48px" width="48px" alt="folder-manjaro-apps">
         <img src="/images/folder-manjaro-documents.svg" height="48px" width="48px" alt="folder-manjaro-documents">
-        <img src="/images/folder-manjaro-download.svg" height="48px" width="48px" alt="folder-manjaro-download">
+        <img src="/images/folder-manjaro-downloads.svg" height="48px" width="48px" alt="folder-manjaro-downloads">
         <img src="/images/folder-manjaro-dropbox.svg" height="48px" width="48px" alt="folder-manjaro-dropbox">
         <img src="/images/folder-manjaro-gitlab.svg" height="48px" width="48px" alt="folder-manjaro-gitlab">
         <img src="/images/folder-manjaro-icons.svg" height="48px" width="48px" alt="folder-manjaro-icons">
@@ -262,7 +262,7 @@ Isto vale a pena restaurar a cor após cada `upgrade` de tema de ícones (instal
       <td>
         <img src="/images/folder-mint-apps.svg" height="48px" width="48px" alt="folder-mint-apps">
         <img src="/images/folder-mint-documents.svg" height="48px" width="48px" alt="folder-mint-documents">
-        <img src="/images/folder-mint-download.svg" height="48px" width="48px" alt="folder-mint-download">
+        <img src="/images/folder-mint-downloads.svg" height="48px" width="48px" alt="folder-mint-downloads">
         <img src="/images/folder-mint-dropbox.svg" height="48px" width="48px" alt="folder-mint-dropbox">
         <img src="/images/folder-mint-gitlab.svg" height="48px" width="48px" alt="folder-mint-gitlab">
         <img src="/images/folder-mint-icons.svg" height="48px" width="48px" alt="folder-mint-icons">
@@ -279,7 +279,7 @@ Isto vale a pena restaurar a cor após cada `upgrade` de tema de ícones (instal
       <td>
         <img src="/images/folder-orange-apps.svg" height="48px" width="48px" alt="folder-orange-apps">
         <img src="/images/folder-orange-documents.svg" height="48px" width="48px" alt="folder-orange-documents">
-        <img src="/images/folder-orange-download.svg" height="48px" width="48px" alt="folder-orange-download">
+        <img src="/images/folder-orange-downloads.svg" height="48px" width="48px" alt="folder-orange-downloads">
         <img src="/images/folder-orange-dropbox.svg" height="48px" width="48px" alt="folder-orange-dropbox">
         <img src="/images/folder-orange-gitlab.svg" height="48px" width="48px" alt="folder-orange-gitlab">
         <img src="/images/folder-orange-icons.svg" height="48px" width="48px" alt="folder-orange-icons">
@@ -296,7 +296,7 @@ Isto vale a pena restaurar a cor após cada `upgrade` de tema de ícones (instal
       <td>
         <img src="/images/folder-pink-apps.svg" height="48px" width="48px" alt="folder-pink-apps">
         <img src="/images/folder-pink-documents.svg" height="48px" width="48px" alt="folder-pink-documents">
-        <img src="/images/folder-pink-download.svg" height="48px" width="48px" alt="folder-pink-download">
+        <img src="/images/folder-pink-downloads.svg" height="48px" width="48px" alt="folder-pink-downloads">
         <img src="/images/folder-pink-dropbox.svg" height="48px" width="48px" alt="folder-pink-dropbox">
         <img src="/images/folder-pink-gitlab.svg" height="48px" width="48px" alt="folder-pink-gitlab">
         <img src="/images/folder-pink-icons.svg" height="48px" width="48px" alt="folder-pink-icons">
@@ -313,7 +313,7 @@ Isto vale a pena restaurar a cor após cada `upgrade` de tema de ícones (instal
       <td>
         <img src="/images/folder-red-apps.svg" height="48px" width="48px" alt="folder-red-apps">
         <img src="/images/folder-red-documents.svg" height="48px" width="48px" alt="folder-red-documents">
-        <img src="/images/folder-red-download.svg" height="48px" width="48px" alt="folder-red-download">
+        <img src="/images/folder-red-downloads.svg" height="48px" width="48px" alt="folder-red-downloads">
         <img src="/images/folder-red-dropbox.svg" height="48px" width="48px" alt="folder-red-dropbox">
         <img src="/images/folder-red-gitlab.svg" height="48px" width="48px" alt="folder-red-gitlab">
         <img src="/images/folder-red-icons.svg" height="48px" width="48px" alt="folder-red-icons">
@@ -330,7 +330,7 @@ Isto vale a pena restaurar a cor após cada `upgrade` de tema de ícones (instal
       <td>
         <img src="/images/folder-teal-apps.svg" height="48px" width="48px" alt="folder-teal-apps">
         <img src="/images/folder-teal-documents.svg" height="48px" width="48px" alt="folder-teal-documents">
-        <img src="/images/folder-teal-download.svg" height="48px" width="48px" alt="folder-teal-download">
+        <img src="/images/folder-teal-downloads.svg" height="48px" width="48px" alt="folder-teal-downloads">
         <img src="/images/folder-teal-dropbox.svg" height="48px" width="48px" alt="folder-teal-dropbox">
         <img src="/images/folder-teal-gitlab.svg" height="48px" width="48px" alt="folder-teal-gitlab">
         <img src="/images/folder-teal-icons.svg" height="48px" width="48px" alt="folder-teal-icons">
@@ -347,7 +347,7 @@ Isto vale a pena restaurar a cor após cada `upgrade` de tema de ícones (instal
       <td>
         <img src="/images/folder-violet-apps.svg" height="48px" width="48px" alt="folder-violet-apps">
         <img src="/images/folder-violet-documents.svg" height="48px" width="48px" alt="folder-violet-documents">
-        <img src="/images/folder-violet-download.svg" height="48px" width="48px" alt="folder-violet-download">
+        <img src="/images/folder-violet-downloads.svg" height="48px" width="48px" alt="folder-violet-downloads">
         <img src="/images/folder-violet-dropbox.svg" height="48px" width="48px" alt="folder-violet-dropbox">
         <img src="/images/folder-violet-gitlab.svg" height="48px" width="48px" alt="folder-violet-gitlab">
         <img src="/images/folder-violet-icons.svg" height="48px" width="48px" alt="folder-violet-icons">
@@ -364,7 +364,7 @@ Isto vale a pena restaurar a cor após cada `upgrade` de tema de ícones (instal
       <td>
         <img src="/images/folder-white-apps.svg" height="48px" width="48px" alt="folder-white-apps">
         <img src="/images/folder-white-documents.svg" height="48px" width="48px" alt="folder-white-documents">
-        <img src="/images/folder-white-download.svg" height="48px" width="48px" alt="folder-white-download">
+        <img src="/images/folder-white-downloads.svg" height="48px" width="48px" alt="folder-white-downloads">
         <img src="/images/folder-white-dropbox.svg" height="48px" width="48px" alt="folder-white-dropbox">
         <img src="/images/folder-white-gitlab.svg" height="48px" width="48px" alt="folder-white-gitlab">
         <img src="/images/folder-white-icons.svg" height="48px" width="48px" alt="folder-white-icons">
@@ -381,7 +381,7 @@ Isto vale a pena restaurar a cor após cada `upgrade` de tema de ícones (instal
       <td>
         <img src="/images/folder-yellow-apps.svg" height="48px" width="48px" alt="folder-yellow-apps">
         <img src="/images/folder-yellow-documents.svg" height="48px" width="48px" alt="folder-yellow-documents">
-        <img src="/images/folder-yellow-download.svg" height="48px" width="48px" alt="folder-yellow-download">
+        <img src="/images/folder-yellow-downloads.svg" height="48px" width="48px" alt="folder-yellow-downloads">
         <img src="/images/folder-yellow-dropbox.svg" height="48px" width="48px" alt="folder-yellow-dropbox">
         <img src="/images/folder-yellow-gitlab.svg" height="48px" width="48px" alt="folder-yellow-gitlab">
         <img src="/images/folder-yellow-icons.svg" height="48px" width="48px" alt="folder-yellow-icons">
