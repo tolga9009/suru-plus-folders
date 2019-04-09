@@ -32,7 +32,7 @@ __get_themes() {
 
 _suru_plus_folders() {
 	local cur prev
-	local -a colors=(black blue bluegrey brown cyan green grey indigo magenta manjaro mint orange pink red teal violet white yellow)
+	local -a colors=(aubergine black blue bluegrey bordeaux brown canonical cyan darkblue green grey indigo magenta manjaro mint orange pink purple red teal vermillion violet white yellow)
 	local -a opts=(
 		-h --help
 		-V --version
