@@ -115,9 +115,9 @@ _is_valid_color() {
 declare_colors() {
 	local color=''
 	local -a colors=()
-	local -a valid_colors=("black" "blue" "bluegrey" "brown" "cyan"
-		"green" "grey" "indigo" "magenta" "manjaro" "mint" "orange" "pink" "red"
-		"teal" "violet" "white" "yellow")
+	local -a valid_colors=("aubergine" "black" "blue" "bluegrey" "bordeaux" "brown" "canonical" "cyan" "darkblue"
+		"green" "grey" "indigo" "magenta" "manjaro" "mint" "orange" "pink" "purple" "red"
+		"teal" "vermillion" "violet" "white" "yellow")
 
 	for color in "${valid_colors[@]}"; do
 		if [ -e "$THEME_DIR/places/64/folder-$color.svg" ]; then
@@ -445,10 +445,14 @@ main() {
 		['Suru++']='blue'
 		['Suru++ Dark']='white'
 		['Suru++-Dark']='white'
+		['Suru++ Ubuntu']='orange'
+		['Suru++-Ubuntu']='orange'
 		['suru-plus']='blue'
 		['suru-plus-dark']='white'
+		['suru-plus-ubuntu']='orange'
 		['suru-plus-master']='blue'
 		['suru-plus-dark-master']='white'
+		['suru-plus-ubuntu-master']='orange'
 	)
 
 	declare SELECTED_COLOR=''
