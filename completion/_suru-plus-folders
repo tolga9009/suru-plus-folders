@@ -5,8 +5,7 @@
 # @link: https://github.com/suru-plus/suru-plus-folders
 
 _get_colors() {
-	local -a colors=(aubergine black blue bluegrey bordeaux brown canonical cyan darkblue green grey indigo
-		manjaro magenta mint orange pink purple red teal vermillion violet white yellow)
+	local -a colors=(90ssummer aubergine aurora black berriez blue bluegrey bordeaux brown canonical cyan cyberneon darkblue discodingo fitdance green grey indigo magenta manjaro mint orange pink purple red teal vermillion violet white yellow)
 	_wanted colors exlp 'color' compadd -- "${colors[@]}"
 	return 0
 }
@@ -30,7 +29,7 @@ _get_themes() {
 
 	for icons_dir in "${icons_dirs[@]}"; do
 		for icon_theme in "$icons_dir"/*; do
-			[ -f "$icon_theme/places/64/folder-blue.svg" ] || continue
+			[ -f "$icon_theme/places/scalable/folder-blue.svg" ] || continue
 			_wanted icon_theme expl 'icon-theme' compadd -- "${icon_theme:t}"
 		done
 	done

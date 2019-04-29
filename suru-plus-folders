@@ -112,15 +112,14 @@ _is_valid_color() {
 	return 1
 }
 
-declare_colors() {
+declare_colors() 
+{
 	local color=''
 	local -a colors=()
-	local -a valid_colors=("aubergine" "black" "blue" "bluegrey" "bordeaux" "brown" "canonical" "cyan" "darkblue"
-		"green" "grey" "indigo" "magenta" "manjaro" "mint" "orange" "pink" "purple" "red"
-		"teal" "vermillion" "violet" "white" "yellow")
+	local -a valid_colors=("90ssummer" "aubergine" "aurora" "black" "berriez" "blue" "bluegrey" "bordeaux" "brown" "canonical" "cyan" "cyberneon" "darkblue" "discodingo" "fitdance" "green" "grey" "indigo" "magenta" "manjaro" "mint" "orange" "pink" "purple" "red" "teal" "vermillion" "violet" "white" "yellow")
 
 	for color in "${valid_colors[@]}"; do
-		if [ -e "$THEME_DIR/places/64/folder-$color.svg" ]; then
+		if [ -e "$THEME_DIR/places/scalable/folder-$color.svg" ]; then
 			colors=( "${colors[@]}" "$color" )
 		fi
 	done
@@ -132,7 +131,7 @@ declare_colors() {
 declare_current_color() {
 	local icon_file icon_name current_color=''
 
-	icon_file=$(readlink -f "$THEME_DIR/places/64/folder.svg")
+	icon_file=$(readlink -f "$THEME_DIR/places/scalable/folder.svg")
 	icon_name=$(basename "$icon_file" .svg)
 	current_color="${icon_name##*-}"
 
@@ -441,18 +440,16 @@ main() {
 	declare -i VERBOSE="${VERBOSE:-0}"
 	declare -A DEFAULT_COLORS=(
 		['Suru++ 25']='blue'
+		['Suru++ 30']='blue'
 		['Suru++ 25 Dark']='white'
+		['Suru++-25']='blue'
+		['Suru++-30']='blue'
+		['Suru++-25 Dark']='white'
 		['Suru++']='blue'
 		['Suru++ Dark']='white'
 		['Suru++-Dark']='white'
 		['Suru++ Ubuntu']='orange'
 		['Suru++-Ubuntu']='orange'
-		['suru-plus']='blue'
-		['suru-plus-dark']='white'
-		['suru-plus-ubuntu']='orange'
-		['suru-plus-master']='blue'
-		['suru-plus-dark-master']='white'
-		['suru-plus-ubuntu-master']='orange'
 	)
 
 	declare SELECTED_COLOR=''
