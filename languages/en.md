@@ -98,6 +98,74 @@ This is extremely useful for restoring colour after each icons theme upgrade (of
   </thead>
   <tbody>
     <tr>
+      <th>90ssummer</th>
+      <td>
+        <img src="../images/folder-90ssummer-apps.svg?sanitize=true" height="48px" width="48px" alt="folder-90ssummer-apps">
+        <img src="../images/folder-90ssummer-documents.svg?sanitize=true" height="48px" width="48px" alt="folder-90ssummer-documents">
+        <img src="../images/folder-90ssummer-downloads.svg?sanitize=true" height="48px" width="48px" alt="folder-90ssummer-downloads">
+        <img src="../images/folder-90ssummer-dropbox.svg?sanitize=true" height="48px" width="48px" alt="folder-90ssummer-dropbox">
+        <img src="../images/folder-90ssummer-gitlab.svg?sanitize=true" height="48px" width="48px" alt="folder-90ssummer-gitlab">
+        <img src="../images/folder-90ssummer-icons.svg?sanitize=true" height="48px" width="48px" alt="folder-90ssummer-icons">
+        <img src="../images/folder-90ssummer-music.svg?sanitize=true" height="48px" width="48px" alt="folder-90ssummer-music">
+        <img src="../images/folder-90ssummer-open.svg?sanitize=true" height="48px" width="48px" alt="folder-90ssummer-open">
+        <img src="../images/folder-90ssummer.svg?sanitize=true" height="48px" width="48px" alt="folder-90ssummer">
+        <img src="../images/folder-90ssummer-pictures.svg?sanitize=true" height="48px" width="48px" alt="folder-90ssummer-pictures"> 
+        <img src="../images/folder-90ssummer-visiting.svg?sanitize=true" height="48px" width="48px" alt="folder-90ssummer-visiting"> 
+        <img src="../images/user-90ssummer-desktop.svg?sanitize=true" height="48px" width="48px" alt="user-90ssummer-desktop">
+      </td>
+    </tr>
+    <tr>
+      <th>aubergine</th>
+      <td>
+        <img src="../images/folder-aubergine-apps.svg?sanitize=true" height="48px" width="48px" alt="folder-aubergine-apps">
+        <img src="../images/folder-aubergine-documents.svg?sanitize=true" height="48px" width="48px" alt="folder-aubergine-documents">
+        <img src="../images/folder-aubergine-downloads.svg?sanitize=true" height="48px" width="48px" alt="folder-aubergine-downloads">
+        <img src="../images/folder-aubergine-dropbox.svg?sanitize=true" height="48px" width="48px" alt="folder-aubergine-dropbox">
+        <img src="../images/folder-aubergine-gitlab.svg?sanitize=true" height="48px" width="48px" alt="folder-aubergine-gitlab">
+        <img src="../images/folder-aubergine-icons.svg?sanitize=true" height="48px" width="48px" alt="folder-aubergine-icons">
+        <img src="../images/folder-aubergine-music.svg?sanitize=true" height="48px" width="48px" alt="folder-aubergine-music">
+        <img src="../images/folder-aubergine-open.svg?sanitize=true" height="48px" width="48px" alt="folder-aubergine-open">
+        <img src="../images/folder-aubergine.svg?sanitize=true" height="48px" width="48px" alt="folder-aubergine">
+        <img src="../images/folder-aubergine-pictures.svg?sanitize=true" height="48px" width="48px" alt="folder-aubergine-pictures"> 
+        <img src="../images/folder-aubergine-visiting.svg?sanitize=true" height="48px" width="48px" alt="folder-aubergine-visiting"> 
+        <img src="../images/user-aubergine-desktop.svg?sanitize=true" height="48px" width="48px" alt="user-aubergine-desktop">
+      </td>
+    </tr>
+    <tr>
+      <th>aurora</th>
+      <td>
+        <img src="../images/folder-aurora-apps.svg?sanitize=true" height="48px" width="48px" alt="folder-aurora-apps">
+        <img src="../images/folder-aurora-documents.svg?sanitize=true" height="48px" width="48px" alt="folder-aurora-documents">
+        <img src="../images/folder-aurora-downloads.svg?sanitize=true" height="48px" width="48px" alt="folder-aurora-downloads">
+        <img src="../images/folder-aurora-dropbox.svg?sanitize=true" height="48px" width="48px" alt="folder-aurora-dropbox">
+        <img src="../images/folder-aurora-gitlab.svg?sanitize=true" height="48px" width="48px" alt="folder-aurora-gitlab">
+        <img src="../images/folder-aurora-icons.svg?sanitize=true" height="48px" width="48px" alt="folder-aurora-icons">
+        <img src="../images/folder-aurora-music.svg?sanitize=true" height="48px" width="48px" alt="folder-aurora-music">
+        <img src="../images/folder-aurora-open.svg?sanitize=true" height="48px" width="48px" alt="folder-aurora-open">
+        <img src="../images/folder-aurora.svg?sanitize=true" height="48px" width="48px" alt="folder-aurora">
+        <img src="../images/folder-aurora-pictures.svg?sanitize=true" height="48px" width="48px" alt="folder-aurora-pictures"> 
+        <img src="../images/folder-aurora-visiting.svg?sanitize=true" height="48px" width="48px" alt="folder-aurora-visiting"> 
+        <img src="../images/user-aurora-desktop.svg?sanitize=true" height="48px" width="48px" alt="user-aurora-desktop">
+      </td>
+    </tr>
+    <tr>
+      <th>berriez</th>
+      <td>
+        <img src="../images/folder-berriez-apps.svg?sanitize=true" height="48px" width="48px" alt="folder-berriez-apps">
+        <img src="../images/folder-berriez-documents.svg?sanitize=true" height="48px" width="48px" alt="folder-berriez-documents">
+        <img src="../images/folder-berriez-downloads.svg?sanitize=true" height="48px" width="48px" alt="folder-berriez-downloads">
+        <img src="../images/folder-berriez-dropbox.svg?sanitize=true" height="48px" width="48px" alt="folder-berriez-dropbox">
+        <img src="../images/folder-berriez-gitlab.svg?sanitize=true" height="48px" width="48px" alt="folder-berriez-gitlab">
+        <img src="../images/folder-berriez-icons.svg?sanitize=true" height="48px" width="48px" alt="folder-berriez-icons">
+        <img src="../images/folder-berriez-music.svg?sanitize=true" height="48px" width="48px" alt="folder-berriez-music">
+        <img src="../images/folder-berriez-open.svg?sanitize=true" height="48px" width="48px" alt="folder-berriez-open">
+        <img src="../images/folder-berriez.svg?sanitize=true" height="48px" width="48px" alt="folder-berriez">
+        <img src="../images/folder-berriez-pictures.svg?sanitize=true" height="48px" width="48px" alt="folder-berriez-pictures"> 
+        <img src="../images/folder-berriez-visiting.svg?sanitize=true" height="48px" width="48px" alt="folder-berriez-visiting"> 
+        <img src="../images/user-berriez-desktop.svg?sanitize=true" height="48px" width="48px" alt="user-berriez-desktop">
+      </td>
+    </tr>
+    <tr>
       <th>black</th>
       <td>
         <img src="../images/folder-black-apps.svg?sanitize=true" height="48px" width="48px" alt="folder-black-apps">
@@ -149,6 +217,23 @@ This is extremely useful for restoring colour after each icons theme upgrade (of
       </td>
     </tr>
     <tr>
+      <th>bordeaux</th>
+      <td>
+        <img src="../images/folder-bordeaux-apps.svg?sanitize=true" height="48px" width="48px" alt="folder-bordeaux-apps">
+        <img src="../images/folder-bordeaux-documents.svg?sanitize=true" height="48px" width="48px" alt="folder-bordeaux-documents">
+        <img src="../images/folder-bordeaux-downloads.svg?sanitize=true" height="48px" width="48px" alt="folder-bordeaux-downloads">
+        <img src="../images/folder-bordeaux-dropbox.svg?sanitize=true" height="48px" width="48px" alt="folder-bordeaux-dropbox">
+        <img src="../images/folder-bordeaux-gitlab.svg?sanitize=true" height="48px" width="48px" alt="folder-bordeaux-gitlab">
+        <img src="../images/folder-bordeaux-icons.svg?sanitize=true" height="48px" width="48px" alt="folder-bordeaux-icons">
+        <img src="../images/folder-bordeaux-music.svg?sanitize=true" height="48px" width="48px" alt="folder-bordeaux-music">
+        <img src="../images/folder-bordeaux-open.svg?sanitize=true" height="48px" width="48px" alt="folder-bordeaux-open">
+        <img src="../images/folder-bordeaux.svg?sanitize=true" height="48px" width="48px" alt="folder-bordeaux">
+        <img src="../images/folder-bordeaux-pictures.svg?sanitize=true" height="48px" width="48px" alt="folder-bordeaux-pictures"> 
+        <img src="../images/folder-bordeaux-visiting.svg?sanitize=true" height="48px" width="48px" alt="folder-bordeaux-visiting"> 
+        <img src="../images/user-bordeaux-desktop.svg?sanitize=true" height="48px" width="48px" alt="user-bordeaux-desktop">
+      </td>
+    </tr>
+    <tr>
       <th>brown</th>
       <td>
         <img src="../images/folder-brown-apps.svg?sanitize=true" height="48px" width="48px" alt="folder-brown-apps">
@@ -166,6 +251,23 @@ This is extremely useful for restoring colour after each icons theme upgrade (of
       </td>
     </tr>
     <tr>
+      <th>canonical</th>
+      <td>
+        <img src="../images/folder-canonical-apps.svg?sanitize=true" height="48px" width="48px" alt="folder-canonical-apps">
+        <img src="../images/folder-canonical-documents.svg?sanitize=true" height="48px" width="48px" alt="folder-canonical-documents">
+        <img src="../images/folder-canonical-downloads.svg?sanitize=true" height="48px" width="48px" alt="folder-canonical-downloads">
+        <img src="../images/folder-canonical-dropbox.svg?sanitize=true" height="48px" width="48px" alt="folder-canonical-dropbox">
+        <img src="../images/folder-canonical-gitlab.svg?sanitize=true" height="48px" width="48px" alt="folder-canonical-gitlab">
+        <img src="../images/folder-canonical-icons.svg?sanitize=true" height="48px" width="48px" alt="folder-canonical-icons">
+        <img src="../images/folder-canonical-music.svg?sanitize=true" height="48px" width="48px" alt="folder-canonical-music">
+        <img src="../images/folder-canonical-open.svg?sanitize=true" height="48px" width="48px" alt="folder-canonical-open">
+        <img src="../images/folder-canonical.svg?sanitize=true" height="48px" width="48px" alt="folder-canonical">
+        <img src="../images/folder-canonical-pictures.svg?sanitize=true" height="48px" width="48px" alt="folder-canonical-pictures"> 
+        <img src="../images/folder-canonical-visiting.svg?sanitize=true" height="48px" width="48px" alt="folder-canonical-visiting"> 
+        <img src="../images/user-canonical-desktop.svg?sanitize=true" height="48px" width="48px" alt="user-canonical-desktop">
+      </td>
+    </tr>
+    <tr>
       <th>cyan</th>
       <td>
         <img src="../images/folder-cyan-apps.svg?sanitize=true" height="48px" width="48px" alt="folder-cyan-apps">
@@ -180,6 +282,57 @@ This is extremely useful for restoring colour after each icons theme upgrade (of
         <img src="../images/folder-cyan-pictures.svg?sanitize=true" height="48px" width="48px" alt="folder-cyan-pictures"> 
         <img src="../images/folder-cyan-visiting.svg?sanitize=true" height="48px" width="48px" alt="folder-cyan-visiting"> 
         <img src="../images/user-cyan-desktop.svg?sanitize=true" height="48px" width="48px" alt="user-cyan-desktop">
+      </td>
+    </tr>
+    <tr>
+      <th>cyberneon</th>
+      <td>
+        <img src="../images/folder-cyberneon-apps.svg?sanitize=true" height="48px" width="48px" alt="folder-cyberneon-apps">
+        <img src="../images/folder-cyberneon-documents.svg?sanitize=true" height="48px" width="48px" alt="folder-cyberneon-documents">
+        <img src="../images/folder-cyberneon-downloads.svg?sanitize=true" height="48px" width="48px" alt="folder-cyberneon-downloads">
+        <img src="../images/folder-cyberneon-dropbox.svg?sanitize=true" height="48px" width="48px" alt="folder-cyberneon-dropbox">
+        <img src="../images/folder-cyberneon-gitlab.svg?sanitize=true" height="48px" width="48px" alt="folder-cyberneon-gitlab">
+        <img src="../images/folder-cyberneon-icons.svg?sanitize=true" height="48px" width="48px" alt="folder-cyberneon-icons">
+        <img src="../images/folder-cyberneon-music.svg?sanitize=true" height="48px" width="48px" alt="folder-cyberneon-music">
+        <img src="../images/folder-cyberneon-open.svg?sanitize=true" height="48px" width="48px" alt="folder-cyberneon-open">
+        <img src="../images/folder-cyberneon.svg?sanitize=true" height="48px" width="48px" alt="folder-cyberneon">
+        <img src="../images/folder-cyberneon-pictures.svg?sanitize=true" height="48px" width="48px" alt="folder-cyberneon-pictures"> 
+        <img src="../images/folder-cyberneon-visiting.svg?sanitize=true" height="48px" width="48px" alt="folder-cyberneon-visiting"> 
+        <img src="../images/user-cyberneon-desktop.svg?sanitize=true" height="48px" width="48px" alt="user-cyberneon-desktop">
+      </td>
+    </tr>
+    <tr>
+      <th>discodingo</th>
+      <td>
+        <img src="../images/folder-discodingo-apps.svg?sanitize=true" height="48px" width="48px" alt="folder-discodingo-apps">
+        <img src="../images/folder-discodingo-documents.svg?sanitize=true" height="48px" width="48px" alt="folder-discodingo-documents">
+        <img src="../images/folder-discodingo-downloads.svg?sanitize=true" height="48px" width="48px" alt="folder-discodingo-downloads">
+        <img src="../images/folder-discodingo-dropbox.svg?sanitize=true" height="48px" width="48px" alt="folder-discodingo-dropbox">
+        <img src="../images/folder-discodingo-gitlab.svg?sanitize=true" height="48px" width="48px" alt="folder-discodingo-gitlab">
+        <img src="../images/folder-discodingo-icons.svg?sanitize=true" height="48px" width="48px" alt="folder-discodingo-icons">
+        <img src="../images/folder-discodingo-music.svg?sanitize=true" height="48px" width="48px" alt="folder-discodingo-music">
+        <img src="../images/folder-discodingo-open.svg?sanitize=true" height="48px" width="48px" alt="folder-discodingo-open">
+        <img src="../images/folder-discodingo.svg?sanitize=true" height="48px" width="48px" alt="folder-discodingo">
+        <img src="../images/folder-discodingo-pictures.svg?sanitize=true" height="48px" width="48px" alt="folder-discodingo-pictures"> 
+        <img src="../images/folder-discodingo-visiting.svg?sanitize=true" height="48px" width="48px" alt="folder-discodingo-visiting"> 
+        <img src="../images/user-discodingo-desktop.svg?sanitize=true" height="48px" width="48px" alt="user-discodingo-desktop">
+      </td>
+    </tr>
+    <tr>
+      <th>fitdance</th>
+      <td>
+        <img src="../images/folder-fitdance-apps.svg?sanitize=true" height="48px" width="48px" alt="folder-fitdance-apps">
+        <img src="../images/folder-fitdance-documents.svg?sanitize=true" height="48px" width="48px" alt="folder-fitdance-documents">
+        <img src="../images/folder-fitdance-downloads.svg?sanitize=true" height="48px" width="48px" alt="folder-fitdance-downloads">
+        <img src="../images/folder-fitdance-dropbox.svg?sanitize=true" height="48px" width="48px" alt="folder-fitdance-dropbox">
+        <img src="../images/folder-fitdance-gitlab.svg?sanitize=true" height="48px" width="48px" alt="folder-fitdance-gitlab">
+        <img src="../images/folder-fitdance-icons.svg?sanitize=true" height="48px" width="48px" alt="folder-fitdance-icons">
+        <img src="../images/folder-fitdance-music.svg?sanitize=true" height="48px" width="48px" alt="folder-fitdance-music">
+        <img src="../images/folder-fitdance-open.svg?sanitize=true" height="48px" width="48px" alt="folder-fitdance-open">
+        <img src="../images/folder-fitdance.svg?sanitize=true" height="48px" width="48px" alt="folder-fitdance">
+        <img src="../images/folder-fitdance-pictures.svg?sanitize=true" height="48px" width="48px" alt="folder-fitdance-pictures"> 
+        <img src="../images/folder-fitdance-visiting.svg?sanitize=true" height="48px" width="48px" alt="folder-fitdance-visiting"> 
+        <img src="../images/user-fitdance-desktop.svg?sanitize=true" height="48px" width="48px" alt="user-fitdance-desktop">
       </td>
     </tr>
     <tr>
@@ -350,6 +503,23 @@ This is extremely useful for restoring colour after each icons theme upgrade (of
         <img src="../images/folder-teal-pictures.svg?sanitize=true" height="48px" width="48px" alt="folder-teal-pictures"> 
         <img src="../images/folder-teal-visiting.svg?sanitize=true" height="48px" width="48px" alt="folder-teal-visiting"> 
         <img src="../images/user-teal-desktop.svg?sanitize=true" height="48px" width="48px" alt="user-teal-desktop">
+      </td>
+    </tr>
+    <tr>
+      <th>vermillion</th>
+      <td>
+        <img src="../images/folder-vermillion-apps.svg?sanitize=true" height="48px" width="48px" alt="folder-vermillion-apps">
+        <img src="../images/folder-vermillion-documents.svg?sanitize=true" height="48px" width="48px" alt="folder-vermillion-documents">
+        <img src="../images/folder-vermillion-downloads.svg?sanitize=true" height="48px" width="48px" alt="folder-vermillion-downloads">
+        <img src="../images/folder-vermillion-dropbox.svg?sanitize=true" height="48px" width="48px" alt="folder-vermillion-dropbox">
+        <img src="../images/folder-vermillion-gitlab.svg?sanitize=true" height="48px" width="48px" alt="folder-vermillion-gitlab">
+        <img src="../images/folder-vermillion-icons.svg?sanitize=true" height="48px" width="48px" alt="folder-vermillion-icons">
+        <img src="../images/folder-vermillion-music.svg?sanitize=true" height="48px" width="48px" alt="folder-vermillion-music">
+        <img src="../images/folder-vermillion-open.svg?sanitize=true" height="48px" width="48px" alt="folder-vermillion-open">
+        <img src="../images/folder-vermillion.svg?sanitize=true" height="48px" width="48px" alt="folder-vermillion">
+        <img src="../images/folder-vermillion-pictures.svg?sanitize=true" height="48px" width="48px" alt="folder-vermillion-pictures"> 
+        <img src="../images/folder-vermillion-visiting.svg?sanitize=true" height="48px" width="48px" alt="folder-vermillion-visiting"> 
+        <img src="../images/user-vermillion-desktop.svg?sanitize=true" height="48px" width="48px" alt="user-vermillion-desktop">
       </td>
     </tr>
     <tr>
