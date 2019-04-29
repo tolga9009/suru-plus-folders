@@ -253,7 +253,7 @@ config() {
 change_color() {
 	local color="${1:?${FUNCNAME[-1]}: color is not set}"
 	local size prefix file_path file_name symlink_path
-	local -a sizes=(64)
+	local -a sizes=(scalable)
 	local -a prefixes=("folder-$color" "user-$color")
 
 	for size in "${sizes[@]}"; do
