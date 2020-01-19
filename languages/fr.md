@@ -2,15 +2,16 @@
 
 - [Description](#description)
 - [Installation](#installation)
-  - [Distribution indépendante](#distribution-ind%C3%A9pendante)
+  - [Distribution indépendante](#distribution-indépendante)
     - [Installer](#installer)
-    - [Désintaller](#d%C3%A9sintaller)
-  - [Distributions basées sur Arch Linux](#distributions-bas%C3%A9es-sur-arch-linux)
-  - [Distributions basées sur Debian](#distributions-bas%C3%A9es-sur-debian)
+    - [Désintaller](#désintaller)
+  - [Distributions basées sur Arch Linux](#distributions-basées-sur-arch-linux)
+  - [Distributions basées sur Debian](#distributions-basées-sur-debian)
 - [Changer la couleur des dossiers](#changer-la-couleur-des-dossiers)
-  - [Avis important !](#avis-important)
+  - [Avis important !](#avis-important-)
   - [Couleurs disponibles en Suru++ 25](#couleurs-disponibles-en-suru-25)
   - [Couleurs disponibles en Suru++ Ubuntu](#couleurs-disponibles-en-suru-ubuntu)
+  - [Couleurs disponibles en Adwaita++](#couleurs-disponibles-en-adwaita)
 - [Licence](#licence)
 
 # Description
@@ -758,6 +759,271 @@ Ceci est extrêmement utile pour restaurer la couleur après chaque mise à nive
         <img src="../images/suru-plus-ubuntu/folder-yellow-open.svg?sanitize=true" height="48px" width="48px" alt="folder-yellow-open">
         <img src="../images/suru-plus-ubuntu/folder-yellow.svg?sanitize=true" height="48px" width="48px" alt="folder-yellow">
         <img src="../images/suru-plus-ubuntu/folder-yellow-pictures.svg?sanitize=true" height="48px" width="48px" alt="folder-yellow-pictures"> 
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+## Couleurs disponibles en Adwaita++
+
+<table style="margin-left: auto; margin-right: auto;">
+  <thead>
+    <tr>
+      <th style="text-align:left">Prénom</th>
+      <th style="text-align:center">Aperçu</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>adwaita</th>
+      <td>
+        <img src="../images/adwaita-plus/folder-adwaita-app.svg?sanitize=true" height="48px" width="48px" alt="folder-adwaita-app">
+        <img src="../images/adwaita-plus/folder-adwaita-documents.svg?sanitize=true" height="48px" width="48px" alt="folder-adwaita-documents">
+        <img src="../images/adwaita-plus/folder-adwaita-downloads.svg?sanitize=true" height="48px" width="48px" alt="folder-adwaita-downloads">
+        <img src="../images/adwaita-plus/folder-adwaita-dropbox.svg?sanitize=true" height="48px" width="48px" alt="folder-adwaita-dropbox">
+        <img src="../images/adwaita-plus/folder-adwaita-gitlab.svg?sanitize=true" height="48px" width="48px" alt="folder-adwaita-gitlab">
+        <img src="../images/adwaita-plus/folder-adwaita-music.svg?sanitize=true" height="48px" width="48px" alt="folder-adwaita-music">
+        <img src="../images/adwaita-plus/folder-adwaita-open.svg?sanitize=true" height="48px" width="48px" alt="folder-adwaita-open">
+        <img src="../images/adwaita-plus/folder-adwaita.svg?sanitize=true" height="48px" width="48px" alt="folder-adwaita">
+        <img src="../images/adwaita-plus/folder-adwaita-pictures.svg?sanitize=true" height="48px" width="48px" alt="folder-adwaita-pictures"> 
+      </td>
+   </tr>
+    <tr>
+      <th>aubergine</th>
+      <td>
+        <img src="../images/adwaita-plus/folder-aubergine-app.svg?sanitize=true" height="48px" width="48px" alt="folder-aubergine-app">
+        <img src="../images/adwaita-plus/folder-aubergine-documents.svg?sanitize=true" height="48px" width="48px" alt="folder-aubergine-documents">
+        <img src="../images/adwaita-plus/folder-aubergine-downloads.svg?sanitize=true" height="48px" width="48px" alt="folder-aubergine-downloads">
+        <img src="../images/adwaita-plus/folder-aubergine-dropbox.svg?sanitize=true" height="48px" width="48px" alt="folder-aubergine-dropbox">
+        <img src="../images/adwaita-plus/folder-aubergine-gitlab.svg?sanitize=true" height="48px" width="48px" alt="folder-aubergine-gitlab">
+        <img src="../images/adwaita-plus/folder-aubergine-music.svg?sanitize=true" height="48px" width="48px" alt="folder-aubergine-music">
+        <img src="../images/adwaita-plus/folder-aubergine-open.svg?sanitize=true" height="48px" width="48px" alt="folder-aubergine-open">
+        <img src="../images/adwaita-plus/folder-aubergine.svg?sanitize=true" height="48px" width="48px" alt="folder-aubergine">
+        <img src="../images/adwaita-plus/folder-aubergine-pictures.svg?sanitize=true" height="48px" width="48px" alt="folder-aubergine-pictures"> 
+      </td>
+   </tr>
+   <tr>
+      <th>blue</th>
+      <td>
+        <img src="../images/adwaita-plus/folder-blue-app.svg?sanitize=true" height="48px" width="48px" alt="folder-blue-app">
+        <img src="../images/adwaita-plus/folder-blue-documents.svg?sanitize=true" height="48px" width="48px" alt="folder-blue-documents">
+        <img src="../images/adwaita-plus/folder-blue-downloads.svg?sanitize=true" height="48px" width="48px" alt="folder-blue-downloads">
+        <img src="../images/adwaita-plus/folder-blue-dropbox.svg?sanitize=true" height="48px" width="48px" alt="folder-blue-dropbox">
+        <img src="../images/adwaita-plus/folder-blue-gitlab.svg?sanitize=true" height="48px" width="48px" alt="folder-blue-gitlab">
+        <img src="../images/adwaita-plus/folder-blue-music.svg?sanitize=true" height="48px" width="48px" alt="folder-blue-music">
+        <img src="../images/adwaita-plus/folder-blue-open.svg?sanitize=true" height="48px" width="48px" alt="folder-blue-open">
+        <img src="../images/adwaita-plus/folder-blue.svg?sanitize=true" height="48px" width="48px" alt="folder-blue">
+        <img src="../images/adwaita-plus/folder-blue-pictures.svg?sanitize=true" height="48px" width="48px" alt="folder-blue-pictures"> 
+      </td>
+    </tr>
+   <tr>
+      <th>bluegrey</th>
+      <td>
+        <img src="../images/adwaita-plus/folder-bluegrey-app.svg?sanitize=true" height="48px" width="48px" alt="folder-bluegrey-app">
+        <img src="../images/adwaita-plus/folder-bluegrey-documents.svg?sanitize=true" height="48px" width="48px" alt="folder-bluegrey-documents">
+        <img src="../images/adwaita-plus/folder-bluegrey-downloads.svg?sanitize=true" height="48px" width="48px" alt="folder-bluegrey-downloads">
+        <img src="../images/adwaita-plus/folder-bluegrey-dropbox.svg?sanitize=true" height="48px" width="48px" alt="folder-bluegrey-dropbox">
+        <img src="../images/adwaita-plus/folder-bluegrey-gitlab.svg?sanitize=true" height="48px" width="48px" alt="folder-bluegrey-gitlab">
+        <img src="../images/adwaita-plus/folder-bluegrey-music.svg?sanitize=true" height="48px" width="48px" alt="folder-bluegrey-music">
+        <img src="../images/adwaita-plus/folder-bluegrey-open.svg?sanitize=true" height="48px" width="48px" alt="folder-bluegrey-open">
+        <img src="../images/adwaita-plus/folder-bluegrey.svg?sanitize=true" height="48px" width="48px" alt="folder-bluegrey">
+        <img src="../images/adwaita-plus/folder-bluegrey-pictures.svg?sanitize=true" height="48px" width="48px" alt="folder-bluegrey-pictures"> 
+      </td>
+    </tr>
+    <tr>
+      <th>bordeaux</th>
+      <td>
+        <img src="../images/adwaita-plus/folder-bordeaux-app.svg?sanitize=true" height="48px" width="48px" alt="folder-bordeaux-app">
+        <img src="../images/adwaita-plus/folder-bordeaux-documents.svg?sanitize=true" height="48px" width="48px" alt="folder-bordeaux-documents">
+        <img src="../images/adwaita-plus/folder-bordeaux-downloads.svg?sanitize=true" height="48px" width="48px" alt="folder-bordeaux-downloads">
+        <img src="../images/adwaita-plus/folder-bordeaux-dropbox.svg?sanitize=true" height="48px" width="48px" alt="folder-bordeaux-dropbox">
+        <img src="../images/adwaita-plus/folder-bordeaux-gitlab.svg?sanitize=true" height="48px" width="48px" alt="folder-bordeaux-gitlab">
+        <img src="../images/adwaita-plus/folder-bordeaux-music.svg?sanitize=true" height="48px" width="48px" alt="folder-bordeaux-music">
+        <img src="../images/adwaita-plus/folder-bordeaux-open.svg?sanitize=true" height="48px" width="48px" alt="folder-bordeaux-open">
+        <img src="../images/adwaita-plus/folder-bordeaux.svg?sanitize=true" height="48px" width="48px" alt="folder-bordeaux">
+        <img src="../images/adwaita-plus/folder-bordeaux-pictures.svg?sanitize=true" height="48px" width="48px" alt="folder-bordeaux-pictures"> 
+      </td>
+    </tr>
+   <tr>
+      <th>brown</th>
+      <td>
+        <img src="../images/adwaita-plus/folder-brown-app.svg?sanitize=true" height="48px" width="48px" alt="folder-brown-app">
+        <img src="../images/adwaita-plus/folder-brown-documents.svg?sanitize=true" height="48px" width="48px" alt="folder-brown-documents">
+        <img src="../images/adwaita-plus/folder-brown-downloads.svg?sanitize=true" height="48px" width="48px" alt="folder-brown-downloads">
+        <img src="../images/adwaita-plus/folder-brown-dropbox.svg?sanitize=true" height="48px" width="48px" alt="folder-brown-dropbox">
+        <img src="../images/adwaita-plus/folder-brown-gitlab.svg?sanitize=true" height="48px" width="48px" alt="folder-brown-gitlab">
+        <img src="../images/adwaita-plus/folder-brown-music.svg?sanitize=true" height="48px" width="48px" alt="folder-brown-music">
+        <img src="../images/adwaita-plus/folder-brown-open.svg?sanitize=true" height="48px" width="48px" alt="folder-brown-open">
+        <img src="../images/adwaita-plus/folder-brown.svg?sanitize=true" height="48px" width="48px" alt="folder-brown">
+        <img src="../images/adwaita-plus/folder-brown-pictures.svg?sanitize=true" height="48px" width="48px" alt="folder-brown-pictures"> 
+      </td>
+    </tr>
+    <tr>
+      <th>canonical</th>
+      <td>
+        <img src="../images/adwaita-plus/folder-canonical-app.svg?sanitize=true" height="48px" width="48px" alt="folder-canonical-app">
+        <img src="../images/adwaita-plus/folder-canonical-documents.svg?sanitize=true" height="48px" width="48px" alt="folder-canonical-documents">
+        <img src="../images/adwaita-plus/folder-canonical-downloads.svg?sanitize=true" height="48px" width="48px" alt="folder-canonical-downloads">
+        <img src="../images/adwaita-plus/folder-canonical-dropbox.svg?sanitize=true" height="48px" width="48px" alt="folder-canonical-dropbox">
+        <img src="../images/adwaita-plus/folder-canonical-gitlab.svg?sanitize=true" height="48px" width="48px" alt="folder-canonical-gitlab">
+        <img src="../images/adwaita-plus/folder-canonical-music.svg?sanitize=true" height="48px" width="48px" alt="folder-canonical-music">
+        <img src="../images/adwaita-plus/folder-canonical-open.svg?sanitize=true" height="48px" width="48px" alt="folder-canonical-open">
+        <img src="../images/adwaita-plus/folder-canonical.svg?sanitize=true" height="48px" width="48px" alt="folder-canonical">
+        <img src="../images/adwaita-plus/folder-canonical-pictures.svg?sanitize=true" height="48px" width="48px" alt="folder-canonical-pictures"> 
+      </td>
+    </tr>
+    <tr>
+      <th>green</th>
+      <td>
+        <img src="../images/adwaita-plus/folder-green-app.svg?sanitize=true" height="48px" width="48px" alt="folder-green-app">
+        <img src="../images/adwaita-plus/folder-green-documents.svg?sanitize=true" height="48px" width="48px" alt="folder-green-documents">
+        <img src="../images/adwaita-plus/folder-green-downloads.svg?sanitize=true" height="48px" width="48px" alt="folder-green-downloads">
+        <img src="../images/adwaita-plus/folder-green-dropbox.svg?sanitize=true" height="48px" width="48px" alt="folder-green-dropbox">
+        <img src="../images/adwaita-plus/folder-green-gitlab.svg?sanitize=true" height="48px" width="48px" alt="folder-green-gitlab">
+        <img src="../images/adwaita-plus/folder-green-music.svg?sanitize=true" height="48px" width="48px" alt="folder-green-music">
+        <img src="../images/adwaita-plus/folder-green-open.svg?sanitize=true" height="48px" width="48px" alt="folder-green-open">
+        <img src="../images/adwaita-plus/folder-green.svg?sanitize=true" height="48px" width="48px" alt="folder-green">
+        <img src="../images/adwaita-plus/folder-green-pictures.svg?sanitize=true" height="48px" width="48px" alt="folder-green-pictures"> 
+      </td>
+    </tr>
+   <tr>
+      <th>grey</th>
+      <td>
+        <img src="../images/adwaita-plus/folder-grey-app.svg?sanitize=true" height="48px" width="48px" alt="folder-grey-app">
+        <img src="../images/adwaita-plus/folder-grey-documents.svg?sanitize=true" height="48px" width="48px" alt="folder-grey-documents">
+        <img src="../images/adwaita-plus/folder-grey-downloads.svg?sanitize=true" height="48px" width="48px" alt="folder-grey-downloads">
+        <img src="../images/adwaita-plus/folder-grey-dropbox.svg?sanitize=true" height="48px" width="48px" alt="folder-grey-dropbox">
+        <img src="../images/adwaita-plus/folder-grey-gitlab.svg?sanitize=true" height="48px" width="48px" alt="folder-grey-gitlab">
+        <img src="../images/adwaita-plus/folder-grey-music.svg?sanitize=true" height="48px" width="48px" alt="folder-grey-music">
+        <img src="../images/adwaita-plus/folder-grey-open.svg?sanitize=true" height="48px" width="48px" alt="folder-grey-open">
+        <img src="../images/adwaita-plus/folder-grey.svg?sanitize=true" height="48px" width="48px" alt="folder-grey">
+        <img src="../images/adwaita-plus/folder-grey-pictures.svg?sanitize=true" height="48px" width="48px" alt="folder-grey-pictures"> 
+      </td>
+    </tr>
+   <tr>
+      <th>indigo</th>
+      <td>
+        <img src="../images/adwaita-plus/folder-indigo-app.svg?sanitize=true" height="48px" width="48px" alt="folder-indigo-app">
+        <img src="../images/adwaita-plus/folder-indigo-documents.svg?sanitize=true" height="48px" width="48px" alt="folder-indigo-documents">
+        <img src="../images/adwaita-plus/folder-indigo-downloads.svg?sanitize=true" height="48px" width="48px" alt="folder-indigo-downloads">
+        <img src="../images/adwaita-plus/folder-indigo-dropbox.svg?sanitize=true" height="48px" width="48px" alt="folder-indigo-dropbox">
+        <img src="../images/adwaita-plus/folder-indigo-gitlab.svg?sanitize=true" height="48px" width="48px" alt="folder-indigo-gitlab">
+        <img src="../images/adwaita-plus/folder-indigo-music.svg?sanitize=true" height="48px" width="48px" alt="folder-indigo-music">
+        <img src="../images/adwaita-plus/folder-indigo-open.svg?sanitize=true" height="48px" width="48px" alt="folder-indigo-open">
+        <img src="../images/adwaita-plus/folder-indigo.svg?sanitize=true" height="48px" width="48px" alt="folder-indigo">
+        <img src="../images/adwaita-plus/folder-indigo-pictures.svg?sanitize=true" height="48px" width="48px" alt="folder-indigo-pictures"> 
+      </td>
+    </tr>
+   <tr>
+      <th>manjaro</th>
+      <td>
+        <img src="../images/adwaita-plus/folder-manjaro-app.svg?sanitize=true" height="48px" width="48px" alt="folder-manjaro-app">
+        <img src="../images/adwaita-plus/folder-manjaro-documents.svg?sanitize=true" height="48px" width="48px" alt="folder-manjaro-documents">
+        <img src="../images/adwaita-plus/folder-manjaro-downloads.svg?sanitize=true" height="48px" width="48px" alt="folder-manjaro-downloads">
+        <img src="../images/adwaita-plus/folder-manjaro-dropbox.svg?sanitize=true" height="48px" width="48px" alt="folder-manjaro-dropbox">
+        <img src="../images/adwaita-plus/folder-manjaro-gitlab.svg?sanitize=true" height="48px" width="48px" alt="folder-manjaro-gitlab">
+        <img src="../images/adwaita-plus/folder-manjaro-music.svg?sanitize=true" height="48px" width="48px" alt="folder-manjaro-music">
+        <img src="../images/adwaita-plus/folder-manjaro-open.svg?sanitize=true" height="48px" width="48px" alt="folder-manjaro-open">
+        <img src="../images/adwaita-plus/folder-manjaro.svg?sanitize=true" height="48px" width="48px" alt="folder-manjaro">
+        <img src="../images/adwaita-plus/folder-manjaro-pictures.svg?sanitize=true" height="48px" width="48px" alt="folder-manjaro-pictures"> 
+      </td>
+    </tr>
+   <tr>
+      <th>mint</th>
+      <td>
+        <img src="../images/adwaita-plus/folder-mint-app.svg?sanitize=true" height="48px" width="48px" alt="folder-mint-app">
+        <img src="../images/adwaita-plus/folder-mint-documents.svg?sanitize=true" height="48px" width="48px" alt="folder-mint-documents">
+        <img src="../images/adwaita-plus/folder-mint-downloads.svg?sanitize=true" height="48px" width="48px" alt="folder-mint-downloads">
+        <img src="../images/adwaita-plus/folder-mint-dropbox.svg?sanitize=true" height="48px" width="48px" alt="folder-mint-dropbox">
+        <img src="../images/adwaita-plus/folder-mint-gitlab.svg?sanitize=true" height="48px" width="48px" alt="folder-mint-gitlab">
+        <img src="../images/adwaita-plus/folder-mint-music.svg?sanitize=true" height="48px" width="48px" alt="folder-mint-music">
+        <img src="../images/adwaita-plus/folder-mint-open.svg?sanitize=true" height="48px" width="48px" alt="folder-mint-open">
+        <img src="../images/adwaita-plus/folder-mint.svg?sanitize=true" height="48px" width="48px" alt="folder-mint">
+        <img src="../images/adwaita-plus/folder-mint-pictures.svg?sanitize=true" height="48px" width="48px" alt="folder-mint-pictures"> 
+      </td>
+    </tr>
+    <tr>
+      <th>orange</th>
+      <td>
+        <img src="../images/adwaita-plus/folder-orange-app.svg?sanitize=true" height="48px" width="48px" alt="folder-orange-app">
+        <img src="../images/adwaita-plus/folder-orange-documents.svg?sanitize=true" height="48px" width="48px" alt="folder-orange-documents">
+        <img src="../images/adwaita-plus/folder-orange-downloads.svg?sanitize=true" height="48px" width="48px" alt="folder-orange-downloads">
+        <img src="../images/adwaita-plus/folder-orange-dropbox.svg?sanitize=true" height="48px" width="48px" alt="folder-orange-dropbox">
+        <img src="../images/adwaita-plus/folder-orange-gitlab.svg?sanitize=true" height="48px" width="48px" alt="folder-orange-gitlab">
+        <img src="../images/adwaita-plus/folder-orange-music.svg?sanitize=true" height="48px" width="48px" alt="folder-orange-music">
+        <img src="../images/adwaita-plus/folder-orange-open.svg?sanitize=true" height="48px" width="48px" alt="folder-orange-open">
+        <img src="../images/adwaita-plus/folder-orange.svg?sanitize=true" height="48px" width="48px" alt="folder-orange">
+        <img src="../images/adwaita-plus/folder-orange-pictures.svg?sanitize=true" height="48px" width="48px" alt="folder-orange-pictures"> 
+      </td>
+    </tr>
+    <tr>
+      <th>purple</th>
+      <td>
+        <img src="../images/adwaita-plus/folder-purple-app.svg?sanitize=true" height="48px" width="48px" alt="folder-purple-app">
+        <img src="../images/adwaita-plus/folder-purple-documents.svg?sanitize=true" height="48px" width="48px" alt="folder-purple-documents">
+        <img src="../images/adwaita-plus/folder-purple-downloads.svg?sanitize=true" height="48px" width="48px" alt="folder-purple-downloads">
+        <img src="../images/adwaita-plus/folder-purple-dropbox.svg?sanitize=true" height="48px" width="48px" alt="folder-purple-dropbox">
+        <img src="../images/adwaita-plus/folder-purple-gitlab.svg?sanitize=true" height="48px" width="48px" alt="folder-purple-gitlab">
+        <img src="../images/adwaita-plus/folder-purple-music.svg?sanitize=true" height="48px" width="48px" alt="folder-purple-music">
+        <img src="../images/adwaita-plus/folder-purple-open.svg?sanitize=true" height="48px" width="48px" alt="folder-purple-open">
+        <img src="../images/adwaita-plus/folder-purple.svg?sanitize=true" height="48px" width="48px" alt="folder-purple">
+        <img src="../images/adwaita-plus/folder-purple-pictures.svg?sanitize=true" height="48px" width="48px" alt="folder-purple-pictures"> 
+      </td>
+    </tr>
+    <tr>
+      <th>red</th>
+      <td>
+        <img src="../images/adwaita-plus/folder-red-app.svg?sanitize=true" height="48px" width="48px" alt="folder-red-app">
+        <img src="../images/adwaita-plus/folder-red-documents.svg?sanitize=true" height="48px" width="48px" alt="folder-red-documents">
+        <img src="../images/adwaita-plus/folder-red-downloads.svg?sanitize=true" height="48px" width="48px" alt="folder-red-downloads">
+        <img src="../images/adwaita-plus/folder-red-dropbox.svg?sanitize=true" height="48px" width="48px" alt="folder-red-dropbox">
+        <img src="../images/adwaita-plus/folder-red-gitlab.svg?sanitize=true" height="48px" width="48px" alt="folder-red-gitlab">
+        <img src="../images/adwaita-plus/folder-red-music.svg?sanitize=true" height="48px" width="48px" alt="folder-red-music">
+        <img src="../images/adwaita-plus/folder-red-open.svg?sanitize=true" height="48px" width="48px" alt="folder-red-open">
+        <img src="../images/adwaita-plus/folder-red.svg?sanitize=true" height="48px" width="48px" alt="folder-red">
+        <img src="../images/adwaita-plus/folder-red-pictures.svg?sanitize=true" height="48px" width="48px" alt="folder-red-pictures"> 
+      </td>
+    </tr>
+   <tr>
+      <th>white</th>
+      <td>
+        <img src="../images/adwaita-plus/folder-white-app.svg?sanitize=true" height="48px" width="48px" alt="folder-white-app">
+        <img src="../images/adwaita-plus/folder-white-documents.svg?sanitize=true" height="48px" width="48px" alt="folder-white-documents">
+        <img src="../images/adwaita-plus/folder-white-downloads.svg?sanitize=true" height="48px" width="48px" alt="folder-white-downloads">
+        <img src="../images/adwaita-plus/folder-white-dropbox.svg?sanitize=true" height="48px" width="48px" alt="folder-white-dropbox">
+        <img src="../images/adwaita-plus/folder-white-gitlab.svg?sanitize=true" height="48px" width="48px" alt="folder-white-gitlab">
+        <img src="../images/adwaita-plus/folder-white-music.svg?sanitize=true" height="48px" width="48px" alt="folder-white-music">
+        <img src="../images/adwaita-plus/folder-white-open.svg?sanitize=true" height="48px" width="48px" alt="folder-white-open">
+        <img src="../images/adwaita-plus/folder-white.svg?sanitize=true" height="48px" width="48px" alt="folder-white">
+        <img src="../images/adwaita-plus/folder-white-pictures.svg?sanitize=true" height="48px" width="48px" alt="folder-white-pictures"> 
+      </td>
+    </tr>
+   <tr>
+      <th>yaru</th>
+      <td>
+        <img src="../images/adwaita-plus/folder-yaru-app.svg?sanitize=true" height="48px" width="48px" alt="folder-yaru-app">
+        <img src="../images/adwaita-plus/folder-yaru-documents.svg?sanitize=true" height="48px" width="48px" alt="folder-yaru-documents">
+        <img src="../images/adwaita-plus/folder-yaru-downloads.svg?sanitize=true" height="48px" width="48px" alt="folder-yaru-downloads">
+        <img src="../images/adwaita-plus/folder-yaru-dropbox.svg?sanitize=true" height="48px" width="48px" alt="folder-yaru-dropbox">
+        <img src="../images/adwaita-plus/folder-yaru-gitlab.svg?sanitize=true" height="48px" width="48px" alt="folder-yaru-gitlab">
+        <img src="../images/adwaita-plus/folder-yaru-music.svg?sanitize=true" height="48px" width="48px" alt="folder-yaru-music">
+        <img src="../images/adwaita-plus/folder-yaru-open.svg?sanitize=true" height="48px" width="48px" alt="folder-yaru-open">
+        <img src="../images/adwaita-plus/folder-yaru.svg?sanitize=true" height="48px" width="48px" alt="folder-yaru">
+        <img src="../images/adwaita-plus/folder-yaru-pictures.svg?sanitize=true" height="48px" width="48px" alt="folder-yaru-pictures"> 
+      </td>
+    </tr>
+    <tr>
+      <th>yellow</th>
+      <td>
+        <img src="../images/adwaita-plus/folder-yellow-app.svg?sanitize=true" height="48px" width="48px" alt="folder-yellow-app">
+        <img src="../images/adwaita-plus/folder-yellow-documents.svg?sanitize=true" height="48px" width="48px" alt="folder-yellow-documents">
+        <img src="../images/adwaita-plus/folder-yellow-downloads.svg?sanitize=true" height="48px" width="48px" alt="folder-yellow-downloads">
+        <img src="../images/adwaita-plus/folder-yellow-dropbox.svg?sanitize=true" height="48px" width="48px" alt="folder-yellow-dropbox">
+        <img src="../images/adwaita-plus/folder-yellow-gitlab.svg?sanitize=true" height="48px" width="48px" alt="folder-yellow-gitlab">
+        <img src="../images/adwaita-plus/folder-yellow-music.svg?sanitize=true" height="48px" width="48px" alt="folder-yellow-music">
+        <img src="../images/adwaita-plus/folder-yellow-open.svg?sanitize=true" height="48px" width="48px" alt="folder-yellow-open">
+        <img src="../images/adwaita-plus/folder-yellow.svg?sanitize=true" height="48px" width="48px" alt="folder-yellow">
+        <img src="../images/adwaita-plus/folder-yellow-pictures.svg?sanitize=true" height="48px" width="48px" alt="folder-yellow-pictures"> 
       </td>
     </tr>
   </tbody>

@@ -116,7 +116,7 @@ declare_colors()
 {
 	local color=''
 	local -a colors=()
-	local -a valid_colors=("90ssummer" "aubergine" "aurora" "black" "berriez" "blue" "bluegrey" "bordeaux" "brown" "canonical" "cyan" "cyberneon" "darkblue" "discodingo" "fitdance" "green" "grey" "indigo" "magenta" "manjaro" "mint" "orange" "pink" "purple" "red" "teal" "vermillion" "violet" "white" "yellow")
+	local -a valid_colors=("90ssummer" "adwaita" "aubergine" "aurora" "black" "berriez" "blue" "bluegrey" "bordeaux" "brown" "canonical" "cyan" "cyberneon" "darkblue" "discodingo" "fitdance" "green" "grey" "indigo" "magenta" "manjaro" "mint" "orange" "pink" "purple" "red" "teal" "vermillion" "violet" "white" "yaru" "yellow")
 
 	for color in "${valid_colors[@]}"; do
 		if [ -e "$THEME_DIR/places/scalable/folder-$color.svg" ]; then
@@ -439,6 +439,7 @@ main() {
 	declare THEME_NAME="${THEME_NAME:-Suru++}"
 	declare -i VERBOSE="${VERBOSE:-0}"
 	declare -A DEFAULT_COLORS=(
+		['Adwaita++']='adwaita'
 		['Suru++ 25']='blue'
 		['Suru++ 30']='blue'
 		['Suru++ 25 Dark']='white'
