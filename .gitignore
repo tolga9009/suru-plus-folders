@@ -1,0 +1,30 @@
+# Ficheiros sujos da Apple
+.DS_Store
+
+# GatsbyJS
+.cache
+.gatsby-context.js
+.netlify
+e2e-tests/gatsby-pnp/
+public
+test/**/public
+
+# Ficheiros de bloqueio
+package-lock.json
+yarn.lock
+## Ignorar qualquer ficheiro de bloqueio diferente do ficheiro de bloqueio principal
+!/yarn.lock
+
+# Logs
+logs
+*.log
+
+# Nodejs e NPM
+node_modules
+
+# Os starters são especiais; queremos manter os ficheiros de bloqueio
+!starters/*/package-lock.json
+!themes/gatsby-starter-blog-theme/package-lock.json
+!themes/gatsby-starter-notes-theme/package-lock.json
+!themes/gatsby-starter-theme/package-lock.json
+!themes/gatsby-starter-theme-workspace/package-lock.json

@@ -1,0 +1,19 @@
+name: Publicar o site escrito em Gatsby
+
+on:
+  push:
+    branches:
+      - beta
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v1
+      - name: Instalando o Gatsby e o GitHub Pages
+      - uses: enriikke/gatsby-gh-pages-action@v2.1.1
+        with:
+          access-token: ${{ secrets.ACCESS_TOKEN }}
+          deploy-branch: gh-pages
+          gatsby-args: --prefix-paths

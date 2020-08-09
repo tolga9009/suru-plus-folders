@@ -1,6 +1,33 @@
 {
-  "spellright.language": "",
-  "spellright.documentTypes": [
+  "editor.tokenColorCustomizations": 
+  {
+    "textMateRules": 
+    [
+        {
+            "scope": "log.error",
+            "settings": 
+            {
+                "foreground": "#af1f1f",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": "log.warning",
+            "settings": 
+            {
+                "foreground": "#f4ad42",
+                "fontStyle": ""
+            }
+        }
+    ]
+  },
+  "liveServer.settings.CustomBrowser": "firefox",
+  "spellright.language": 
+  [
+    "en_GB"
+  ],
+  "spellright.documentTypes": 
+  [
     "css",
     "html",
     "latex",
