@@ -18,7 +18,7 @@
 
 Die Datei `suru-plus-folders` ist ein Bash-Skript, das es erlaubt, die Farbe von Ordnern zu ändern, in der Icon-Themas [Suru++ 25](https://github.com/suru-plus/suru-plus) und [Suru++ Ubuntu](https://github.com/Bonandry/suru-plus-ubuntu), basierend auf den Klonen von Icons von Ordnern von Papirus.
 
-Im Moment hat `suru-plus-folders` keine GUI, aber es ist eine voll funktionsfähige Befehlszeile-App. Bevor Sie die 	
+Im Moment hat `suru-plus-folders` keine GUI, aber es ist eine voll funktionsfähige Befehlszeile-App. Bevor Sie die
 Verwendungsbeispiele sehen, installieren Sie bitte zuerst:
 
 # Installation
@@ -58,24 +58,24 @@ Soon
 Einige Verwendungsbeispiele:
 
 - Die aktuelle Farbe und die verfügbaren Farben für Suru++ 25 oder Suru++ Ubuntu anzeigen:
-    ```
-    suru-plus-folders -l --theme Suru++
-    suru-plus-folders -l --theme Suru++-Ubuntu
-    ```
+  ```
+  suru-plus-folders -l --theme Suru++
+  suru-plus-folders -l --theme Suru++-Ubuntu
+  ```
 - Der Farbe von Ordnern auf `brown` (Braun) für Suru++ 25 oder Suru++ Ubuntu ändern:
-    ```
-    suru-plus-folders -C brown --theme Suru++
-    suru-plus-folders -C brown --theme Suru++-Ubuntu
-    ```
+  ```
+  suru-plus-folders -C brown --theme Suru++
+  suru-plus-folders -C brown --theme Suru++-Ubuntu
+  ```
 - Der Standardfarbe von Ordnern für Suru++ 25 oder Suru++ Ubuntu wiederherstellen:
-    ```
-    suru-plus-folders -D --theme Suru++
-    suru-plus-folders -D --theme Suru++ Ubuntu
-    ```
+  ```
+  suru-plus-folders -D --theme Suru++
+  suru-plus-folders -D --theme Suru++ Ubuntu
+  ```
 - Der vorige verwendeten Farbe aus einer Konfigurationsdatei wiederherstellen:
-    ```
-    suru-plus-folders -Ru
-    ```
+  ```
+  suru-plus-folders -Ru
+  ```
 
 ## Wichtiger Vorschlag!
 
@@ -1030,8 +1030,7 @@ Dies ist sehr nützlich für der Farbe zu widerherstellen nach jeder Aktualisier
   </tbody>
 </table>
 
-
-**VORSCHLAG:** Dieses Projekt bietet keine Ordnersiconen. Wenn Sie ein neues Ordnersicon oder eine neue Ordnerfarbe anfordern möchten, öffnen Sie ein *issue* und stellen Sie eine Anforderung [hier](https://github.com/suru-plus/suru-plus/issues/new).
+**VORSCHLAG:** Dieses Projekt bietet keine Ordnersiconen. Wenn Sie ein neues Ordnersicon oder eine neue Ordnerfarbe anfordern möchten, öffnen Sie ein _issue_ und stellen Sie eine Anforderung [hier](https://github.com/suru-plus/suru-plus/issues/new).
 
 # Lizenz
 

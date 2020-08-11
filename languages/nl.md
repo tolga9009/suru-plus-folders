@@ -57,24 +57,24 @@ Soon
 Sommige voorbeelden van gebruik:
 
 - De actuele kleur en beschikbare kleuren voor Suru++ 25 of Suru++ Ubuntu tonen:
-    ```
-    suru-plus-folders -l --theme Suru++
-    suru-plus-folders -l --theme Suru++-Ubuntu
-    ```
+  ```
+  suru-plus-folders -l --theme Suru++
+  suru-plus-folders -l --theme Suru++-Ubuntu
+  ```
 - De kleur van mappen wijzigen in `brown` (bruin) voor Suru++ 25 of Suru++ Ubuntu:
-    ```
-    suru-plus-folders -C brown --theme Suru++
-    suru-plus-folders -C brown --theme Suru++-Ubuntu
-    ```
+  ```
+  suru-plus-folders -C brown --theme Suru++
+  suru-plus-folders -C brown --theme Suru++-Ubuntu
+  ```
 - Naar de standaardkleur van mappen voor Suru++ 25 of Suru++ Ubuntu terugkeren:
-    ```
-    suru-plus-folders -D --theme Suru++
-    suru-plus-folders -D --theme Suru++-Ubuntu
-    ```
+  ```
+  suru-plus-folders -D --theme Suru++
+  suru-plus-folders -D --theme Suru++-Ubuntu
+  ```
 - De laatste gebruikte kleur vanuit een configuratiebestand herstellen:
-    ```
-    suru-plus-folders -Ru
-    ```
+  ```
+  suru-plus-folders -Ru
+  ```
 
 ## Belangrijk advies!
 
@@ -1029,7 +1029,7 @@ Dit is uiterst nuttig voor de standaardkleur te herstellen na elke upgrade van h
   </tbody>
 </table>
 
-**AANDACHT:** Dit project biedt geen mappiconen. Als u een nieuw mappicoon of een nieuwe mapkleur wilt aanvragen, opent u een *issue* en doet u een aanvraag [hier](https://github.com/suru-plus/suru-plus/issues/new).
+**AANDACHT:** Dit project biedt geen mappiconen. Als u een nieuw mappicoon of een nieuwe mapkleur wilt aanvragen, opent u een _issue_ en doet u een aanvraag [hier](https://github.com/suru-plus/suru-plus/issues/new).
 
 # Licentie
 

@@ -16,7 +16,7 @@
 
 # Descrição
 
-O arquivo `suru-plus-folders`  é um executável bash que permite que você mude a cor dos pastas nos temas de ícone [Suru++ 25](https://github.com/suru-plus/suru-plus) e [Suru++ Ubuntu](https://github.com/Bonandry/suru-plus-ubuntu), baseado no `fork` de ícones de pastas do tema de ícones Papirus.
+O arquivo `suru-plus-folders` é um executável bash que permite que você mude a cor dos pastas nos temas de ícone [Suru++ 25](https://github.com/suru-plus/suru-plus) e [Suru++ Ubuntu](https://github.com/Bonandry/suru-plus-ubuntu), baseado no `fork` de ícones de pastas do tema de ícones Papirus.
 
 Neste momento, `suru-plus-folders` não tem uma GUI, mas é um aplicativo de linha de comando totalmente funcional. Antes de ver os exemplos de uso, por favor, instale primeiramente:
 
@@ -57,24 +57,24 @@ Em breve
 Alguns exemplos de uso:
 
 - Mostrar a cor atual e as cores disponíveis para Suru++ 25 ou Suru++ Ubuntu:
-    ```
-    suru-plus-folders -l --theme Suru++
-    suru-plus-folders -l --theme Suru++-Ubuntu
-    ```
+  ```
+  suru-plus-folders -l --theme Suru++
+  suru-plus-folders -l --theme Suru++-Ubuntu
+  ```
 - Mudando a cor de pastas para `brown` (marrom) para Suru++ 25 ou Suru++ Ubuntu:
-    ```
-    suru-plus-folders -C brown --theme Suru++
-    suru-plus-folders -C brown --theme Suru++-Ubuntu
-    ```
+  ```
+  suru-plus-folders -C brown --theme Suru++
+  suru-plus-folders -C brown --theme Suru++-Ubuntu
+  ```
 - Revertir para a cor padrão de pastas para os ícones de `places` do Suru++ 25 ou Suru++ Ubuntu:
-    ```
-    suru-plus-folders -D --theme Suru++
-    suru-plus-folders -D --theme Suru++-Ubuntu
-    ```
+  ```
+  suru-plus-folders -D --theme Suru++
+  suru-plus-folders -D --theme Suru++-Ubuntu
+  ```
 - Restaurar a última cor usada de um arquivo de configuração:
-    ```
-    suru-plus-folders -Ru
-    ```
+  ```
+  suru-plus-folders -Ru
+  ```
 
 ## Aviso importante!
 

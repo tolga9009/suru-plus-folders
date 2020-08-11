@@ -16,7 +16,7 @@
 
 # Descrizione
 
-Il file `suru-plus-folders` è uno *script di bash* che permette di cambiare il colore delle cartelle sui temi di icone [Suru++ 25](https://github.com/suru-plus/suru-plus) e [Suru++ Ubuntu](https://github.com/Bonandry/suru-plus-ubuntu), basato sui cloni delle icone di cartelle di Papirus.
+Il file `suru-plus-folders` è uno _script di bash_ che permette di cambiare il colore delle cartelle sui temi di icone [Suru++ 25](https://github.com/suru-plus/suru-plus) e [Suru++ Ubuntu](https://github.com/Bonandry/suru-plus-ubuntu), basato sui cloni delle icone di cartelle di Papirus.
 
 Al momento, `suru-plus-folders` non ha una GUI, ma è un'applicazione da riga di comando completamente funzionante. Prima di vedere gli esempi di utilizzo, installare innanzitutto:
 
@@ -24,7 +24,7 @@ Al momento, `suru-plus-folders` non ha una GUI, ma è un'applicazione da riga di
 
 ## Distribuzione indipendente
 
-Utilizza lo *script* per installare l'ultima versione direttamente da questo *repository* (indipendentemente dalla tua distribuzione):
+Utilizza lo _script_ per installare l'ultima versione direttamente da questo _repository_ (indipendentemente dalla tua distribuzione):
 
 ### Installando
 
@@ -57,24 +57,24 @@ Nel futuro.
 Alcuni esempi di utilizzo:
 
 - Mostrando il colore attuale ed i colori disponibili per Suru++ 25 o Suru++ Ubuntu:
-    ```
-    suru-plus-folders -l --theme Suru++
-    suru-plus-folders -l --theme Suru++-Ubuntu
-    ```
+  ```
+  suru-plus-folders -l --theme Suru++
+  suru-plus-folders -l --theme Suru++-Ubuntu
+  ```
 - Cambiare il colore delle cartelle in `brown` (marrone) per Suru++ 25 o Suru++ Ubuntu:
-    ```
-    suru-plus-folders -C brown --theme Suru++
-    suru-plus-folders -C brown --theme Suru++-Ubuntu
-    ```
+  ```
+  suru-plus-folders -C brown --theme Suru++
+  suru-plus-folders -C brown --theme Suru++-Ubuntu
+  ```
 - Ripristina il colore predefinito delle cartelle per Suru++ 25 o Suru++ Ubuntu:
-    ```
-    suru-plus-folders -D --theme Suru++
-    suru-plus-folders -D --theme Suru++-Ubuntu
-    ```
+  ```
+  suru-plus-folders -D --theme Suru++
+  suru-plus-folders -D --theme Suru++-Ubuntu
+  ```
 - Ripristina l'ultimo colore utilizzato da un file di configurazione:
-    ```
-    suru-plus-folders -Ru
-    ```
+  ```
+  suru-plus-folders -Ru
+  ```
 
 ## Informazioni importanti!
 
@@ -1029,7 +1029,7 @@ Questo è estremamente utile per ripristinare il colore dopo ogni aggiornamento 
   </tbody>
 </table>
 
-**ATTENTZIONE:** Questo progetto non fornisce alcuna icona di cartella. Se desideri richiedere una nuova icona di cartella o un nuovo colore di cartella, per favore, aprire un *issue* e fare una richiesta [qui](https://github.com/suru-plus/suru-plus/issues/new).
+**ATTENTZIONE:** Questo progetto non fornisce alcuna icona di cartella. Se desideri richiedere una nuova icona di cartella o un nuovo colore di cartella, per favore, aprire un _issue_ e fare una richiesta [qui](https://github.com/suru-plus/suru-plus/issues/new).
 
 # Licenza
 

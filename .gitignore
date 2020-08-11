@@ -9,12 +9,6 @@ e2e-tests/gatsby-pnp/
 public
 test/**/public
 
-# Ficheiros de bloqueio
-package-lock.json
-yarn.lock
-## Ignorar qualquer ficheiro de bloqueio diferente do ficheiro de bloqueio principal
-!/yarn.lock
-
 # Logs
 logs
 *.log

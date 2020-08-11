@@ -16,7 +16,7 @@
 
 # Descrição
 
-O ficheiro `suru-plus-folders`  é um executável bash que permite que você modifique a cor dos directórios nos temas de ícone [Suru++ 25](https://github.com/suru-plus/suru-plus) e [Suru++ Ubuntu](https://github.com/Bonandry/suru-plus-ubuntu), baseado no clone de ícones de directórios do tema de ícones Papirus.
+O ficheiro `suru-plus-folders` é um executável bash que permite que você modifique a cor dos directórios nos temas de ícone [Suru++ 25](https://github.com/suru-plus/suru-plus) e [Suru++ Ubuntu](https://github.com/Bonandry/suru-plus-ubuntu), baseado no clone de ícones de directórios do tema de ícones Papirus.
 
 Neste momento, `suru-plus-folders` não possui uma interface gráfica do utilizador, mas é uma aplicação de linha de comando totalmente funcional. Antes de visualizar os exemplos de utilização, por favor, instale primeiramente:
 
@@ -57,24 +57,24 @@ Em breve
 Alguns exemplos de utilização:
 
 - Mostrar a cor actual e as cores disponíveis para Suru++ 25 ou Suru++ Ubuntu:
-    ```
-    suru-plus-folders -l --theme Suru++
-    suru-plus-folders -l --theme Suru++-Ubuntu
-    ```
+  ```
+  suru-plus-folders -l --theme Suru++
+  suru-plus-folders -l --theme Suru++-Ubuntu
+  ```
 - Modificar a cor de directórios para `brown` (marrom) para Suru++ 25 ou Suru++ Ubuntu:
-    ```
-    suru-plus-folders -C brown --theme Suru++
-    suru-plus-folders -C brown --theme Suru++-Ubuntu
-    ```
+  ```
+  suru-plus-folders -C brown --theme Suru++
+  suru-plus-folders -C brown --theme Suru++-Ubuntu
+  ```
 - Revertir para a cor padrão de directórios para os ícones de `places` do Suru++ 25 ou Suru++ Ubuntu:
-    ```
-    suru-plus-folders -D --theme Suru++
-    suru-plus-folders -D --theme Suru++-Ubuntu
-    ```
+  ```
+  suru-plus-folders -D --theme Suru++
+  suru-plus-folders -D --theme Suru++-Ubuntu
+  ```
 - Restaurar a última cor utilizada a partir dum ficheiro de configuração:
-    ```
-    suru-plus-folders -Ru
-    ```
+  ```
+  suru-plus-folders -Ru
+  ```
 
 ## Advertência importante!
 

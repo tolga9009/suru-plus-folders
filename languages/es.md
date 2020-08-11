@@ -16,15 +16,15 @@
 
 # Descripción
 
-El archivo `suru-plus-folders` es un *script bash* que permite cambiar el color de las carpetas del [tema de iconos de Suru++ 25](https://github.com/suru-plus/suru-plus), basado en los clones de iconos de carpetas de Papirus.
+El archivo `suru-plus-folders` es un _script bash_ que permite cambiar el color de las carpetas del [tema de iconos de Suru++ 25](https://github.com/suru-plus/suru-plus), basado en los clones de iconos de carpetas de Papirus.
 
 Por el momento `suru-plus-folders` no tiene una GUI, pero es una aplicación de línea de comandos completamente funcional. Antes de ver los ejemplos de uso, instale primero:
 
 # Instalación
 
-## Distribuición independiente 
+## Distribuición independiente
 
-Utilice el *script* para instalar la última versión directamente de este repositorio (independientemente de su distribución):
+Utilice el _script_ para instalar la última versión directamente de este repositorio (independientemente de su distribución):
 
 ### Instalando
 
@@ -57,21 +57,21 @@ Lo más pronto posible
 Algunos ejemplos de utilización:
 
 - Mostrando el color actual y colores disponibles para Suru++:
-    ```
-    suru-plus-folders -l --theme Suru++
-    ```
+  ```
+  suru-plus-folders -l --theme Suru++
+  ```
 - Cambiar el color de las carpetas a `brown` (marrón) para Suru++:
-    ```
-    suru-plus-folders -C brown --theme Suru++
-    ```
+  ```
+  suru-plus-folders -C brown --theme Suru++
+  ```
 - Revertir al color original de las carpetas de Suru++:
-    ```
-    suru-plus-folders -D --theme Suru++
-    ```
+  ```
+  suru-plus-folders -D --theme Suru++
+  ```
 - Restaurar el último color utilizado de un archivo de configuración:
-    ```
-    suru-plus-folders -Ru
-    ```
+  ```
+  suru-plus-folders -Ru
+  ```
 
 ## ¡Consejo importante!
 
@@ -1026,7 +1026,7 @@ Esto es extremadamente útil para restaurar el color después de cada actualizac
   </tbody>
 </table>
 
-**OBSERVACIÓN:** Este proyecto no proporciona ningún ícono de carpeta. Si usted desea solicitar un nuevo icono de carpeta o un nuevo color de carpeta, abra un *issue* y realice una solicitud [aquí](https://github.com/suru-plus/suru-plus/issues/new).
+**OBSERVACIÓN:** Este proyecto no proporciona ningún ícono de carpeta. Si usted desea solicitar un nuevo icono de carpeta o un nuevo color de carpeta, abra un _issue_ y realice una solicitud [aquí](https://github.com/suru-plus/suru-plus/issues/new).
 
 # Licencia
 

@@ -24,7 +24,7 @@ Le fichier `suru-plus-folders` est un `script bash` qui permet de changer la cou
 
 ## Distribution indépendante
 
-Utilisez le *script* pour installer la dernière version directement à partir de ce répositoire (indépendamment de votre distribution) :
+Utilisez le _script_ pour installer la dernière version directement à partir de ce répositoire (indépendamment de votre distribution) :
 
 ### Installer
 
@@ -57,24 +57,24 @@ Bientôt
 Quelques exemples d'utilisation :
 
 - Afficher de la couleur actuelle et des couleurs disponibles pour Suru++ 25 ou Suru++ Ubuntu :
-    ```
-    suru-plus-folders -l --theme Suru++
-    suru-plus-folders -l --theme Suru++-Ubuntu
-    ```
+  ```
+  suru-plus-folders -l --theme Suru++
+  suru-plus-folders -l --theme Suru++-Ubuntu
+  ```
 - Changer la colour des dossiers en `brown` (brun) pour Suru++ 25 ou Suru++ Ubuntu :
-    ```
-    suru-plus-folders -C brown --theme Suru++
-    suru-plus-folders -C brown --theme Suru++-Ubuntu
-    ```
+  ```
+  suru-plus-folders -C brown --theme Suru++
+  suru-plus-folders -C brown --theme Suru++-Ubuntu
+  ```
 - Revenir à la couleur originelle des dossiers pour Suru++ 25 ou Suru++ Ubuntu :
-    ```
-    suru-plus-folders -D --theme Suru++
-    suru-plus-folders -D --theme Suru++-Ubuntu
-    ```
+  ```
+  suru-plus-folders -D --theme Suru++
+  suru-plus-folders -D --theme Suru++-Ubuntu
+  ```
 - Restaurer la dernière couleur utilisée à partir d'un fichier de configuration:
-    ```
-    suru-plus-folders -Ru
-    ```
+  ```
+  suru-plus-folders -Ru
+  ```
 
 ## Avis important !
 
@@ -1029,7 +1029,7 @@ Ceci est extrêmement utile pour restaurer la couleur après chaque mise à nive
   </tbody>
 </table>
 
-**REMARQUE :** Ce projet ne fournit aucune icône de dossier. Si vous souhaitez demander une nouvelle icône de dossier ou une nouvelle couleur de dossier, ouvrez un *issue* et faites une demande [ici](https://github.com/suru-plus/suru-plus/issues/new).
+**REMARQUE :** Ce projet ne fournit aucune icône de dossier. Si vous souhaitez demander une nouvelle icône de dossier ou une nouvelle couleur de dossier, ouvrez un _issue_ et faites une demande [ici](https://github.com/suru-plus/suru-plus/issues/new).
 
 # Licence
 

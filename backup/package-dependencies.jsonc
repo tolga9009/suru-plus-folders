@@ -1,0 +1,43 @@
+{
+  // For smakosh/gatsby-starter-i18n (Gatsby Starter i18n)
+  // Ismail Ghallou
+  "i81n-smakosh":
+  { 
+    "babel-plugin-styled-components": "^1.8.0",
+    "gatsby": "^2.13.21",
+    "gatsby-plugin-canonical-urls": "^2.1.2",
+    "gatsby-plugin-catch-links": "^2.1.2",
+    "gatsby-plugin-google-analytics": "^2.1.4",
+    "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-manifest": "^2.2.3",
+    "gatsby-plugin-netlify": "^2.1.3",
+    "gatsby-plugin-nprogress": "^2.0.5",
+    "gatsby-plugin-offline": "^2.2.4",
+    "gatsby-plugin-react-helmet": "^3.1.2",
+    "gatsby-plugin-styled-components": "^3.0.0",
+    "gatsby-source-filesystem": "^2.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.0",
+    "react-intl": "^2.7.0",
+    "recompose": "^0.30.0",
+    "styled-components": "^4.3.2"
+  },
+  // For PhraseApp-Blog/gatsby-i18next-example (i81n Starter)
+  // Theofanis Despoudis
+  "i81n-theodesp":
+  {
+    "@wapps/gatsby-i18n": "1.1.6",
+    "@wapps/gatsby-plugin-i18next": "1.1.6",
+    "gatsby-plugin-manifest": "2.1.1",
+    "gatsby-plugin-offline": "2.1.1",
+    "gatsby-plugin-react-helmet": "3.0.12",
+    "gatsby-source-filesystem": "2.0.38",
+    "i18next": "19.4.4",
+    "react-dom": "16.8.6",
+    "react-helmet": "5.2.1",
+    "react-i18next-phraseapp": "2.0.1",
+    "react-i18next": "11.4.0",
+    "react": "16.8.6"
+  }
+}
