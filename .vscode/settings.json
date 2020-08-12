@@ -29,12 +29,12 @@
     "node_modules/**": true
   },
   "spellright.language": [
-    "en_GB"
+    "en_GB",
+    "pt_PT"
   ],
   "spellright.documentTypes": 
   [
     "css",
-    "html",
     "latex",
     "php",
     "python"

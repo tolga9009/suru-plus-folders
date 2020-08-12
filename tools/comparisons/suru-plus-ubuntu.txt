@@ -1,0 +1,12 @@
+aubergine
+blue
+bordeaux
+canonical
+cyan
+darkblue
+green
+orange
+purple
+red
+vermillion
+yellow
