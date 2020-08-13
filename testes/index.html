@@ -28,7 +28,7 @@
         // Adwaita++
         Set_html.add(`<h1>${titles[0]}</h1>`)
 
-        Set.add(`
+        Set_html.add(`
         <table style="margin-left: auto; margin-right: auto;">
           <thead>
             <tr>
@@ -36,8 +36,7 @@
               <th style="text-align:center">Preview</th>
             </tr>
           </thead>
-          <tbody>
-        `)
+          <tbody>`);
         
         let fake_colours = JSON.parse(JSON.stringify(colours))
         fake_colours.splice(fake_colours.indexOf('90ssummer'), 1)
@@ -77,12 +76,9 @@
           }
         }
 
-        Set_html.add(
-          `
+        Set_html.add(`
           </tbody>
-        </table>
-          `
-        )
+        </table>`);
       } 
 
       else if (style == "suru") 
@@ -90,7 +86,7 @@
         // Suru++
         Set_html.add(`<h1>${titles[1]}</h1>`)
 
-        Set.add(`
+        Set_html.add(`
         <table style="margin-left: auto; margin-right: auto;">
           <thead>
             <tr>
@@ -98,8 +94,7 @@
               <th style="text-align:center">Preview</th>
             </tr>
           </thead>
-          <tbody>
-        `)
+          <tbody>`);
 
         let fake_colours = JSON.parse(JSON.stringify(colours))
         fake_colours.splice(fake_colours.indexOf('adwaita'), 1)
@@ -125,12 +120,9 @@
           }
         }
 
-        Set_html.add(
-          `
+        Set_html.add(`
           </tbody>
-        </table>
-          `
-        )    
+        </table>`);
       } 
 
       else 
@@ -138,7 +130,7 @@
         // Suru++ Ubuntu
         Set_html.add(`<h1>${titles[2]}</h1>`)
 
-        Set.add(`
+        Set_html.add(`
         <table style="margin-left: auto; margin-right: auto;">
           <thead>
             <tr>
@@ -146,8 +138,7 @@
               <th style="text-align:center">Preview</th>
             </tr>
           </thead>
-          <tbody>
-        `)
+          <tbody>`);
 
         let fake_colours = JSON.parse(JSON.stringify(colours))
         fake_colours.splice(fake_colours.indexOf('90ssummer'), 1)
@@ -188,18 +179,15 @@
             Set_html.add(`<tr>
                             <th>${colour}</th>
                             <td>
-                              <img src="../images/${styles[2]}-plus/folder-${colour}-${category}.svg?sanitize=true" height="48px" width="48px" alt="folder-${colour}-${category}">
+                              <img src="../images/${styles[2]}-ubuntu/folder-${colour}-${category}.svg?sanitize=true" height="48px" width="48px" alt="folder-${colour}-${category}">
                             </td>
                           </tr>`);
           }
         }
 
-        Set_html.add(
-          `
+        Set_html.add(`
           </tbody>
-        </table>
-          `
-        )   
+        </table>`);
       }
     }
   }
