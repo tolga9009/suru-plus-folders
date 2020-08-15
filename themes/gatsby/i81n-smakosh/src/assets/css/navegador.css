@@ -1,0 +1,101 @@
+ul#menu
+{
+  background: #333333;
+  box-shadow: 0 -1px rgba(0, 0, 0, .5) inset;
+  color: #eeeeee;
+  height: 3em;
+  margin: 0;
+  padding: 0 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ul#menu > li
+{
+  float: left;
+  list-style-type: none;
+  position: relative;
+}
+
+label
+{
+  cursor: pointer;
+  display: block;
+  line-height: 3em;
+  padding: 0 18px 0 12px;
+  position: relative;
+  transition: background .3s;
+}
+
+label:after
+{
+  border-bottom: 0 solid rgba(255, 255, 255, .5);
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid rgba(255, 255, 255, .5);
+  content: "";
+  display: block;
+  height: 0;
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transition: border-bottom .1s, border-top .1s .1s;
+  width: 0;
+}
+
+label:hover,
+input:checked ~ label
+{
+  background: rgba(0, 0, 0, .3);
+}
+
+input:checked ~ label:after
+{
+  border-bottom: 4px solid rgba(255, 255, 255, .5);
+  border-top: 0 solid rgba(255, 255, 255, .5);
+  transition: border-top .1s, border-bottom .1s .1s;
+}
+
+/*hide the inputs*/
+input
+{
+  display: none;
+}
+
+/*show the second levele menu of the selected voice*/
+input:checked ~ ul.submenu
+{
+  max-height: 300px;
+  transition: max-height .5s ease-in;
+}
+
+/*style for the second level menu*/
+ul.submenu
+{
+  background: #444444;
+  box-shadow: 0 0 1px rgba(0, 0, 0, .3);
+  list-style-type: none;
+  max-height: 0;
+  min-width: 100%;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  transition: max-height .5s ease-out;
+}
+
+ul.submenu li a
+{
+  box-shadow: 0 -1px rgba(0, 0, 0, .5) inset;
+  color: #dddddd;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  transition: background .3s;
+  white-space: nowrap;
+}
+
+ul.submenu li a:hover
+{
+  background: rgba(0, 0, 0, .3);
+}

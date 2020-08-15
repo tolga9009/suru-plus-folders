@@ -1,4 +1,5 @@
 import React from 'react'
+import styled from 'styled-components'
 import { FormattedMessage } from 'react-intl'
 import { Layout, Container } from '../components/common'
 import SEO from '../components/common/SEO'
@@ -9,13 +10,17 @@ const NotFoundPage = () => (
 		<React.Fragment>
 			<SEO title="not_found" />
 			<Header />
-			<Container>
+			<NotFound as={Container}>
 				<h2>
 					<FormattedMessage id="not_found" />
 				</h2>
-			</Container>
+			</NotFound>
 		</React.Fragment>
 	</Layout>
 )
+
+const NotFound = styled.div`
+	padding: 6rem 0;
+`
 
 export default NotFoundPage

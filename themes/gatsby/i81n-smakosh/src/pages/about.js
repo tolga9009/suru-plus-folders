@@ -20,7 +20,7 @@ const AboutPage = () => (
 )
 
 const Welcome = styled.div`
-	padding: 2rem 0;
+	padding: 6rem 0;
 `
 
 export default AboutPage

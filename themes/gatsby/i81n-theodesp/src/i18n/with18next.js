@@ -3,7 +3,7 @@ import { I18nextProvider } from 'react-i18next';
 import { I18nProvider } from '@wapps/gatsby-i18n';
 import { PhraseAppProvider } from 'react-i18next-phraseapp';
 
-import setupI18next from './setupI18next';
+import setupI18next from './setupi18next';
 
 const withI18nextPhraseApp = (options = {}) => Comp => {
   class I18n extends Component {
