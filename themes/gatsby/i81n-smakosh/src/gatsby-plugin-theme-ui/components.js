@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui'
-import code from '../components/code'
-import Note from '../components/note'
+import code from '../components/theme-ui/code'
+import Note from '../components/theme-ui/note'
 
 const heading = Tag => props =>
   !!props.id ? (

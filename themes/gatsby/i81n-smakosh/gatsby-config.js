@@ -148,6 +148,7 @@ module.exports =
 		`gatsby-transformer-sharp`,
 		`gatsby-transformer-json`,
 
+		`gatsby-plugin-theme-ui`,
 		`theme-ui`,
 		
 		// 🇵🇹 Estes plugins precisam estar no último lugar

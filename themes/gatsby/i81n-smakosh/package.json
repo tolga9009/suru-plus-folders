@@ -7,6 +7,13 @@
   "dependencies": {
     "@mdx-js/mdx": "^1.6.16",
     "@mdx-js/react": "^1.6.16",
+    "@theme-ui/presets": "^0.3.0",
+    "@theme-ui/prism": "^0.3.0",
+    "@types/react-helmet": "^6.1.0",
+    "@types/react-intl": "^3.0.0",
+    "@types/recompose": "^0.30.7",
+    "@types/styled-components": "^5.1.2",
+    "@types/theme-ui": "^0.3.6",
     "@wapps/gatsby-plugin-i18next": "^1.1.6",
     "babel-plugin-styled-components": "^1.8.0",
     "gatsby": "^2.24.42",
@@ -29,6 +36,7 @@
     "gatsby-plugin-sharp": "^2.6.26",
     "gatsby-plugin-styled-components": "^3.0.0",
     "gatsby-plugin-styled-jsx": "^3.3.11",
+    "gatsby-plugin-theme-ui": "^0.3.0",
     "gatsby-remark-autolink-headers": "^2.3.11",
     "gatsby-remark-copy-linked-files": "^2.3.12",
     "gatsby-remark-images": "^3.3.25",
@@ -47,6 +55,7 @@
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
     "react-intl": "^2.7.0",
+    "react-live": "^2.2.2",
     "react-router-dom": "^5.2.0",
     "recompose": "^0.30.0",
     "styled-components": "^4.3.2",
@@ -72,7 +81,7 @@
     "yaru",
     "yaru-plus"
   ],
-  "license": "MIT",
+  "license": "MIT+",
   "main": "n/a",
   "scripts": {
     "deploy_public": "gatsby build && gh-pages -d public",
@@ -88,6 +97,7 @@
     "testj": "jest"
   },
   "devDependencies": {
+    "@theme-ui/core": "^0.3.1",
     "babel-eslint": "^10.0.1",
     "codecov": "^3.7.2",
     "eslint": "^5.6.1",
