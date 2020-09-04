@@ -1,0 +1,144 @@
+@media screen and (max-width: 568px)
+{
+  table 
+	{
+    display: block;
+  }
+
+  table > *, table tr, table td, table th 
+	{
+    display: block;
+  }
+
+  table thead 
+	{
+    display: none;
+  }
+
+  table tbody tr 
+	{
+    height: auto;
+    padding: 8px 0;
+  }
+
+  table tbody tr td 
+	{
+    margin-bottom: 12px;
+    padding-left: 45%;
+  }
+
+  table tbody tr td:last-child 
+	{
+    margin-bottom: 0;
+  }
+
+  table tbody tr td:before 
+	{
+    font-weight: 700;
+    left: 10px;
+    position: absolute;
+    top: 0;
+    width: 40%;
+  }
+
+  table tbody tr td:nth-child(1):before 
+	{
+    content: "Code";
+  }
+
+  table tbody tr td:nth-child(2):before
+	{
+    content: "Blur";
+  }
+
+  table tbody tr td.alternative-icons:nth-child(2):before
+	{
+    content: "Alt 1";
+  }
+
+  table tbody tr td:nth-child(3):before 
+	{
+    content: "Drop shadow";
+  }
+
+  table tbody tr td.alternative-icons:nth-child(3):before 
+	{
+    content: "Alt 2";
+  }
+
+  table tbody tr td:nth-child(4):before 
+	{
+    content: "Inner shadow";
+  }
+
+  table tbody tr td.alternative-icons:nth-child(4):before 
+	{
+    content: "Alt 3";
+  }
+
+  table tbody tr td:nth-child(5):before 
+	{
+    content: "Box Type";
+  }
+
+  table tbody tr td.alternative-icons:nth-child(5):before 
+	{
+    content: "Alt 4";
+  }
+
+  table tbody tr td.alternative-icons:nth-child(6):before 
+	{
+    content: "Alt 5";
+  }
+}
+
+@media screen and (max-width: 600px)
+{
+  .topnav a:not(:first-child), .dropdown .dropbtn
+  {
+    display: none;
+  }
+
+  .topnav a.icon
+  {
+    display: block;
+    float: right;
+  }
+
+  .sidebar { padding-top: 15px; }
+  .sidebar a { font-size: 18px; }
+
+  .sidebar.bottom
+  {
+    bottom: -15px;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    top: auto;
+    width: 100%;
+  }
+
+  .sidebar a, .sidebar.bottom a
+  {
+    color: #818181;
+    display: block;
+    font-size: 25px;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    transition: .3s;
+  }
+
+  #footer > p
+  {
+    hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    -webkit-hyphens: none;
+    line-height: 24px;
+  }
+
+  #footer-menu li 
+  {
+    line-height: 24px;
+  } 
+}

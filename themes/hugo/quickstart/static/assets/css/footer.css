@@ -1,0 +1,38 @@
+#footer 
+{
+	background: var(--papirus);
+	border-top: 4px solid transparent;
+  border-image: var(--css-tricks-right);
+  border-image-slice: 1;
+	color: var(--papirus-light);
+	font-size: 12px;
+	padding: 1em;
+  text-align: center;
+  width: 100%;
+
+  clear: both;
+  margin-top: auto; 
+}
+
+#footer .active
+{
+  border-radius: 2px;
+  padding: 4px;
+}
+
+#footer > p
+{
+  text-align: center;
+}
+
+#footer-menu
+{
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#footer-menu li
+{
+	display: inline;
+}

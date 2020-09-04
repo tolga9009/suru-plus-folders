@@ -1,0 +1,216 @@
+title: Suru++ Folders
+description: List of Suru++, Adwaita++ and Yaru++ icons tables.
+author:
+  homepage: 'https://suru-plus/lan'
+  name: Suru++ Project
+copyright: '© {{ now.Format "2006" }}, All Rights Reserved'
+
+baseURL: ''
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+enableEmoji: true
+languageCode: en
+layoutDir: layouts
+publishDir: public
+theme: ''
+
+params:
+  custom_css:
+    - css/fonts.css
+    - css/icons.css
+    - css/global.css
+    - css/header.css
+    - css/footer.css
+    - css/media-query.css
+  custom_js:
+    - javascript/header.js
+    - javascript/sidebars.js
+    - javascript/themes-switcher.js
+  description: List of Suru++, Adwaita++ and Yaru++ icons tables.
+  home: Home
+  themes:
+    - data: ""
+      name: Default
+      weight: 1
+    - data: theme-dark
+      name: Dark
+      weight: 2
+    - data: theme-lime
+      name: Lime Green
+      weight: 3
+    - data: theme-perl
+      name: Perl White
+      weight: 4
+    - data: theme-royal
+      name: Royal Blue
+      weight: 5
+
+languages:
+  en:
+    languageName: English
+    weight: 1
+    menu:
+      main:
+        - url: /
+          name: Home
+          weight: 1
+        - url: /projects/
+          name: Projects
+          weight: 2
+        - url: /contact/
+          name: Contact
+          weight: 3
+      footer:
+        - url: /about/
+          name: About
+          weight: 1
+        - url: /licence/
+          name: Licence
+          weight: 2
+        - url: /privacy/
+          name: Privacy
+          weight: 3
+        - url: /colophon/
+          name: Colophon
+          weight: 4
+
+  fr:
+    languageName: Français
+    weight: 2
+    description:  Liste des tables d’icônes Suru++, Adwaita++ et Yaru++.
+    home: Accueil
+    title: Suru++ Dossiers
+    menu:
+      main:
+        - url: /
+          name: Accueil
+          weight: 1
+        - url: /projets/
+          name: Projets
+          weight: 2
+        - url: /contact/
+          name: Contact
+          weight: 3
+      footer:
+        - url: /a-propos/
+          name: À Propos
+          weight: 1
+        - url: /licence/
+          name: Licence
+          weight: 2
+        - url: /confidentialite/
+          name: Confidentialité
+          weight: 3
+        - url: /colophon/
+          name: Colophon
+          weight: 4
+    themes:
+      - data: ""
+        name: Défaut
+        weight: 1
+      - data: theme-dark
+        name: Sombre
+        weight: 2
+      - data: theme-lime
+        name: Vert Citron
+        weight: 3
+      - data: theme-perl
+        name: Blanc Perl
+        weight: 4
+      - data: theme-royal
+        name: Bleu Royal
+        weight: 5
+
+  pt:
+    languageName: Português Europeu
+    weight: 3
+    description: Lista de tabelas de ícones de temas Suru++, Adwaita++ e Yaru++.
+    home: Início
+    title: Suru++ Diretórios
+    menu:
+      main:
+        - url: /
+          name: Início
+          weight: 1
+        - url: /projetos/
+          name: Projetos
+          weight: 2
+        - url: /contato/
+          name: Contato
+          weight: 3
+      footer:
+        - url: /acerca/
+          name: Acerca
+          weight: 1
+        - url: /licenca/
+          name: Licença
+          weight: 2
+        - url: /privacidade/
+          name: Privacidade
+          weight: 3
+        - url: /colofao/
+          name: Colofão
+          weight: 4
+    themes:
+      - data: ""
+        name: Padrão
+        weight: 1
+      - data: theme-dark
+        name: Escuro
+        weight: 2
+      - data: theme-lime
+        name: Verde-limão
+        weight: 3
+      - data: theme-perl
+        name: Pérola Branca
+        weight: 4
+      - data: theme-royal
+        name: Azul Real
+        weight: 5
+
+  pt-BR:
+    languageName: Português Brasileiro
+    weight: 3
+    description: Lista de tabelas de ícones de temas Suru++, Adwaita++ e Yaru++.
+    home: Início
+    title: Suru++ Pastas
+    menu:
+      main:
+        - url: /
+          name: Início
+          weight: 1
+        - url: /projetos/
+          name: Projetos
+          weight: 2
+        - url: /contato/
+          name: Contato
+          weight: 3
+      footer:
+        - url: /sobre/
+          name: Sobre
+          weight: 1
+        - url: /licenca/
+          name: Licença
+          weight: 2
+        - url: /privacidade/
+          name: Privacidade
+          weight: 3
+        - url: /colofao/
+          name: Colofão
+          weight: 4
+    themes:
+      - data: ""
+        name: Padrão
+        weight: 1
+      - data: theme-dark
+        name: Escuro
+        weight: 2
+      - data: theme-lime
+        name: Verde-limão
+        weight: 3
+      - data: theme-perl
+        name: Pérola Branca
+        weight: 4
+      - data: theme-royal
+        name: Azul Real
+        weight: 5
