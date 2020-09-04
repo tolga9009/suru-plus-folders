@@ -23,7 +23,7 @@ module.exports = {
 	},
 	address: {
 		city: 'Errachidia',
-		region: 'Drâa-Tafilalet',
+		region: 'DrÃ¢a-Tafilalet',
 		country: 'Morocco',
 		zipCode: '52000'
 	},

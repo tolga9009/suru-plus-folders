@@ -1,7 +1,7 @@
 module.exports = {
 	title: 'Gatsby',
 	legalName: 'Ismail Ghallou',
-	description: 'Pacote de iniciação de internalização Gatsby',
+	description: 'Pacote de iniciaÃ§Ã£o de internalizaÃ§Ã£o Gatsby',
 	address: {
 		city: 'Errachidia',
 		region: 'Deraa Tafilalet',
