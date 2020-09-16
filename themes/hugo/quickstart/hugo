@@ -1,4 +1,0 @@
-#!/bin/zsh
-
-killall -9 hugo 
-hugo server --config config.yaml -l 'layouts' -b suru-plus.lan -p 1989 -F --gc

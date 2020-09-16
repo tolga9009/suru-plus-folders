@@ -14,7 +14,10 @@ logs
 *.log
 
 # Nodejs e NPM
+node_gatsby
+node_hugo
 node_modules
+node_modules*
 
 # Os starters são especiais; queremos manter os ficheiros de bloqueio
 !starters/*/package-lock.json

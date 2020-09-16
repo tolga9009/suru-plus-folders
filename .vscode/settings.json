@@ -1,13 +1,22 @@
 {
+  "colorize.include": ["*.txt"],
+  "colorize.colorized_colors": 
+  [
+    "HEXA",
+    "RGB"
+  ],
   "editor.tokenColorCustomizations": 
   {
     "textMateRules": 
     [
       {
-        "scope": "log.error",
+        "scope": 
+        [
+            "comment",
+            "log.error"
+        ],
         "settings": 
         {
-          "foreground": "#af1f1f",
           "fontStyle": "bold"
         }
       },
@@ -21,14 +30,17 @@
       }
     ]
   },
+  "git.ignoreLimitWarning": true,
   "liveServer.settings.CustomBrowser": "firefox",
+  "liveServer.settings.port": 1990,
   "material-icon-theme.folders.color": "#ef5350",
   "search.exclude": 
   {
     "public/**": true,
     "node_modules/**": true
   },
-  "spellright.language": [
+  "spellright.language": 
+  [
     "en_GB",
     "pt_PT"
   ],
@@ -38,5 +50,13 @@
     "latex",
     "php",
     "python"
-  ]
+  ],
+  "workbench.colorCustomizations": 
+  {
+    "tab.activeBorder": "#67af7c",
+    "titleBar.activeBackground": "#67af7c",
+    "titleBar.activeForeground": "#ffffff",
+    "statusBar.background": "#67af7c",
+    "statusBar.foreground": "#ffffff"
+  }
 }

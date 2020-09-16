@@ -1,11 +1,18 @@
 {
-  "env": {
+  "env": 
+  {
     "browser": true
   },
-  "globals": {
+  "globals": 
+  {
     "graphql": false
   },
-  "rules": {
+  "plugins": 
+  [
+    "jsx-a11y"
+  ],
+  "rules": 
+  {
     "react/prop-types": [0]
   }
 }
