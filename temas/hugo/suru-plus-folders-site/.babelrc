@@ -1,0 +1,29 @@
+// {
+//   "presets": 
+//   [
+//     [
+//       "@babel/preset-env",
+//       {
+//         "corejs": 3,
+//         "useBuiltIns": "usage"
+//       }
+//     ],
+//     [ "@babel/env", "@babel/react" ],
+//   ]
+// }
+
+{
+  "presets": 
+  [
+    [
+      "@babel/preset-env",
+      {
+        "targets": 
+        {
+          "node": "10"
+        }
+      }
+    ],
+    "@babel/react"
+  ]
+}

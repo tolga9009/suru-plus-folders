@@ -1,10 +1,25 @@
 {
-  "colorize.include": ["*.txt"],
+  "colorize.include": 
+  [
+    "*.txt"
+  ],
   "colorize.colorized_colors": 
   [
     "HEXA",
     "RGB"
   ],
+  "colorize.colorized_variables": 
+  [
+    "LESS"
+  ],
+  "customizeUI.activityBar": "bottom",
+  "customizeUI.listRowHeight": 26,
+  "customizeUI.stylesheet": 
+  {
+    ".explorer-viewlet": "font-size: 16px !important; overflow: auto; border-left: none !important",
+    ".monaco-icon-label:before": "background-size: 20px; height: 32px; width: 20px;",
+    ".monaco-tl-twistie": "padding-top: 6px"
+  },
   "editor.tokenColorCustomizations": 
   {
     "textMateRules": 

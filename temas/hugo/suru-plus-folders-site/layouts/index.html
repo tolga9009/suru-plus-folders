@@ -1,0 +1,17 @@
+{{define "main"}}
+
+	{{ if .IsTranslated }}
+
+	<p>
+		I am trying to test...
+	</p>
+
+	{{- partial "themes.html" . -}}
+
+	<p>
+		If it works…
+	</p>
+
+	{{ end }}
+
+{{ end }}

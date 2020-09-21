@@ -1,0 +1,10 @@
+# Footer
+
+- id: footer_copyright
+  translation: "© 2019-{{ .currentYear }} Suru++ Folders by Suru++ Project and Andrea Bonanni. All Rights Reserved."
+- id: powered
+  translation: "Powered by"
+- id: original_author
+  translation: "Theme <a href=\"https://github.com/J-Siu/hugo-theme-sk1/\">SK1</a> created by <a href=\"https://github.com/J-Siu/\">J-Siu</a>."
+- id: made
+  translation: "Made with <span role=\"img\" aria-label=\"Heart\">❤</span> and <span role=\"img\" aria-label=\"Coffee\">☕</span> in <span role=\"img\" aria-label=\"Brazil\">🇧🇷</span> :-)"
