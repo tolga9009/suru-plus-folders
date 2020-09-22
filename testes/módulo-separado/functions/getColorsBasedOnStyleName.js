@@ -3,7 +3,10 @@
 
 import getColorsCopy from './getColorsCopy.js';
 
-function getColorsBasedOnTheStyle(style) {
+/**
+ * @param {string} styleName
+ */
+function getColorsBasedOnStyleName(styleName) {
   const styleColors = {
     'adwaita-plus': () => {
       const fakeColors = getColorsCopy();
@@ -63,10 +66,10 @@ function getColorsBasedOnTheStyle(style) {
     },
   };
 
-  const hasTheStyleColorBeenFound = styleColors[style];
+  const hasTheStyleColorBeenFound = styleColors[styleName];
   if (hasTheStyleColorBeenFound) {
-    return styleColors[style]();
+    return styleColors[styleName]();
   }
 }
 
-export default getColorsBasedOnTheStyle;
+export default getColorsBasedOnStyleName;

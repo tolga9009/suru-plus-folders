@@ -3,7 +3,10 @@
 
 import getCategoriesCopy from './getCategoriesCopy.js';
 
-function getCategoriesBasedOnTheStyle(style) {
+/**
+ * @param {string} styleName
+ */
+function getCategoriesBasedOnStyleName(styleName) {
   const styleCategories = {
     'adwaita-plus': () => {
       const fakeCategories = getCategoriesCopy();
@@ -26,10 +29,10 @@ function getCategoriesBasedOnTheStyle(style) {
     },
   };
 
-  const hasTheStyleCategoriesBeenFound = styleCategories[style];
+  const hasTheStyleCategoriesBeenFound = styleCategories[styleName];
   if (hasTheStyleCategoriesBeenFound) {
-    return styleCategories[style]();
+    return styleCategories[styleName]();
   }
 }
 
-export default getCategoriesBasedOnTheStyle;
+export default getCategoriesBasedOnStyleName;
