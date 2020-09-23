@@ -1,6 +1,10 @@
-[submodule "site-hugo/themes/ananke"]
-	path = site-hugo/themes/ananke
+ 
+[submodule "temas/hugo/suru-plus-folders-site/themes/anake"]
+	path = temas/hugo/suru-plus-folders-site/themes/anake
 	url = https://github.com/budparr/gohugo-theme-ananke.git
-[submodule "site-hugo/themes/zzo"]
-	path = site-hugo/themes/zzo
+[submodule "temas/hugo/suru-plus-folders-site/themes/zzo"]
+	path = temas/hugo/suru-plus-folders-site/themes/zzo
 	url = https://github.com/zzossig/hugo-theme-zzo.git
+[submodule "temas/hugo/suru-plus-folders-site/themes/sk1"]
+	path = temas/hugo/suru-plus-folders-site/themes/sk1
+	url = https://github.com/J-Siu/hugo-theme-sk1
