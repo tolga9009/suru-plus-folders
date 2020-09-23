@@ -1,6 +1,6 @@
-[submodule "themes/ananke"]
-	path = themes/ananke
+[submodule "site-hugo/themes/ananke"]
+	path = site-hugo/themes/ananke
 	url = https://github.com/budparr/gohugo-theme-ananke.git
-[submodule "themes/zzo"]
-	path = themes/zzo
+[submodule "site-hugo/themes/zzo"]
+	path = site-hugo/themes/zzo
 	url = https://github.com/zzossig/hugo-theme-zzo.git
