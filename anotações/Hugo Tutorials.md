@@ -5,6 +5,10 @@
 - [Hugo Page Resources](https://regisphilibert.com/blog/2018/01/hugo-page-resources-and-how-to-use-them/)
 - [Hugo Pipes Revolution](https://regisphilibert.com/blog/2018/07/hugo-pipes-and-asset-processing-pipeline/)
 
+## Template TRanslator
+
+- [Hugo Translator](https://regisphilibert.com/blog/2017/04/hugo-cheat-sheet-go-template-translator/)
+
 ## Multilingualism
 
 - [Multilingual Mode](https://gohugo.io/content-management/multilingual/)

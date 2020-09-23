@@ -422,9 +422,11 @@
   --suru-plus-eccentric-top:         linear-gradient(to top, #79DD00 0%, #6DDB0A 10%, #61D915 20%, #55D620 30%, #49D42B 40%, #3CD235 50%, #30CF40 60%, #24CD4B 70%, #18CA56 80%, #0CC861 90%, #00C66B 100%);
   --suru-plus-fitdance-1-bottom:     linear-gradient(to bottom, #1AD6AB, #00C9B7, #00BBBD, #00ACBC, #329DB6);
   --suru-plus-fitdance-1-top:        linear-gradient(to top, #1AD6AB, #00C9B7, #00BBBD, #00ACBC, #329DB6);
+  --suru-plus-fitdance-1-left:       linear-gradient(to left, #1AD6AB, #00C9B7, #00BBBD, #00ACBC, #329DB6);
   --suru-plus-mavericks-right:       linear-gradient(to right, #00F260 0%, #0575E6 100%);
   --suru-plus-mavericks-bottom:      linear-gradient(to bottom, #00F260 0%, #0575E6 100%);
   --suru-plus-mavericks-top:         linear-gradient(to bottom, #00F260 0%, #0575E6 100%);
+  --suru-plus-sunrise-1-left:        linear-gradient(to left, #FF0056, #FF3146, #FF4C34, #FF6421, #FF7901);
   --suru-plus-sunrise-1-right:       linear-gradient(to right, #FF0056, #FF3146, #FF4C34, #FF6421, #FF7901);
   --suru-plus-sunrise-1-top:         linear-gradient(to top, #FF0056, #FF3146, #FF4C34, #FF6421, #FF7901);
   --suru-plus-synthwave-84-1-top:    linear-gradient(to top, #FFF951 0%, #FC28A8 100%);

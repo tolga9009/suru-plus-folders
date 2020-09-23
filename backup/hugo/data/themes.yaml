@@ -8,7 +8,7 @@ icons:
           - th: Preview
       tbody:
         - tr:
-          - th: "90ssummer"
+          - th: adwaita
             td:
               - apps
               - documents
@@ -20,7 +20,7 @@ icons:
               - documents
               - downloads
         - tr:
-          - th: aurora
+          - th: blue
             td:
               - apps
               - documents

@@ -1,3 +1,9 @@
+# Table
+- id: theme_name
+  translation: "Name"
+- id: theme_preview
+  translation: "Preview"
+
 # Footer
 
 - id: footer_copyright

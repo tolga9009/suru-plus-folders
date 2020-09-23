@@ -1,4 +1,6 @@
-baseURL: 'https://'
+baseURL: '/'
+languageCode: en
+
 canonifyURLs: true
 relativeURLs: true
 uglyURLs: false
@@ -10,13 +12,22 @@ author:
   name: Suru++ Project
 copyright: '© {{ now.Format "2006" }}, All Rights Reserved'
 
+# Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage: en
+
+# Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
 defaultContentLanguageInSubdir: true
+
+# Enable robots.txt generation
+enableRobotsTXT: true
+
 enableEmoji: true
-languageCode: en
-layoutDir: layouts
-publishDir: public
-theme: ''
+
+enableInlineShortcodes: true
+
+disableKinds:
+- taxonomy
+- taxonomyTerm
 
 markup:
   asciidocExt:
@@ -39,19 +50,29 @@ markup:
       autoHeadingID: true
       autoHeadingIDType: github
     renderer:
-      hardWraps: false
+      hardWraps: true
       unsafe: true
       xhtml: true
-  highlight:
-    codeFences: true
-    guessSyntax: false
-    hl_Lines: ""
-    lineNoStart: 1
-    lineNos: false
-    lineNumbersInTable: true
-    noClasses: true
-    style: monokai
-    tabWidth: 4
+  # highlight:
+  #   codeFences: true
+  #   guessSyntax: true
+  #   hl_Lines: ""
+  #   lineNoStart: 0
+  #   lineNos: false
+  #   lineNumbersInTable: false
+  #   noClasses: false
+  #   style: dracula
+  #   tabWidth: 0
+
+pygmentsCodefences: true
+pygmentsCodefencesGuessSyntax: true
+pygmentsUseClassic: true
+pygmentsUseClasses: true
+
+assetDir: "static/assets"
+layoutDir: layouts
+publishDir: public
+theme: ''
 
 params:
   custom_css:
@@ -68,6 +89,8 @@ params:
     - javascript/header.js
     - javascript/sidebars.js
     - javascript/themes.js
+  custom_js_table: javascript/tabela-de-iconees.js
+  custom_js_languages: javascript/languages-switcher.js
   description: List of Suru++, Adwaita++ and Yaru++ icons tables.
   home: Home
   themes:
@@ -88,9 +111,12 @@ params:
       weight: 5
   title: Suru++ Folders
 
+output: "html"
+
 languages:
   en:
     languageName: English
+    contentDir: "content/en"
     weight: 1
     menu:
       main:
@@ -119,6 +145,7 @@ languages:
 
   fr:
     languageName: Français
+    contentDir: "content/fr"
     weight: 2
     description:  Liste des tables d’icônes Suru++, Adwaita++ et Yaru++.
     home: Accueil
@@ -164,8 +191,57 @@ languages:
         name: TRON – L’Héritage
         weight: 5
 
+  it:
+    languageName: Italiano
+    contentDir: "content/it"
+    weight: 3
+    description: Elenco delle tabelle di icone dei temi Suru++, Adwaita++ e Yaru++.
+    home: Inizio
+    title: Suru++ Cartelle
+    menu:
+      main:
+        - url: /
+          name: Inizio
+          weight: 1
+        - url: /progetti/
+          name: Progetti
+          weight: 2
+        - url: /contatto/
+          name: Contatto
+          weight: 3
+      footer:
+        - url: /a-proposito-di/
+          name: A proposito di
+          weight: 1
+        - url: /licenza/
+          name: Licenza
+          weight: 2
+        - url: /privacy/
+          name: Privacy
+          weight: 3
+        - url: /colophon/
+          name: Colophon
+          weight: 4
+    themes:
+      - data: "theme-light"
+        name: Standard
+        weight: 1
+      - data: theme-dark
+        name: Scuro
+        weight: 2
+      - data: theme-synthwave-84
+        name: Synthwave ‘84
+        weight: 3
+      - data: theme-cyberpunk
+        name: Cyberpunk
+        weight: 4
+      - data: theme-tron
+        name: "Tron: Legacy"
+        weight: 5
+
   pt:
     languageName: Português Europeu
+    contentDir: "content/pt"
     weight: 3
     description: Lista de tabelas de ícones de temas Suru++, Adwaita++ e Yaru++.
     home: Início
@@ -213,6 +289,7 @@ languages:
 
   pt-BR:
     languageName: Português Brasileiro
+    contentDir: "content/pt-br"
     weight: 3
     description: Lista de tabelas de ícones de temas Suru++, Adwaita++ e Yaru++.
     home: Início
@@ -257,3 +334,8 @@ languages:
       - data: theme-tron
         name: TRON – O Legado
         weight: 5
+
+mediaTypes:
+  application/javascript:
+    suffixex: 
+    - js

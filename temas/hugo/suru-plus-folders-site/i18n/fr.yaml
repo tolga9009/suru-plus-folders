@@ -1,4 +1,10 @@
-# Bas de page
+# Table
+- id: theme_name
+  translation: "Nom"
+- id: theme_preview
+  translation: "Aperçu"
+  
+  # Bas de page
 
 - id: footer_copyright
   translation: "© 2019-{{ .currentYear  }} Suru++ Dossiers par Suru++ Project et Andrea Bonanni. Tous les droits sont réservés."

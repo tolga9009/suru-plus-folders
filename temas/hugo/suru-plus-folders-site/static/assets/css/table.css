@@ -63,6 +63,12 @@ table td.r, table th.r
   text-align: center;
 }
 
+table td img 
+{
+  margin: 10px;
+  padding: 0px;
+}
+
 tbody th
 {
   background-image: var(--suru-plus-sunrise-1-top);

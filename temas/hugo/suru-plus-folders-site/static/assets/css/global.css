@@ -53,7 +53,7 @@ a:hover
   -webkit-text-fill-color: transparent;
 }
 
-b 
+b, strong
 {
 	font-weight: 700;
 }

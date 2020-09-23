@@ -356,6 +356,11 @@ $themes: (
     text-shadow: themed('TRONGlowTableTbodyTh');
   }
 
+  table tbody tr td:first-child
+  {
+    text-shadow: themed('TRONGlowTableTbodyTh');
+  }
+
   // Footer
 
   #footer 

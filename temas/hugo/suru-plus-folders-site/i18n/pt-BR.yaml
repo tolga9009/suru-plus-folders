@@ -1,4 +1,10 @@
-# Rodapé
+# Tabela
+- id: theme_name
+  translation: "Nome"
+- id: theme_preview
+  translation: "Previsão"
+  
+  # Rodapé
 
 - id: footer_copyright
   translation: "© 2019-{{ .currentYear }} Suru++ Pastas por Suru++ Project e Andrea Bonanni. Todos os direitos reservados."

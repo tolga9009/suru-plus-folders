@@ -9,7 +9,10 @@ const body = document.body;
 
 // Apply the cached theme on reload
 
+var check = document.getElementById('theme_css').classList[0] === 'theme-light';
+
 const theme = localStorage.getItem('theme');
+var element = document.getElementById('theme_css');
 
 if (theme) 
 {
@@ -20,6 +23,7 @@ if (theme)
 
 darkButton.onclick = () => 
 {
+  element.href = '../assets/css/monokai.css';
   body.classList.replace('theme-light', 'theme-dark');
   body.classList.replace('theme-synthwave-84', 'theme-dark');
   body.classList.replace('theme-cyberpunk', 'theme-dark');
@@ -29,6 +33,7 @@ darkButton.onclick = () =>
 
 lightButton.onclick = () => 
 {
+  element.href = '../assets/css/dracula.css';
   body.classList.replace('theme-dark', 'theme-light');
   body.classList.replace('theme-synthwave-84', 'theme-light');
   body.classList.replace('theme-cyberpunk', 'theme-light');

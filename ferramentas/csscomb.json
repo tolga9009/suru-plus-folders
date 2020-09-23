@@ -356,6 +356,6 @@
     "space-before-closing-brace": "\n",
     "space-before-opening-brace": "\n" ,
     "space-between-declarations": "\n ",
-    "tab-size": 1,
+    "tab-size": 2,
     "vendor-prefix-align": true
 }

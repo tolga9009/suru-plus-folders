@@ -2,16 +2,16 @@
 
 	{{ if .IsTranslated }}
 
-	<p>
-		I am trying to test...
-	</p>
+	{{- partial "md/index/1.html" . | markdownify -}}
 
-	{{- partial "themes.html" . -}}
+	<div id="tabela"></div>
 
 	<p>
 		If it works…
 	</p>
-
+	
+			{{- partial "js/table-of-themes.html" . -}}
+			
 	{{ end }}
 
 {{ end }}
