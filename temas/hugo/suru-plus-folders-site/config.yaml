@@ -10,7 +10,7 @@ description: List of Suru++, Adwaita++ and Yaru++ icons tables.
 author:
   homepage: 'https://suru-plus.lan'
   name: Suru++ Project
-copyright: '© {{ now.Format "2006" }}, All Rights Reserved'
+copyright: '© 2019-{{ now.Format "2006" }}, All Rights Reserved'
 
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage: en
@@ -53,16 +53,6 @@ markup:
       hardWraps: true
       unsafe: true
       xhtml: true
-  # highlight:
-  #   codeFences: true
-  #   guessSyntax: true
-  #   hl_Lines: ""
-  #   lineNoStart: 0
-  #   lineNos: false
-  #   lineNumbersInTable: false
-  #   noClasses: false
-  #   style: dracula
-  #   tabWidth: 0
 
 pygmentsCodefences: true
 pygmentsCodefencesGuessSyntax: true
@@ -89,7 +79,7 @@ params:
     - javascript/header.js
     - javascript/sidebars.js
     - javascript/themes.js
-  custom_js_table: javascript/tabela-de-iconees.js
+  custom_js_table: javascript/table-of-themes.js
   custom_js_languages: javascript/languages-switcher.js
   description: List of Suru++, Adwaita++ and Yaru++ icons tables.
   home: Home

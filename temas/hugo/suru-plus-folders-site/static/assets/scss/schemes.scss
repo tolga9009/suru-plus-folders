@@ -35,6 +35,9 @@ $themes: (
     tableTheadTextColour: var(--suru-plus-papirus-light-solid),
     tableTbodyBorder: var(--suru-plus-tokyo-hack-6),
     tableTbodyTh: var(--suru-plus-mavericks-top),
+
+    // Syntax Highlighting
+    HighlightBg: var(--suru-plus-orange-dark-2),
     
     // Footer
     footerBackground: var(--suru-plus-dark-4),
@@ -360,6 +363,13 @@ $themes: (
   {
     text-shadow: themed('TRONGlowTableTbodyTh');
   }
+
+  // Syntax Highlighting
+  .highlight
+  {
+    background: themed('HighlightBg');
+  }
+
 
   // Footer
 

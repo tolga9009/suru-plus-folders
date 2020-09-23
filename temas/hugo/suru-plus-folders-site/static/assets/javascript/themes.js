@@ -23,7 +23,7 @@ if (theme)
 
 darkButton.onclick = () => 
 {
-  element.href = '../assets/css/monokai.css';
+  element.href = '../assets/css/syntax highlighting/suru-plus.css';
   body.classList.replace('theme-light', 'theme-dark');
   body.classList.replace('theme-synthwave-84', 'theme-dark');
   body.classList.replace('theme-cyberpunk', 'theme-dark');
@@ -33,7 +33,7 @@ darkButton.onclick = () =>
 
 lightButton.onclick = () => 
 {
-  element.href = '../assets/css/dracula.css';
+  element.href = '../assets/css/syntax highlighting/suru-plus.css';
   body.classList.replace('theme-dark', 'theme-light');
   body.classList.replace('theme-synthwave-84', 'theme-light');
   body.classList.replace('theme-cyberpunk', 'theme-light');
@@ -43,6 +43,7 @@ lightButton.onclick = () =>
 
 synthwaveButton.onclick = () => 
 {
+  element.href = '../assets/css/syntax highlighting/synthwave-84.css';
   body.classList.replace('theme-dark', 'theme-synthwave-84');
   body.classList.replace('theme-light', 'theme-synthwave-84');
   body.classList.replace('theme-cyberpunk', 'theme-synthwave-84');

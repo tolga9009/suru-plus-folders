@@ -1,4 +1,6 @@
 # Table
+- id: preTtitle
+  translation: "Avaliable Colours in "
 - id: theme_name
   translation: "Name"
 - id: theme_preview

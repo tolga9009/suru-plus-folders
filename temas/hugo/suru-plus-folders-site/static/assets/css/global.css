@@ -7,13 +7,13 @@
 
 html, body
 {
-	height: 100%;
+	min-height: 100%;
 }
 
 /* null margins and padding to give good cross-browser baseline */
 body, caption, details, div, fieldset, form, caption, h1, h2, h3, h4, h5, h6, hr, html, img, li, ol,  p, summary, svg, table, td, th, tr, ul
 {
-	margin: 0px;
+	margin: 0;
 	padding: 0px;
 }
 
@@ -31,7 +31,7 @@ body
 	font-weight: 300;
 
 	display: flex; 
-  flex-direction: column; 
+	flex-direction: column; 
 }
 
 a
