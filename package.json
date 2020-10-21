@@ -24,8 +24,7 @@
     "yaru-plus"
   ],
   "license": "MIT+",
-  "scripts": 
-  {
+  "scripts": {
     "build": "gatsby build",
     "clean": "gatsby clean",
     "deploy_master": "gatsby build && gh-pages -d public -b master",
@@ -37,14 +36,11 @@
     "start": "npm run develop",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "testj": "jest",
-
     "convertir": "node ferramentas/convparacss.js",
     "ordenar": "node ferramentas/ordenar-as-cores.js"
   },
-  "jest": 
-  {
-    "testPathIgnorePatterns": 
-    [
+  "jest": {
+    "testPathIgnorePatterns": [
       "/.cache/",
       "/node_modules/",
       "/public/"

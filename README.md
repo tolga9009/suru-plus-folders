@@ -17,8 +17,8 @@ Soon:
 <img src="flags/eu.svg?sanitize=true"    alt="Eusaka"                 height="16px" /> [Eusaka](languages/eu.md) <br/>
 <img src="flags/ro_RO.svg?sanitize=true" alt="Română"                 height="16px" /> [Română](languages/ro.md) <br/>
 <img src="flags/el_GR.svg?sanitize=true" alt="Ελληνικάς"              height="16px" /> [Ελληνικάς](languages/el.md) <br/>
-<img src="flags/he_IL.svg?sanitize=true" alt="עברית"                  height="16px" /> [עברית](languages/he.md) <br/>
-<img src="flags/ka.svg?sanitize=true"    alt="ქართული"               height="16px" /> [ქართული](languages/ka.md) <br/>
+<img src="flags/he_IL.svg?sanitize=true" alt="עברית"                 height="16px" /> [עברית](languages/he.md) <br/>
+<img src="flags/ka.svg?sanitize=true"    alt="ქართული"              height="16px" /> [ქართული](languages/ka.md) <br/>
 <img src="flags/ru_RU.svg?sanitize=true" alt="Русский"                height="16px" /> [Русский](languages/ru.md) <br/>
 <img src="flags/uk_UA.svg?sanitize=true" alt="Українська"             height="16px" /> [Українська](languages/ru.md) <br/>
 <img src="flags/ja.svg?sanitize=true"    alt="日本語"                 height="16px" /> [日本語](languages/ja.md) <br/>
