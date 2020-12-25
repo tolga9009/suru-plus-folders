@@ -9,10 +9,10 @@ module.exports =
     // {
     //   app: ['firefox', '--new-tab', 'suru-plus.lan:1989']
     // },
-    open: "firefox",
+    open: "falkon",
     watchContentBase: true,
     // publicPath: '/assets',
-    public: 'http://suru-plus.lan:1989',
+    public: 'http://localhost:1989',
   },
   entry: 
   [
