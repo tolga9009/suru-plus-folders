@@ -2,7 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://suru-plus.github.io/suru-plus-folders/en/</loc>
+    <loc>https://suru-plus.github.io/suru-plus-folders/pt-pt/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://suru-plus.github.io/suru-plus-folders/en/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -20,11 +25,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="pt-pt"
-                href="https://suru-plus.github.io/suru-plus-folders/pt-pt/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="de"
                 href="https://suru-plus.github.io/suru-plus-folders/de/"
                 />
@@ -35,8 +35,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://suru-plus.github.io/suru-plus-folders/en/"
+                hreflang="pt-pt"
+                href="https://suru-plus.github.io/suru-plus-folders/pt-pt/"
                 />
   </url>
 </urlset>
