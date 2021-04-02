@@ -10,18 +10,23 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="https://suru-plus.github.io/suru-plus-folders/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="es"
                 href="https://suru-plus.github.io/suru-plus-folders/es/"
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="fr"
+                href="https://suru-plus.github.io/suru-plus-folders/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="it"
                 href="https://suru-plus.github.io/suru-plus-folders/it/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://suru-plus.github.io/suru-plus-folders/nl/"
                 />
     <xhtml:link
                 rel="alternate"
