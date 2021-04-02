@@ -1,6 +1,6 @@
-CAMINHO="$HOME/GitHub/adwaita-plus-private/Adwaita++/places/scalable"
-DESTINO="$HOME/GitHub/suru-plus-folders/images/adwaita-plus" 
+CAMINHO="$HOME/GitHub/Andrea/yaru-plus/Yaru++/places/scalable"
+DESTINO="$HOME/GitHub/suru-plus-folders-site-hugo/static/assets/images/icons/yaru-plus" 
 
-cp $CAMINHO/folder-{adwaita,aubergine,black,blue,bluegrey,bordeaux,brown,canonical,custom,green,grey,indigo,manjaro,mint,orange,purple,red,white,yaru,yellow}-{app,documents,downloads,dropbox,gitlab,music,open,pictures,visiting}.svg $DESTINO
+cp $CAMINHO/folder-{adwaita,aubergine,blue,bordeaux,canonical,darkblue,green,manjaro,mint,orange,purple,red,synthwave,vermillion,yaru,yellow}-{apps,documents,downloads,dropbox,gitlab,music,open,pictures,visiting}.svg $DESTINO
 
-cp $CAMINHO/folder-{adwaita,aubergine,black,blue,bluegrey,bordeaux,brown,canonical,custom,green,grey,indigo,manjaro,mint,orange,purple,red,white,yaru,yellow}.svg $DESTINO
+cp $CAMINHO/folder-{adwaita,aubergine,blue,bordeaux,canonical,darkblue,green,manjaro,mint,orange,purple,red,synthwave,vermillion,yaru,yellow}.svg $DESTINO
